@@ -462,7 +462,7 @@ a {
   opacity: 1;
 }
 a:hover {
-  color: #398f5d;
+  color: #513969;
   text-decoration: none;
 }
 .label {
@@ -567,10 +567,10 @@ ul.lead li {
   color: #504D4D !important;
 }
 .color-primary {
-  color: #0F8750 !important;
+  color: #3A294D !important;
 }
 .color-secondary {
-  color: #663586 !important;
+  color: #755399 !important;
 }
 .color-red {
   color: #e31d3b !important;
@@ -580,6 +580,12 @@ ul.lead li {
 }
 .color-grey {
   color: #909A99;
+}
+.color-blue {
+  color: #203298;
+}
+.color-green {
+  color: #07834D;
 }
 /*!---------- 5. SECTIONS ----------*/
 section {
@@ -2762,7 +2768,7 @@ button[type="submit"] .form-loading {
 .feature-1 i {
   display: inline-block;
   margin-bottom: 16px;
-  color: #755399;
+  color: inherit;
 }
 .feature-2 i {
   display: block;
