@@ -1028,6 +1028,9 @@ nav.bg-dark .logo-dark {
 .menu.inline-block {
   width: auto;
 }
+.menu li.active a {
+  font-weight: 700;
+}
 .menu li a {
   font-size: 11px;
   text-transform: uppercase;
@@ -1527,13 +1530,13 @@ nav .cart-overview a {
     width: 100%;
   }
   nav.bg-dark .module.widget-handle {
-    border-top: 1px solid #444;
+    border-top: 0px solid #444;
   }
   nav.bg-dark .mobile-toggle {
-    border-left: 1px solid #444 !important;
+    border-left: 0px solid #444 !important;
   }
   nav.bg-dark .nav-open .mobile-toggle {
-    border-bottom: 1px solid #444;
+    border-bottom: 0px solid #444;
   }
 }
 nav.outOfSight {
@@ -1658,7 +1661,7 @@ nav.bg-dark .nav-utility {
   opacity: .7;
 }
 nav.bg-dark .module.widget-handle {
-  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  border-left: 0px solid rgba(255, 255, 255, 0.2);
 }
 nav.bg-dark .nav-utility,
 nav.bg-dark .nav-bar {
@@ -3023,19 +3026,7 @@ button[type="submit"] .form-loading {
 .link-list {
   line-height: 32px;
 }
-.link-list a:after {
-  content: "\e628";
-  font-family: 'themify';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  font-size: 11px;
-  display: inline-block;
-  margin-left: 8px;
-}
+
 .widget ul:last-child,
 .widget p:last-child {
   margin-bottom: 0;

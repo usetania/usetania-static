@@ -29,6 +29,10 @@ footer a:hover {
 	color: #755399;
 }
 
+.widget-handle .function {
+	background-color: #3A294D;
+}
+
 /****** CUSTOM STYLES ******/
 ::selection {
 	color: #fff;
