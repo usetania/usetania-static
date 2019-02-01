@@ -136,16 +136,12 @@ img.feature-icon {
 .image-bg .countdown {
 	color: #504D4D !important;
 }
-.btn .btn-xxl {
-	height: 72px !important;
-	min-width: 260px;
+
+nav.bg-dark .btn {
+  	border: 2px solid #f9fafc!important;
+	color: #f9fafc!important;
 }
-.scheme-gro {
-	width: 100%;
-}
-.faaseco img {
-	padding: 0;
-}
+
 .technology .info-item .icon-tech {
 	position: absolute;
 	top: -40px;
