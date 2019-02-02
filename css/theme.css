@@ -407,7 +407,7 @@ span {
   font-weight: 400;
 }
 p.lead {
-  font-size: 16px;
+  font-size: 1.2em;
   font-weight: 400;
   line-height: 28px;
 }
@@ -4274,6 +4274,9 @@ video {
   margin-right: 8px;
   position: relative;
   top: 2px;
+}
+.post-snippet {
+  padding: 0 36px;
 }
 .post-snippet iframe {
   width: 100%;

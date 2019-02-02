@@ -69,7 +69,7 @@ small {
 }
 
 .fas, .far, .fab, .fal {
-	margin-right: 10px;
+	margin: 0 6px;
 }
 
 .btn > .far,
@@ -279,39 +279,16 @@ th {
   border-color: #08A562;
 }
 
-.btn-ico {
-  font-family: 'Poppins', sans-serif;
-  background-color: #8446AD;
-  padding: 20px 40px;
-  height: 60px !important;
-  min-width: 180px;
-  line-height: 46px;
-  font-size: 16px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  border-radius: 0;
-  color: #FFFFFF;
-  text-align: center;
-  transition: all 0.15s ease;
-  -webkit-transition: all 0.15s ease;
-  -moz-transition: all 0.15s ease;
-  margin-right: 8px;
-  margin-bottom: 24px;
-  -webkit-box-shadow: 0px 10px 30px 0px rgba(56, 55, 54, 0.25);
-  -moz-box-shadow: 0px 10px 30px 0px rgba(56, 55, 54, 0.25);
-  box-shadow: 0px 10px 30px 0px rgba(56, 55, 54, 0.25);
-}
-.btn-ico:hover {
-	border: 4px solid #8446AD;
-	color: #8446AD;
-	background-color: #FFFFFF;
-}
-
 .flex-control-thumbs li {
 	padding: 20px 20px 0 0 !important;
 }
 
+blockquote {
+	background-color: #F1EEF5;
+	font-family: "Poppins", sans-serif;
+	font-style: italic;
+	border-color: #C7BAD6;
+}
 
 
 
