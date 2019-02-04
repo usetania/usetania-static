@@ -10,11 +10,10 @@ install:
 
 before_script:
     - rm -rf public 2> /dev/null
-    - chmod +x scripts/publish_to_ghpages.sh
 
 # script - run the build script
 script:
-    - ./scripts/publish_to_ghpages.sh
+    - bash scripts/publish_to_ghpages.sh
 
 deploy:
   provider: pages
