@@ -1,8 +1,9 @@
-baseURL = "http://usetania.org/"
+baseURL = "https://tanibox.github.io/usetania-static/"
 languageCode = "en-us"
 title = "Tania | Open Source Farm Management Sofware"
 theme = "usetania"
 googleAnalytics = "UA-133765833-1"
+publishDir = "docs"
 
 [menu]
 
