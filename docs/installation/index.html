@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-133765833-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<meta charset="utf-8">
+<title>Tania | Open Source Farm Management Sofware</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="/usetania-static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/usetania-static/css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/usetania-static/css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/usetania-static/css/theme.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/usetania-static/css/custom.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<link rel="shortcut icon" type="image/png" href="/usetania-static/images/favicon.png"/>
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,700,800" rel="stylesheet"><body class="scroll-assist"><div class="nav-container">
+    <a id="top"></a>
+    <nav class="bg-dark">
+        <div class="nav-bar">
+            <div class="module left">
+                <a href="https://tanibox.github.io/usetania-static/">
+                    <img class="logo logo-light" alt="Tanibox" src="/usetania-static/images/logo-light.svg" />
+                    <img class="logo logo-dark" alt="Tanibox" src="/usetania-static/images/logo-dark.svg" />
+                </a>
+            </div>
+            <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
+                <i class="fas fa-ellipsis-v"></i>
+            </div>
+            <div class="module-group right">
+                <div class="module left">
+                    <ul class="menu">
+                        
+                        
+                        <li>
+                            <a href="/usetania-static/docs/">Docs</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/usetania-static/roadmap/">Roadmap</a>
+                        </li>
+                        
+                        <li>
+                            <a href="https://medium.com/farming-with-tania">Blog</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="module widget-handle left">
+                    <a href="https://demo-tania.tanibox.com/" class="btn btn-sm" target="_blank">Try the demo!</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div><div class="main-container">
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 hidden-sm"><div class="widget">
+    <h6 class="title">Search Docs</h6>
+    <iframe src="https://duckduckgo.com/search.html?site=usetania.org&prefill=Search by DuckDuckGo" style="overflow:hidden;margin:0;padding:0;width:100%;height:40px;" frameborder="0"></iframe>
+</div>
+<div class="widget">
+    <h6 class="title">Getting Started</h6>
+    <hr>
+    <ul class="link-list">
+        
+        
+        <li>
+            <a href="/usetania-static/docs/">What is Tania?</a>
+        </li>
+        
+        <li>
+            <a href="/usetania-static/docs/installation">Installation</a>
+        </li>
+        
+        <li>
+            <a href="/usetania-static/docs/getting-help">Getting Help</a>
+        </li>
+        
+    </ul>
+</div>
+<div class="widget">
+    <h6 class="title">Using Tania</h6>
+    <hr>
+    <ul class="link-list">
+        
+        
+        <li>
+            <a href="/usetania-static/docs/dashboard">Dashboard</a>
+        </li>
+        
+        <li>
+            <a href="/usetania-static/docs/area">Area</a>
+        </li>
+        
+        <li>
+            <a href="/usetania-static/docs/crop">Crop</a>
+        </li>
+        
+        <li>
+            <a href="/usetania-static/docs/reservoir">Reservoir</a>
+        </li>
+        
+        <li>
+            <a href="/usetania-static/docs/inventory">Inventory</a>
+        </li>
+        
+        <li>
+            <a href="/usetania-static/docs/settings">Settings</a>
+        </li>
+        
+    </ul>
+</div></div>
+            <div class="col-md-9 mb-xs-24">
+                <div class="post-snippet mb64">
+                    <div class="post-title">
+                        <h2 class="inline-block">Installation</h2>
+                    </div>
+                    
+
+<p>This software is built with <a href="https://golang.org">Go</a> programming language. It means you will get an executable binary to run on your machine. You <strong>don&rsquo;t need</strong> extra software like MAMP, XAMPP, or WAMP to run <strong>Tania</strong>, but you may need MySQL database if you choose to use it instead of SQLite <em>(the default database.)</em></p>
+
+<p>You will need to compile and build this software by yourself. We don&rsquo;t provide the pre-built executable binary <em>(for this moment.)</em> You can follow our instructions to build <strong>Tania</strong>.</p>
+
+<h3 id="prerequisites">Prerequisites</h3>
+
+<ul>
+<li><a href="https://golang.org">Go</a> 1.11.x</li>
+<li><a href="https://nodejs.org/en/">NodeJS</a> 8 or 10</li>
+</ul>
+
+<h3 id="building-instructions">Building Instructions</h3>
+
+<ol>
+<li>Make sure you have installed <code>golang/dep</code>
+
+<ul>
+<li><a href="https://golang.github.io/dep/docs/installation.html">https://golang.github.io/dep/docs/installation.html</a></li>
+<li><a href="https://gist.github.com/subfuzion/12342599e26f5094e4e2d08e9d4ad50d">https://gist.github.com/subfuzion/12342599e26f5094e4e2d08e9d4ad50d</a></li>
+</ul></li>
+<li>Clone the repo using <code>go get github.com/Tanibox/tania-core</code></li>
+<li>From the project root, call <code>dep ensure</code> to install the Go dependencies
+
+<ul>
+<li>If you have an issue with <code>dep ensure</code>, you can call <code>go get</code> instead.</li>
+</ul></li>
+<li>Create a new file <code>conf.json</code> using the values from the <code>conf.json.example</code> and set it with your own values.</li>
+<li>Issue <code>npm install</code> to install VueJS dependencies.</li>
+<li>To build the VueJS, just run <code>npm run dev</code> for development purpose or <code>npm run prod</code> for production purpose.</li>
+<li>Setup SQLite:
+
+<ul>
+<li>Edit <code>SqlitePath</code> in <code>conf.json</code> to your sqlite DB file path (ex: /Users/user/Programs/sqlite/tania.db)</li>
+<li>Create an empty file with the exact filename and path that match the <code>SqlitePath</code> config.</li>
+</ul></li>
+<li>Compile the source code with <code>go build</code>. It will produces <code>tania-core.exe</code> (on Windows) or <code>tania-core</code> (on Linux and OSX.)</li>
+<li>Run the program from Terminal by issuing <code>./tania-core</code>, or from Windows Command Prompt by issuing <code>.\tania-core.exe</code>.</li>
+<li>The default username and password are <code>tania / tania</code>.</li>
+</ol>
+
+<h3 id="database-engine">Database Engine</h3>
+
+<p>Tania uses SQLite as the default database engine. You may use MySQL as your database engine by replacing <code>sqlite</code> with <code>mysql</code> at <code>tania_persistence_engine</code> field in your <code>conf.json</code>.</p>
+
+<pre><code>{
+    &quot;app_port&quot;: &quot;8080&quot;,
+    &quot;tania_persistence_engine&quot;: &quot;mysql&quot;,
+    &quot;demo_mode&quot;: true,
+    &quot;upload_path_area&quot;: &quot;uploads/areas&quot;,
+    &quot;upload_path_crop&quot;: &quot;uploads/crops&quot;,
+    &quot;sqlite_path&quot;: &quot;db/sqlite/tania.db&quot;,
+    &quot;mysql_host&quot;: &quot;localhost&quot;,
+    &quot;mysql_port&quot;: &quot;3306&quot;,
+    &quot;mysql_dbname&quot;: &quot;your_mysql_db_name&quot;,
+    &quot;mysql_user&quot;: &quot;your_mysql_user&quot;,
+    &quot;mysql_password&quot;: &quot;your_mysql_password&quot;,
+    &quot;redirect_uri&quot;: [
+        &quot;http://localhost:8080&quot;,
+        &quot;http://127.0.0.1:8080&quot;
+    ],
+    &quot;client_id&quot;: &quot;f0ece679-3f53-463e-b624-73e83049d6ac&quot;
+}
+</code></pre>
+
+<h3 id="run-the-test">Run The Test</h3>
+
+<ul>
+<li>Use <code>go test ./...</code> to run all the Go tests.</li>
+<li>Use <code>npm run cypress:run</code> to run the end-to-end test</li>
+</ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        </div><footer class="footer">
+    <div class="container-fluid">
+        <div class="row text-center-xs">
+            <div class="col-md-8 col-xs-12 text-center-xs">
+                <p>Designed & built with all the &hearts; of food &amp; agriculture by 
+                    <a href="https://tanibox.com/" target="_blank">Tanibox</a>. 
+                    Maintained by the 
+                    <a href="https://github.com/orgs/Tanibox/people" target="_blank">core team</a> <br/>with the help of our 
+                    <a href="https://github.com/Tanibox/tania-core/graphs/contributors" target="_blank">contributors</a>. 
+                    Current version 1.5.1. Code licensed 
+                    <a href="https://github.com/Tanibox/tania-core/blob/master/LICENSE" target="_blank">Apache 2.0</a>.
+                </p>
+            </div>
+            <div class="col-md-4 col-xs-12 text-right text-center-xs mt-xs-24">
+                <ul class="small list-inline social-list">
+                    <li>
+                        <a href="https://github.com/tanibox/tania-core" target="_blank" class="h3">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/UseTania" target="_blank" class="h3">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="/usetania-static/js/jquery.min.js"></script>
+<script src="/usetania-static/js/bootstrap.min.js"></script>
+<script src="/usetania-static/js/flickr.js"></script>
+<script src="/usetania-static/js/flexslider.min.js"></script>
+<script src="/usetania-static/js/lightbox.min.js"></script>
+<script src="/usetania-static/js/masonry.min.js"></script>
+<script src="/usetania-static/js/twitterfetcher.min.js"></script>
+<script src="/usetania-static/js/spectragram.min.js"></script>
+<script src="/usetania-static/js/ytplayer.min.js"></script>
+<script src="/usetania-static/js/countdown.min.js"></script>
+<script src="/usetania-static/js/smooth-scroll.min.js"></script>
+<script src="/usetania-static/js/parallax.js"></script>
+<script src="/usetania-static/js/scripts.js"></script></body>
+</html>
