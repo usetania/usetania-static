@@ -1,7 +1,8 @@
-baseURL = "https://usetania.org/"
+baseURL = "http://usetania.org/"
 languageCode = "en-us"
 title = "Tania | Open Source Farm Management Sofware"
 theme = "usetania"
+googleAnalytics = "UA-133765833-1"
 
 [menu]
 
