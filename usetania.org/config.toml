@@ -19,3 +19,53 @@ theme = "usetania"
       name = "Blog"
       url = "https://medium.com/farming-with-tania"
       weight = 30
+    
+    [[menu.gettingstarted]]
+      name = "What is Tania?"
+      url = "/docs/"
+      weight = 10
+    
+    [[menu.gettingstarted]]
+      name = "Installation"
+      url = "/docs/installation"
+      weight = 20
+    
+    [[menu.gettingstarted]]
+      name = "Getting Help"
+      url = "/docs/getting-help"
+      weight = 30
+    
+    [[menu.usingtania]]
+      name = "Dashboard"
+      url = "/docs/dashboard"
+      weight = 10
+    
+    [[menu.usingtania]]
+      name = "Area"
+      url = "/docs/area"
+      weight = 20
+    
+    [[menu.usingtania]]
+      name = "Crop"
+      url = "/docs/crop"
+      weight = 30
+    
+    [[menu.usingtania]]
+      name = "Reservoir"
+      url = "/docs/reservoir"
+      weight = 40
+    
+    [[menu.usingtania]]
+      name = "Inventory"
+      url = "/docs/inventory"
+      weight = 50
+    
+    [[menu.usingtania]]
+      name = "Settings"
+      url = "/docs/settings"
+      weight = 60
+    
+    [[menu.roadmap]]
+      name = "2019"
+      url = "/roadmap"
+      weight = 10

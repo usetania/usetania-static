@@ -33,6 +33,11 @@ footer a:hover {
 	background-color: #3A294D;
 }
 
+pre {
+	padding: 10px;
+	
+}
+
 /****** CUSTOM STYLES ******/
 ::selection {
 	color: #fff;
@@ -159,7 +164,6 @@ nav.bg-dark .btn {
 	overflow: hidden;
 }
 .technology .info-item .icon-mid {
-	position: ;
 	top: -20px;
 	left: 30px;
 	width: 80px;
@@ -169,6 +173,15 @@ nav.bg-dark .btn {
 
 ul.bullets li ul li {
 	padding-left: 30px;
+}
+
+.post-snippet ol {
+	padding-left: 30px;
+}
+
+.post-snippet ol > li > ul {
+	padding-left: 30px;
+	list-style-type: disc;
 }
 
 @media all and (max-width: 767px) {

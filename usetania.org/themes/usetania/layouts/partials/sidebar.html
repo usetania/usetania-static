@@ -6,41 +6,23 @@
     <h6 class="title">Getting Started</h6>
     <hr>
     <ul class="link-list">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.gettingstarted }}
         <li>
-            <a href="#">What is Tania?</a>
+            <a href="{{ .URL }}">{{ .Name }}</a>
         </li>
-        <li>
-            <a href="#">Requirements</a>
-        </li>
-        <li>
-            <a href="#">Installation</a>
-        </li>
-        <li>
-            <a href="#">Getting Help</a>
-        </li>
+        {{ end }}
     </ul>
 </div>
 <div class="widget">
     <h6 class="title">Using Tania</h6>
     <hr>
     <ul class="link-list">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.usingtania }}
         <li>
-            <a href="#">Dashboard</a>
+            <a href="{{ .URL }}">{{ .Name }}</a>
         </li>
-        <li>
-            <a href="#">Area</a>
-        </li>
-        <li>
-            <a href="#">Crop</a>
-        </li>
-        <li>
-            <a href="#">Reservoir</a>
-        </li>
-        <li>
-            <a href="#">Inventory</a>
-        </li>
-        <li>
-            <a href="#">Settings</a>
-        </li>
+        {{ end }}
     </ul>
 </div>
