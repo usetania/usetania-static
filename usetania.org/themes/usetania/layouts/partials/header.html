@@ -1,0 +1,31 @@
+<div class="nav-container">
+    <a id="top"></a>
+    <nav class="{{ if .IsHome }}absolute transparent{{ else }}bg-dark{{ end }}">
+        <div class="nav-bar">
+            <div class="module left">
+                <a href="{{ .Site.BaseURL }}">
+                    <img class="logo logo-light" alt="Tanibox" src="{{ "images/logo-light.svg" | relURL }}" />
+                    <img class="logo logo-dark" alt="Tanibox" src="{{ "images/logo-dark.svg" | relURL }}" />
+                </a>
+            </div>
+            <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
+                <i class="fas fa-ellipsis-v"></i>
+            </div>
+            <div class="module-group right">
+                <div class="module left">
+                    <ul class="menu">
+                        {{ $currentPage := . }}
+                        {{ range .Site.Menus.main }}
+                        <li>
+                            <a href="{{ .URL }}">{{ .Name }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div>
+                <div class="module widget-handle left">
+                    <a href="https://demo-tania.tanibox.com/" class="btn btn-sm" target="_blank">Try the demo!</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>

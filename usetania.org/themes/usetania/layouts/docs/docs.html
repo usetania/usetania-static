@@ -1,0 +1,19 @@
+{{ define "main" }}
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 hidden-sm">
+                {{- partial "sidebar.html" . -}}
+            </div>
+            <div class="col-md-9 mb-xs-24">
+                <div class="post-snippet mb64">
+                    <div class="post-title">
+                        <h3 class="inline-block">{{ .Title }}</h3>
+                    </div>
+                    {{ .Content }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

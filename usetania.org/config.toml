@@ -1,0 +1,21 @@
+baseURL = "https://usetania.org/"
+languageCode = "en-us"
+title = "Tania | Open Source Farm Management Sofware"
+theme = "usetania"
+
+[menu]
+
+    [[menu.main]]
+      name = "Docs"
+      url = "/docs/"
+      weight = 10
+    
+    [[menu.main]]
+      name = "Roadmap"
+      url = "/roadmap/"
+      weight = 20
+
+    [[menu.main]]
+      name = "Blog"
+      url = "https://medium.com/farming-with-tania"
+      weight = 30
