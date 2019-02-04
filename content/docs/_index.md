@@ -15,4 +15,4 @@ Username: tania
 Password: tania
 ```
 
-![Screenshot](/docs/screenshot.PNG)
+![Screenshot](screenshot.PNG)
