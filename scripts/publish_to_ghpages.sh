@@ -11,6 +11,8 @@ then
     exit 1;
 fi
 
+git remote -v
+
 echo "Deleting old publication"
 rm -rf public
 mkdir public
@@ -18,7 +20,7 @@ git worktree prune
 rm -rf .git/worktrees/public/
 
 echo "Checking out gh-pages branch into public"
-git worktree add -B gh-pages public origin/gh-pages
+git worktree add -B gh-pages public upstream/gh-pages
 
 echo "Removing existing files"
 rm -rf public/*
@@ -28,8 +30,8 @@ hugo
 
 echo "Updating gh-pages branch"
 cd public
-echo "$CNAME_URL" > public/CNAME
+echo "$CNAME_URL" > CNAME
 git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
 
 echo "Deploying to gh-pages"
-git push origin gh-pages
+git push upstream gh-pages
