@@ -3,8 +3,8 @@
 
 name = "Usetania"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
+licenselink = "https://github.com/Tanibox/usetania-static/blob/master/themes/usetania/LICENSE"
+description = "A Hugo theme for the Tania official website."
 homepage = "http://usetania.org/"
 tags = []
 features = []
