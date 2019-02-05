@@ -8,12 +8,12 @@ googleAnalytics = "UA-133765833-1"
 
     [[menu.main]]
       name = "Docs"
-      url = "/docs/"
+      url = "docs/"
       weight = 10
     
     [[menu.main]]
       name = "Roadmap"
-      url = "/roadmap/"
+      url = "roadmap/"
       weight = 20
 
     [[menu.main]]
@@ -23,50 +23,50 @@ googleAnalytics = "UA-133765833-1"
     
     [[menu.gettingstarted]]
       name = "What is Tania?"
-      url = "/docs/"
+      url = "docs/"
       weight = 10
     
     [[menu.gettingstarted]]
       name = "Installation"
-      url = "/docs/installation"
+      url = "docs/installation/"
       weight = 20
     
     [[menu.gettingstarted]]
       name = "Getting Help"
-      url = "/docs/getting-help"
+      url = "docs/getting-help/"
       weight = 30
     
     [[menu.usingtania]]
       name = "Dashboard"
-      url = "/docs/dashboard"
+      url = "docs/dashboard/"
       weight = 10
     
     [[menu.usingtania]]
       name = "Area"
-      url = "/docs/area"
+      url = "docs/area/"
       weight = 20
     
     [[menu.usingtania]]
       name = "Crop"
-      url = "/docs/crop"
+      url = "docs/crop/"
       weight = 30
     
     [[menu.usingtania]]
       name = "Reservoir"
-      url = "/docs/reservoir"
+      url = "docs/reservoir/"
       weight = 40
     
     [[menu.usingtania]]
       name = "Inventory"
-      url = "/docs/inventory"
+      url = "docs/inventory/"
       weight = 50
     
     [[menu.usingtania]]
       name = "Settings"
-      url = "/docs/settings"
+      url = "docs/settings/"
       weight = 60
     
     [[menu.roadmap]]
       name = "2019"
-      url = "/roadmap"
+      url = "roadmap/"
       weight = 10
