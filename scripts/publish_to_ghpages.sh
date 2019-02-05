@@ -15,6 +15,7 @@ echo "Setup new remote repository"
 git config --global user.email "$GITHUB_EMAIL"
 git config --global user.name "$GITHUB_USERNAME"
 git remote add origin-pages https://${GITHUB_TOKEN}@github.com/Tanibox/usetania-static.git > /dev/null 2>&1
+git fetch origin-pages
 
 echo "Deleting old publication"
 rm -rf public
