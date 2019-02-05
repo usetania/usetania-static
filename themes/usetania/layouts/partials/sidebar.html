@@ -9,7 +9,7 @@
         {{ $currentPage := . }}
         {{ range .Site.Menus.gettingstarted }}
         <li>
-            <a href="{{ .URL }}">{{ .Name }}</a>
+            <a href="{{ .URL | absURL }}">{{ .Name }}</a>
         </li>
         {{ end }}
     </ul>
