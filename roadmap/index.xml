@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2019 on Tania | Open Source Farm Management Sofware</title>
-    <link>https://tanibox.github.io/usetania-static/roadmap/</link>
+    <link>https://tanibox.github.io/roadmap/</link>
     <description>Recent content in 2019 on Tania | Open Source Farm Management Sofware</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Feb 2019 18:51:54 +0800</lastBuildDate>
     
-	<atom:link href="https://tanibox.github.io/usetania-static/roadmap/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tanibox.github.io/roadmap/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
