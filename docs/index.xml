@@ -2,75 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>What is Tania? on Tania | Open Source Farm Management Sofware</title>
-    <link>https://tanibox.github.io/usetania-static/docs/</link>
+    <link>https://usetania.org/docs/</link>
     <description>Recent content in What is Tania? on Tania | Open Source Farm Management Sofware</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 04 Feb 2019 18:14:30 +0800</lastBuildDate>
     
-	<atom:link href="https://tanibox.github.io/usetania-static/docs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://usetania.org/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Settings</title>
-      <link>https://tanibox.github.io/usetania-static/docs/settings/</link>
+      <link>https://usetania.org/docs/settings/</link>
       <pubDate>Mon, 04 Feb 2019 19:55:09 +0800</pubDate>
       
-      <guid>https://tanibox.github.io/usetania-static/docs/settings/</guid>
+      <guid>https://usetania.org/docs/settings/</guid>
       <description>This content will be coming soon.</description>
     </item>
     
     <item>
       <title>Inventory</title>
-      <link>https://tanibox.github.io/usetania-static/docs/inventory/</link>
+      <link>https://usetania.org/docs/inventory/</link>
       <pubDate>Mon, 04 Feb 2019 19:55:03 +0800</pubDate>
       
-      <guid>https://tanibox.github.io/usetania-static/docs/inventory/</guid>
+      <guid>https://usetania.org/docs/inventory/</guid>
       <description>This content will be coming soon.</description>
     </item>
     
     <item>
       <title>Reservoir</title>
-      <link>https://tanibox.github.io/usetania-static/docs/reservoir/</link>
+      <link>https://usetania.org/docs/reservoir/</link>
       <pubDate>Mon, 04 Feb 2019 19:54:57 +0800</pubDate>
       
-      <guid>https://tanibox.github.io/usetania-static/docs/reservoir/</guid>
+      <guid>https://usetania.org/docs/reservoir/</guid>
       <description>This content will be coming soon.</description>
     </item>
     
     <item>
       <title>Crop</title>
-      <link>https://tanibox.github.io/usetania-static/docs/crop/</link>
+      <link>https://usetania.org/docs/crop/</link>
       <pubDate>Mon, 04 Feb 2019 19:54:51 +0800</pubDate>
       
-      <guid>https://tanibox.github.io/usetania-static/docs/crop/</guid>
+      <guid>https://usetania.org/docs/crop/</guid>
       <description>This content will be coming soon.</description>
     </item>
     
     <item>
       <title>Area</title>
-      <link>https://tanibox.github.io/usetania-static/docs/area/</link>
+      <link>https://usetania.org/docs/area/</link>
       <pubDate>Mon, 04 Feb 2019 19:54:45 +0800</pubDate>
       
-      <guid>https://tanibox.github.io/usetania-static/docs/area/</guid>
+      <guid>https://usetania.org/docs/area/</guid>
       <description>This content will be coming soon.</description>
     </item>
     
     <item>
       <title>Dashboard</title>
-      <link>https://tanibox.github.io/usetania-static/docs/dashboard/</link>
+      <link>https://usetania.org/docs/dashboard/</link>
       <pubDate>Mon, 04 Feb 2019 19:54:39 +0800</pubDate>
       
-      <guid>https://tanibox.github.io/usetania-static/docs/dashboard/</guid>
+      <guid>https://usetania.org/docs/dashboard/</guid>
       <description>This content will be coming soon.</description>
     </item>
     
     <item>
       <title>Getting Help</title>
-      <link>https://tanibox.github.io/usetania-static/docs/getting-help/</link>
+      <link>https://usetania.org/docs/getting-help/</link>
       <pubDate>Mon, 04 Feb 2019 19:47:55 +0800</pubDate>
       
-      <guid>https://tanibox.github.io/usetania-static/docs/getting-help/</guid>
+      <guid>https://usetania.org/docs/getting-help/</guid>
       <description>Raising Issues Please raise any bug reports on Tania&amp;rsquo;s Github issue trackers. Be sure to search the list to see if your issue has already been raised.
 A good bug report is one that make it easy to understand what you were trying to do and what went wrong.
 Feature requests For feature requests, please raise and discuss them on Tania&amp;rsquo;s Telegram group.</description>
@@ -78,10 +78,10 @@ Feature requests For feature requests, please raise and discuss them on Tania&am
     
     <item>
       <title>Installation</title>
-      <link>https://tanibox.github.io/usetania-static/docs/installation/</link>
+      <link>https://usetania.org/docs/installation/</link>
       <pubDate>Mon, 04 Feb 2019 19:34:29 +0800</pubDate>
       
-      <guid>https://tanibox.github.io/usetania-static/docs/installation/</guid>
+      <guid>https://usetania.org/docs/installation/</guid>
       <description>This software is built with Go programming language. It means you will get an executable binary to run on your machine. You don&amp;rsquo;t need extra software like MAMP, XAMPP, or WAMP to run Tania, but you may need MySQL database if you choose to use it instead of SQLite (the default database.)
 You will need to compile and build this software by yourself. We don&amp;rsquo;t provide the pre-built executable binary (for this moment.</description>
     </item>
