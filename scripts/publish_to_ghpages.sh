@@ -29,7 +29,6 @@ hugo
 echo "Updating gh-pages branch"
 cd public
 echo "usetania.org" > CNAME
-# echo "$CNAME_URL" > CNAME
 git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
 
 echo "Deploying to gh-pages"
