@@ -1,4 +1,4 @@
-baseURL = "https://tanibox.github.io/usetania-static/"
+baseURL = "https://usetania.org/"
 languageCode = "en-us"
 title = "Tania | Open Source Farm Management Sofware"
 theme = "usetania"
