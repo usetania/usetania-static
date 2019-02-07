@@ -2,6 +2,12 @@
 <meta charset="utf-8">
 <title>{{ .Site.Title }}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+{{ if .Description }}
+<meta name="description" content="{{ .Description }}">
+{{ else }}
+<meta name="description" content="Tania is a free and open source farm management software for farmers and growers all over the world.">
+{{ end }}
+<meta property="og:image" content="https://raw.githubusercontent.com/Tanibox/tania-core/master/screenshot.PNG" />
 <link href="{{ "css/bootstrap.css" | absURL }}" rel="stylesheet" type="text/css" media="all" />
 <link href="{{ "css/flexslider.css" | absURL }}" rel="stylesheet" type="text/css" media="all" />
 <link href="{{ "css/lightbox.min.css" | absURL }}" rel="stylesheet" type="text/css" media="all" />
