@@ -1,72 +1,210 @@
 baseURL = "https://usetania.org/"
-languageCode = "en-us"
-title = "Tania | Open Source Farm Management Sofware"
+languageCode = "en-gb"
 theme = "usetania"
 googleAnalytics = "UA-133765833-1"
+DefaultContentLanguage = "en"
 
-[menu]
+[languages]
+  [languages.en]
+    title = "Tania | Open Source Farm Management Sofware"
 
-    [[menu.main]]
+    [[languages.en.menu.main]]
       name = "Docs"
       url = "docs/"
       weight = 10
     
-    [[menu.main]]
+    [[languages.en.menu.main]]
       name = "Roadmap"
       url = "roadmap/"
       weight = 20
 
-    [[menu.main]]
+    [[languages.en.menu.main]]
       name = "Blog"
       url = "https://medium.com/farming-with-tania"
       weight = 30
     
-    [[menu.gettingstarted]]
+    [[languages.en.menu.gettingstarted]]
       name = "What is Tania?"
       url = "docs/"
       weight = 10
     
-    [[menu.gettingstarted]]
+    [[languages.en.menu.gettingstarted]]
       name = "Installation"
       url = "docs/installation/"
       weight = 20
     
-    [[menu.gettingstarted]]
+    [[languages.en.menu.gettingstarted]]
       name = "Getting Help"
       url = "docs/getting-help/"
       weight = 30
     
-    [[menu.usingtania]]
+    [[languages.en.menu.usingtania]]
       name = "Dashboard"
       url = "docs/dashboard/"
       weight = 10
     
-    [[menu.usingtania]]
+    [[languages.en.menu.usingtania]]
       name = "Area"
       url = "docs/area/"
       weight = 20
     
-    [[menu.usingtania]]
+    [[languages.en.menu.usingtania]]
       name = "Crop"
       url = "docs/crop/"
       weight = 30
     
-    [[menu.usingtania]]
+    [[languages.en.menu.usingtania]]
       name = "Reservoir"
       url = "docs/reservoir/"
       weight = 40
     
-    [[menu.usingtania]]
+    [[languages.en.menu.usingtania]]
       name = "Inventory"
       url = "docs/inventory/"
       weight = 50
     
-    [[menu.usingtania]]
+    [[languages.en.menu.usingtania]]
       name = "Settings"
       url = "docs/settings/"
       weight = 60
     
-    [[menu.roadmap]]
+    [[languages.en.menu.roadmap]]
+      name = "2019"
+      url = "roadmap/"
+      weight = 10
+  
+  [languages.id]
+    title = "Tania | Sistem Manajemen Kebun Dengan Sumber Terbuka"
+
+    [[languages.id.menu.main]]
+      name = "Dokumentasi"
+      url = "docs/"
+      weight = 10
+    
+    [[languages.id.menu.main]]
+      name = "Peta Jalan"
+      url = "roadmap/"
+      weight = 20
+
+    [[languages.id.menu.main]]
+      name = "Blog"
+      url = "https://medium.com/farming-with-tania"
+      weight = 30
+    
+    [[languages.id.menu.gettingstarted]]
+      name = "Apa Itu Tania?"
+      url = "docs/"
+      weight = 10
+    
+    [[languages.id.menu.gettingstarted]]
+      name = "Instalasi"
+      url = "docs/installation/"
+      weight = 20
+    
+    [[languages.id.menu.gettingstarted]]
+      name = "Dapatkan Bantuan"
+      url = "docs/getting-help/"
+      weight = 30
+    
+    [[languages.id.menu.usingtania]]
+      name = "Dasbor"
+      url = "docs/dashboard/"
+      weight = 10
+    
+    [[languages.id.menu.usingtania]]
+      name = "Area"
+      url = "docs/area/"
+      weight = 20
+    
+    [[languages.id.menu.usingtania]]
+      name = "Tanaman"
+      url = "docs/crop/"
+      weight = 30
+    
+    [[languages.id.menu.usingtania]]
+      name = "Penampungan Air"
+      url = "docs/reservoir/"
+      weight = 40
+    
+    [[languages.id.menu.usingtania]]
+      name = "Inventaris"
+      url = "docs/inventory/"
+      weight = 50
+    
+    [[languages.id.menu.usingtania]]
+      name = "Pengaturan"
+      url = "docs/settings/"
+      weight = 60
+    
+    [[languages.id.menu.roadmap]]
+      name = "2019"
+      url = "roadmap/"
+      weight = 10
+  
+  [languages.hu]
+    title = "Tania | Open Source Farm Management Sofware"
+
+    [[languages.hu.menu.main]]
+      name = "Docs"
+      url = "docs/"
+      weight = 10
+    
+    [[languages.hu.menu.main]]
+      name = "Roadmap"
+      url = "roadmap/"
+      weight = 20
+
+    [[languages.hu.menu.main]]
+      name = "Blog"
+      url = "https://medium.com/farming-with-tania"
+      weight = 30
+    
+    [[languages.hu.menu.gettingstarted]]
+      name = "What is Tania?"
+      url = "docs/"
+      weight = 10
+    
+    [[languages.hu.menu.gettingstarted]]
+      name = "Installation"
+      url = "docs/installation/"
+      weight = 20
+    
+    [[languages.hu.menu.gettingstarted]]
+      name = "Getting Help"
+      url = "docs/getting-help/"
+      weight = 30
+    
+    [[languages.hu.menu.usingtania]]
+      name = "Dashboard"
+      url = "docs/dashboard/"
+      weight = 10
+    
+    [[languages.hu.menu.usingtania]]
+      name = "Area"
+      url = "docs/area/"
+      weight = 20
+    
+    [[languages.hu.menu.usingtania]]
+      name = "Crop"
+      url = "docs/crop/"
+      weight = 30
+    
+    [[languages.hu.menu.usingtania]]
+      name = "Reservoir"
+      url = "docs/reservoir/"
+      weight = 40
+    
+    [[languages.hu.menu.usingtania]]
+      name = "Inventory"
+      url = "docs/inventory/"
+      weight = 50
+    
+    [[languages.hu.menu.usingtania]]
+      name = "Settings"
+      url = "docs/settings/"
+      weight = 60
+    
+    [[languages.hu.menu.roadmap]]
       name = "2019"
       url = "roadmap/"
       weight = 10

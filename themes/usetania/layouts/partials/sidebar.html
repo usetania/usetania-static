@@ -9,7 +9,7 @@
         {{ $currentPage := . }}
         {{ range .Site.Menus.gettingstarted }}
         <li>
-            <a href="{{ .URL | absURL }}">{{ .Name }}</a>
+            <a href="{{ .URL | absLangURL  }}">{{ .Name }}</a>
         </li>
         {{ end }}
     </ul>
@@ -21,7 +21,7 @@
         {{ $currentPage := . }}
         {{ range .Site.Menus.usingtania }}
         <li>
-            <a href="{{ .URL | absURL }}">{{ .Name }}</a>
+            <a href="{{ .URL | absLangURL  }}">{{ .Name }}</a>
         </li>
         {{ end }}
     </ul>

@@ -4,8 +4,8 @@
         <div class="nav-bar">
             <div class="module left">
                 <a href="{{ .Site.BaseURL }}">
-                    <img class="logo logo-light" alt="Tanibox" src="{{ "images/logo-light.svg" | absURL }}" />
-                    <img class="logo logo-dark" alt="Tanibox" src="{{ "images/logo-dark.svg" | absURL }}" />
+                    <img class="logo logo-light" alt="Tanibox" src="{{ "images/logo-light.svg" | absLangURL  }}" />
+                    <img class="logo logo-dark" alt="Tanibox" src="{{ "images/logo-dark.svg" | absLangURL  }}" />
                 </a>
             </div>
             <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
@@ -17,13 +17,24 @@
                         {{ $currentPage := . }}
                         {{ range .Site.Menus.main }}
                         <li>
-                            <a href="{{ .URL | absURL }}">{{ .Name }}</a>
+                            <a href="{{ .URL | absLangURL  }}">{{ .Name }}</a>
                         </li>
                         {{ end }}
                     </ul>
                 </div>
                 <div class="module widget-handle left">
                     <a href="https://demo-tania.tanibox.com/" class="btn btn-sm" target="_blank">Try the demo!</a>
+                </div>
+                <div class="module widget-handle dropdown">
+                    <a class="btn btn-sm dropdown-toggle" href="#" role="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        Languages
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="{{ "en" | absURL }}" style="height: 30px;">English</a></li>
+                        <li><a href="{{ "id" | absURL }}" style="height: 30px;">Bahasa Indonesia</a></li>
+                        <li><a href="{{ "hu" | absURL }}" style="height: 30px;">Magyar Nyelv</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
