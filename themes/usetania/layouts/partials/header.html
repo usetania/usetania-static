@@ -25,15 +25,22 @@
                 <div class="module widget-handle left">
                     <a href="https://demo-tania.tanibox.com/" class="btn btn-sm" target="_blank">Try the demo!</a>
                 </div>
-                <div class="module widget-handle dropdown">
-                    <a class="btn btn-sm dropdown-toggle" href="#" role="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                        Languages
-                        <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                        <li><a href="{{ "en" | absURL }}" style="height: 30px;">English</a></li>
-                        <li><a href="{{ "id" | absURL }}" style="height: 30px;">Bahasa Indonesia</a></li>
-                        <li><a href="{{ "hu" | absURL }}" style="height: 30px;">Magyar Nyelv</a></li>
+                <div class="module widget-handle language left">
+                    <ul class="menu">
+                        <li class="has-dropdown">
+                            <a href="#"><i class="far fa-flag"></i></a>
+                            <ul>
+                                <li>
+                                    <a href="{{ "en" | absURL }}">English</a>
+                                </li>
+                                <li>
+                                    <a href="{{ "id" | absURL }}">Bahasa Indonesia</a>
+                                </li>
+                                <li>
+                                    <a href="{{ "hu" | absURL }}">Magyar Nyelv</a>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
             </div>
