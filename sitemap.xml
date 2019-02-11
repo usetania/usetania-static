@@ -2,11 +2,6 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	<sitemap>
-	   	<loc>https://usetania.org/hu/sitemap.xml</loc>
-		
-	</sitemap>
-	
-	<sitemap>
 	   	<loc>https://usetania.org/en/sitemap.xml</loc>
 		
 	   	<lastmod>2019-02-04T19:55:09+08:00</lastmod>
@@ -15,6 +10,11 @@
 	
 	<sitemap>
 	   	<loc>https://usetania.org/id/sitemap.xml</loc>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>https://usetania.org/hu/sitemap.xml</loc>
 		
 	</sitemap>
 	
