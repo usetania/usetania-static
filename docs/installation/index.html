@@ -55,10 +55,14 @@ if (!doNotTrack) {
                             <a href="https://usetaniaoss.wordpress.com">Blog</a>
                         </li>
                         
+                        <li>
+                            <a href="https://teespring.com/stores/usetania">Shop</a>
+                        </li>
+                        
                     </ul>
                 </div>
                 <div class="module widget-handle left">
-                    <a href="https://demo-tania.tanibox.com/" class="btn btn-sm" target="_blank">Try the demo!</a>
+                    <a class="btn btn-sm" href="/docs">Get Started</a>
                 </div>
                 <div class="module widget-handle language left">
                     <ul class="menu">
@@ -150,7 +154,9 @@ if (!doNotTrack) {
 
 <p>This software is built with <a href="https://golang.org">Go</a> programming language. It means you will get an executable binary to run on your machine. You <strong>don&rsquo;t need</strong> extra software like MAMP, XAMPP, or WAMP to run <strong>Tania</strong>, but you may need MySQL database if you choose to use it instead of SQLite <em>(the default database.)</em></p>
 
-<p>You will need to compile and build this software by yourself. We don&rsquo;t provide the pre-built executable binary <em>(for this moment.)</em> You can follow our instructions to build <strong>Tania</strong>.</p>
+<p>The easiest way to install Tania is using pre-built binaries for Windows (x64) and Linux (x64). You can download it from <a href="https://github.com/Tanibox/tania-core/releases/tag/1.5.1">the release page</a>. After the download process is finished, you can unzip it, and run it from Windows Command Prompt/Powershell by using <code>.\tania-core.exe</code> or from Linux terminal by using <code>./tania-core</code>.</p>
+
+<p>If your OS is neither Windows (x64) nor Linux (x64), then you must build Tania by yourself. You can follow this instruction below.</p>
 
 <h3 id="prerequisites">Prerequisites</h3>
 
@@ -161,6 +167,8 @@ if (!doNotTrack) {
 
 <h3 id="building-instructions">Building Instructions</h3>
 
+<p>Assume that your Go environment is in <code>~/go</code>.</p>
+
 <ol>
 <li>Make sure you have installed <code>golang/dep</code>
 
@@ -169,6 +177,7 @@ if (!doNotTrack) {
 <li><a href="https://gist.github.com/subfuzion/12342599e26f5094e4e2d08e9d4ad50d">https://gist.github.com/subfuzion/12342599e26f5094e4e2d08e9d4ad50d</a></li>
 </ul></li>
 <li>Clone the repo using <code>go get github.com/Tanibox/tania-core</code></li>
+<li>Checkout the stable version by using <code>cd ~/go/src/github.com/Tanibox/tania-core &amp;&amp; git checkout tags/1.5.1 -b v1.5.1</code></li>
 <li>From the project root, call <code>dep ensure</code> to install the Go dependencies
 
 <ul>
@@ -193,22 +202,18 @@ if (!doNotTrack) {
 <p>Tania uses SQLite as the default database engine. You may use MySQL as your database engine by replacing <code>sqlite</code> with <code>mysql</code> at <code>tania_persistence_engine</code> field in your <code>conf.json</code>.</p>
 
 <pre><code>{
-    &quot;app_port&quot;: &quot;8080&quot;,
-    &quot;tania_persistence_engine&quot;: &quot;mysql&quot;,
-    &quot;demo_mode&quot;: true,
-    &quot;upload_path_area&quot;: &quot;uploads/areas&quot;,
-    &quot;upload_path_crop&quot;: &quot;uploads/crops&quot;,
-    &quot;sqlite_path&quot;: &quot;db/sqlite/tania.db&quot;,
-    &quot;mysql_host&quot;: &quot;localhost&quot;,
-    &quot;mysql_port&quot;: &quot;3306&quot;,
-    &quot;mysql_dbname&quot;: &quot;your_mysql_db_name&quot;,
-    &quot;mysql_user&quot;: &quot;your_mysql_user&quot;,
-    &quot;mysql_password&quot;: &quot;your_mysql_password&quot;,
-    &quot;redirect_uri&quot;: [
-        &quot;http://localhost:8080&quot;,
-        &quot;http://127.0.0.1:8080&quot;
-    ],
-    &quot;client_id&quot;: &quot;f0ece679-3f53-463e-b624-73e83049d6ac&quot;
+  &quot;tania_persistence_engine&quot;: &quot;sqlite&quot;,
+  &quot;demo_mode&quot;: true,
+  &quot;upload_path_area&quot;: &quot;uploads/areas&quot;,
+  &quot;upload_path_crop&quot;: &quot;uploads/crops&quot;,
+  &quot;sqlite_path&quot;: &quot;db/sqlite/tania.db&quot;,
+  &quot;mysql_host&quot;: &quot;127.0.0.1&quot;,
+  &quot;mysql_port&quot;: &quot;3306&quot;,
+  &quot;mysql_dbname&quot;: &quot;tania&quot;,
+  &quot;mysql_user&quot;: &quot;root&quot;,
+  &quot;mysql_password&quot;: &quot;root&quot;,
+  &quot;redirect_uri&quot;: &quot;http://localhost:8080/&quot;,
+  &quot;client_id&quot;: &quot;f0ece679-3f53-463e-b624-73e83049d6ac&quot;
 }
 </code></pre>
 
@@ -268,5 +273,6 @@ if (!doNotTrack) {
 <script src="https://usetania.org/js/countdown.min.js"></script>
 <script src="https://usetania.org/js/smooth-scroll.min.js"></script>
 <script src="https://usetania.org/js/parallax.js"></script>
-<script src="https://usetania.org/js/scripts.js"></script></body>
+<script src="https://usetania.org/js/scripts.js"></script>
+<script src="https://usetania.org/js/events.js"></script></body>
 </html>

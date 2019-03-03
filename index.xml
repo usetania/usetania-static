@@ -83,7 +83,7 @@ Feature requests For feature requests, please raise and discuss them on Tania&am
       
       <guid>https://usetania.org/docs/installation/</guid>
       <description>This software is built with Go programming language. It means you will get an executable binary to run on your machine. You don&amp;rsquo;t need extra software like MAMP, XAMPP, or WAMP to run Tania, but you may need MySQL database if you choose to use it instead of SQLite (the default database.)
-You will need to compile and build this software by yourself. We don&amp;rsquo;t provide the pre-built executable binary (for this moment.</description>
+The easiest way to install Tania is using pre-built binaries for Windows (x64) and Linux (x64). You can download it from the release page.</description>
     </item>
     
   </channel>
