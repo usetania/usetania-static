@@ -2,10 +2,10 @@
 <html lang="{{.Site.LanguageCode}}">
     {{- partial "head.html" . -}}
     <body class="scroll-assist">
-        {{- partial "header.html" . -}}
+        {{- partial (printf "header.%s.html" .Lang) . -}}
         <div class="main-container">
         {{- block "main" . }}{{- end }}
         </div>
-        {{- partial "footer.html" . -}}
+        {{- partial (printf "footer.%s.html" .Lang) . -}}
     </body>
 </html>

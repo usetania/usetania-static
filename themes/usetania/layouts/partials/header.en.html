@@ -1,0 +1,49 @@
+<div class="nav-container">
+    <a id="top"></a>
+    <nav class="{{ if .IsHome }}absolute transparent{{ else }}bg-dark{{ end }}">
+        <div class="nav-bar">
+            <div class="module left">
+                <a href="{{ .Site.BaseURL }}">
+                    <img class="logo logo-light" alt="Tanibox" src="{{ "images/logo-light.svg" | absLangURL  }}" />
+                    <img class="logo logo-dark" alt="Tanibox" src="{{ "images/logo-dark.svg" | absLangURL  }}" />
+                </a>
+            </div>
+            <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
+                <i class="fas fa-ellipsis-v"></i>
+            </div>
+            <div class="module-group right">
+                <div class="module left">
+                    <ul class="menu">
+                        {{ $currentPage := . }}
+                        {{ range .Site.Menus.main }}
+                        <li>
+                            <a href="{{ .URL | absLangURL  }}">{{ .Name }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div>
+                <div class="module widget-handle left">
+                    <a class="btn btn-sm" href="/docs">Get Started</a>
+                </div>
+                <div class="module widget-handle language left">
+                    <ul class="menu">
+                        <li class="has-dropdown">
+                            <a href="#"><i class="far fa-flag"></i></a>
+                            <ul>
+                                <li>
+                                    <a href="{{ "en" | absURL }}">English</a>
+                                </li>
+                                <li>
+                                    <a href="{{ "id" | absURL }}">Bahasa Indonesia</a>
+                                </li>
+                                <li>
+                                    <a href="{{ "hu" | absURL }}">Magyar Nyelv</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>

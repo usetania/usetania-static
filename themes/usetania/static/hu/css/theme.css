@@ -1012,7 +1012,7 @@ nav.bg-dark .logo-dark {
   top: 0;
   right: 0;
   font-size: 11px;
-  content: "\f150";
+  content: "\f0d7";
   font-family: 'Font Awesome 5 Free';
   speak: none;
   font-style: normal;
@@ -1826,7 +1826,7 @@ input.transparent,
 button.transparent {
   background: none;
   border: 1px solid rgba(255, 255, 255, 0.5);
-  color: #fff !important	;
+  color: #fff !important  ;
 }
 input[type="text"]:focus,
 input[type="password"]:focus {
@@ -2706,7 +2706,7 @@ button[type="submit"] .form-loading {
   .page-title-4 .breadcrumb,
   .page-title-2 .breadcrumb {
     float: left;
-    margin-top: 8	px;
+    margin-top: 8 px;
   }
 }
 /*!---------- 17. PAGINATION ----------*/

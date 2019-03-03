@@ -20,8 +20,13 @@ DefaultContentLanguage = "en"
 
     [[languages.en.menu.main]]
       name = "Blog"
-      url = "https://medium.com/farming-with-tania"
+      url = "https://usetaniaoss.wordpress.com"
       weight = 30
+    
+    [[languages.en.menu.main]]
+      name = "Shop"
+      url = "https://teespring.com/stores/usetania"
+      weight = 40
     
     [[languages.en.menu.gettingstarted]]
       name = "What is Tania?"
@@ -88,8 +93,13 @@ DefaultContentLanguage = "en"
 
     [[languages.id.menu.main]]
       name = "Blog"
-      url = "https://medium.com/farming-with-tania"
+      url = "https://usetaniaoss.wordpress.com"
       weight = 30
+    
+    [[languages.id.menu.main]]
+      name = "Toko"
+      url = "https://teespring.com/stores/usetania"
+      weight = 40
     
     [[languages.id.menu.gettingstarted]]
       name = "Apa Itu Tania?"
@@ -156,8 +166,13 @@ DefaultContentLanguage = "en"
 
     [[languages.hu.menu.main]]
       name = "Blog"
-      url = "https://medium.com/farming-with-tania"
+      url = "https://usetaniaoss.wordpress.com"
       weight = 30
+    
+    [[languages.hu.menu.main]]
+      name = "Shop"
+      url = "https://teespring.com/stores/usetania"
+      weight = 40
     
     [[languages.hu.menu.gettingstarted]]
       name = "What is Tania?"
