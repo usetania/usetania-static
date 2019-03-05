@@ -6,4 +6,6 @@ type: "docs"
 layout: "docs"
 ---
 
-This content will be coming soon.
+You can change the default password from this section.
+
+![Account](/docs/account.PNG)

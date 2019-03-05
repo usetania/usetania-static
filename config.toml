@@ -44,6 +44,11 @@ DefaultContentLanguage = "en"
       weight = 30
     
     [[languages.en.menu.usingtania]]
+      name = "Initial setup"
+      url = "docs/initial-setup/"
+      weight = 5
+
+    [[languages.en.menu.usingtania]]
       name = "Dashboard"
       url = "docs/dashboard/"
       weight = 10
@@ -66,7 +71,7 @@ DefaultContentLanguage = "en"
     [[languages.en.menu.usingtania]]
       name = "Inventory"
       url = "docs/inventory/"
-      weight = 50
+      weight = 7
     
     [[languages.en.menu.usingtania]]
       name = "Settings"
