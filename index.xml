@@ -6,10 +6,21 @@
     <description>Recent content on Tania | Open Source Farm Management Sofware</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 04 Feb 2019 19:55:09 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 05 Mar 2019 12:16:55 +0800</lastBuildDate>
     
 	<atom:link href="https://usetania.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Initial setup</title>
+      <link>https://usetania.org/docs/initial-setup/</link>
+      <pubDate>Tue, 05 Mar 2019 12:16:55 +0800</pubDate>
+      
+      <guid>https://usetania.org/docs/initial-setup/</guid>
+      <description>After you have finished the installation step of Tania, you can start using the software by accessing http://localhost:8080 (the default installation address.) Input tania as the default username and password.
+On the next screen, you will input the information about your farm. Fill all fields and click Continue.
+Next, you will define the source of water on your farm. You can choose the Tap/Well for the infinite water source, or you can choose Water tank/Cistern if you have the finite water source.</description>
+    </item>
     
     <item>
       <title>Settings</title>
@@ -17,7 +28,7 @@
       <pubDate>Mon, 04 Feb 2019 19:55:09 +0800</pubDate>
       
       <guid>https://usetania.org/docs/settings/</guid>
-      <description>This content will be coming soon.</description>
+      <description>You can change the default password from this section.</description>
     </item>
     
     <item>
@@ -26,7 +37,7 @@
       <pubDate>Mon, 04 Feb 2019 19:55:03 +0800</pubDate>
       
       <guid>https://usetania.org/docs/inventory/</guid>
-      <description>This content will be coming soon.</description>
+      <description>Before you can start using Tania to track your growing activities, you must register seeds that you have to the inventory section. In this section, you can also record your tools, fertilisers, and any other supplies.</description>
     </item>
     
     <item>
@@ -35,7 +46,7 @@
       <pubDate>Mon, 04 Feb 2019 19:54:57 +0800</pubDate>
       
       <guid>https://usetania.org/docs/reservoir/</guid>
-      <description>This content will be coming soon.</description>
+      <description>On the reservoir section, you can manage and create tasks that relate to the particular reservoir.</description>
     </item>
     
     <item>
@@ -44,7 +55,7 @@
       <pubDate>Mon, 04 Feb 2019 19:54:51 +0800</pubDate>
       
       <guid>https://usetania.org/docs/crop/</guid>
-      <description>This content will be coming soon.</description>
+      <description>Crop section is the heart of Tania. In this section, you can record and track activities regarding each crop you plant. Whenever you create a new growing crops batch, Tania will give it an identification string so you can trace that from seed to harvest/waste.</description>
     </item>
     
     <item>
@@ -53,7 +64,7 @@
       <pubDate>Mon, 04 Feb 2019 19:54:45 +0800</pubDate>
       
       <guid>https://usetania.org/docs/area/</guid>
-      <description>This content will be coming soon.</description>
+      <description>You can get all information about your crops, tasks, and record the watering activities for the particular area.</description>
     </item>
     
     <item>
@@ -62,7 +73,8 @@
       <pubDate>Mon, 04 Feb 2019 19:54:39 +0800</pubDate>
       
       <guid>https://usetania.org/docs/dashboard/</guid>
-      <description>This content will be coming soon.</description>
+      <description>There is 3 grouped information on the dashboard:
+ At a glance is the number of areas on your farm, varieties that you plant, and tasks that you have. Crops is the current plant you are growing and the quantity of each batch. Tasks is the to-do list activity on your farm.  </description>
     </item>
     
     <item>
