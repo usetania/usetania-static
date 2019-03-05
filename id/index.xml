@@ -6,9 +6,97 @@
     <description>Recent content on Tania | Sistem Manajemen Kebun Dengan Sumber Terbuka</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
+    <lastBuildDate>Tue, 05 Mar 2019 12:16:55 +0800</lastBuildDate>
     
 	<atom:link href="https://usetania.org/id/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Pengaturan Awal</title>
+      <link>https://usetania.org/id/docs/initial-setup/</link>
+      <pubDate>Tue, 05 Mar 2019 12:16:55 +0800</pubDate>
+      
+      <guid>https://usetania.org/id/docs/initial-setup/</guid>
+      <description>Setelah Anda selesai melakukan instalasi Tania, Anda dapat mulai menggunakan perangkat lunak ini dengan mengakses http://localhost:8080 (alamat instalasi bawaan) pada peramban. Masukkan tania sebagai nama pengguna dan kata sandi bawaan.
+Pada layar berikutnya, Anda akan memasukkan informasi tentang kebun Anda. Isi semua kolom dan klik Continue.
+Selanjutnya, Anda akan menentukan sumber air pada kebun Anda. Anda dapat pilih Tap/Well untuk sumber air tak terbatas, atau Anda dapat memilih Water tank/Cistern jika Anda memiliki sumber air yang terbatas.</description>
+    </item>
+    
+    <item>
+      <title>Settings</title>
+      <link>https://usetania.org/id/docs/settings/</link>
+      <pubDate>Mon, 04 Feb 2019 19:55:09 +0800</pubDate>
+      
+      <guid>https://usetania.org/id/docs/settings/</guid>
+      <description>Anda dapat mengganti kata sandi bawaan lewat bagian ini.</description>
+    </item>
+    
+    <item>
+      <title>Inventory</title>
+      <link>https://usetania.org/id/docs/inventory/</link>
+      <pubDate>Mon, 04 Feb 2019 19:55:03 +0800</pubDate>
+      
+      <guid>https://usetania.org/id/docs/inventory/</guid>
+      <description>Sebelum Anda dapat mulai menggunakan Tania untuk melacak seluruh aktivitas bercocok tanam, Anda harus mendaftarkan benih yang anda punya ke bagian Inventory. Di bagian ini, Anda juga dapat merekam peralatan Anda, pupuk, dan aneka macam suplai lainnya.</description>
+    </item>
+    
+    <item>
+      <title>Reservoir</title>
+      <link>https://usetania.org/id/docs/reservoir/</link>
+      <pubDate>Mon, 04 Feb 2019 19:54:57 +0800</pubDate>
+      
+      <guid>https://usetania.org/id/docs/reservoir/</guid>
+      <description>Di bagian Reservoir, Anda dapat mengatur dan membuat tugas yang berhubungan dengan sumber air tertentu.</description>
+    </item>
+    
+    <item>
+      <title>Crop</title>
+      <link>https://usetania.org/id/docs/crop/</link>
+      <pubDate>Mon, 04 Feb 2019 19:54:51 +0800</pubDate>
+      
+      <guid>https://usetania.org/id/docs/crop/</guid>
+      <description>Bagian Crop adalah jantung Tania. Di bagian ini, Anda dapat merekam dan melacak aktivitas yang berhubungan dengan masing-masing tanaman yang Anda tanam. Kapanpun Anda membuat kelompok tanam baru, Tania akan memberikan kode identifikasi sehingga Anda dapat menelusurinya dari semenjak benih hingga panen/terbuang.</description>
+    </item>
+    
+    <item>
+      <title>Area</title>
+      <link>https://usetania.org/id/docs/area/</link>
+      <pubDate>Mon, 04 Feb 2019 19:54:45 +0800</pubDate>
+      
+      <guid>https://usetania.org/id/docs/area/</guid>
+      <description>Anda bisa mendapatkan seluruh informasi tentang tanaman, tugas, dan catatan aktivitas penyiraman untuk area tertentu.</description>
+    </item>
+    
+    <item>
+      <title>Dashboard</title>
+      <link>https://usetania.org/id/docs/dashboard/</link>
+      <pubDate>Mon, 04 Feb 2019 19:54:39 +0800</pubDate>
+      
+      <guid>https://usetania.org/id/docs/dashboard/</guid>
+      <description>Ada 3 grup informasi pada dasbor:
+ At a glance akan menampilkan jumlah area, varietas yang ditanam, dan tugas yang Anda punya. Crops merupakan tanaman-tanaman yang sedang Anda tumbuhkan dan kuantitasnya per kelompok tanam. Tasks menampilkan daftar aktivitas dan tugas pada kebun Anda.  </description>
+    </item>
+    
+    <item>
+      <title>Dapatkan Bantuan</title>
+      <link>https://usetania.org/id/docs/getting-help/</link>
+      <pubDate>Mon, 04 Feb 2019 19:47:55 +0800</pubDate>
+      
+      <guid>https://usetania.org/id/docs/getting-help/</guid>
+      <description>Ajukan Isu Sila mengajukan laporan kesalahan di Tania&amp;rsquo;s Github issue trackers. Pastikan untuk mencari terlebih dahulu barangkali laporan tersebut sudah ada.
+Laporan kesalahan yang bagus adalah laporan yang mudah dimengerti tentang apa yang coba Anda lakukan dan apa yang salah.
+Permintaan Fitur Untuk permintaan fitur, sila ajukan dan diskusikan di grup Telegram Tania.</description>
+    </item>
+    
+    <item>
+      <title>Instalasi</title>
+      <link>https://usetania.org/id/docs/installation/</link>
+      <pubDate>Mon, 04 Feb 2019 19:34:29 +0800</pubDate>
+      
+      <guid>https://usetania.org/id/docs/installation/</guid>
+      <description>Perangkat lunak ini dibuat dengan menggunakan bahasa pemrograman Go. Artinya Anda akan mendapat binari yang bisa dijalankan langsung di mesin Anda. Anda tidak butuh perangkat lunak tambahan seperti MAMP, XAMPP, atau WAMP untuk menjalankan Tania, tapi Anda mungkin akan membutuhkan basis data MySQL jika Anda tidak ingin menggunakan SQLite (basis data bawaan.)
+Cara termudah untuk melakukan instalasi Tania adalah dengan menggunakan binari yang telah kami sediakan untuk Windows (x64) dan Linux (x64).</description>
+    </item>
     
   </channel>
 </rss>

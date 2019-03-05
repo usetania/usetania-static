@@ -3,6 +3,156 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://usetania.org/id/docs/initial-setup/</loc>
+    <lastmod>2019-03-05T12:16:55+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://usetania.org/docs/initial-setup/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://usetania.org/id/docs/initial-setup/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://usetania.org/id/docs/settings/</loc>
+    <lastmod>2019-02-04T19:55:09+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://usetania.org/docs/settings/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://usetania.org/id/docs/settings/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://usetania.org/id/docs/inventory/</loc>
+    <lastmod>2019-02-04T19:55:03+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://usetania.org/docs/inventory/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://usetania.org/id/docs/inventory/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://usetania.org/id/docs/reservoir/</loc>
+    <lastmod>2019-02-04T19:54:57+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://usetania.org/docs/reservoir/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://usetania.org/id/docs/reservoir/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://usetania.org/id/docs/crop/</loc>
+    <lastmod>2019-02-04T19:54:51+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://usetania.org/docs/crop/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://usetania.org/id/docs/crop/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://usetania.org/id/docs/area/</loc>
+    <lastmod>2019-02-04T19:54:45+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://usetania.org/docs/area/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://usetania.org/id/docs/area/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://usetania.org/id/docs/dashboard/</loc>
+    <lastmod>2019-02-04T19:54:39+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://usetania.org/docs/dashboard/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://usetania.org/id/docs/dashboard/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://usetania.org/id/docs/getting-help/</loc>
+    <lastmod>2019-02-04T19:47:55+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://usetania.org/docs/getting-help/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://usetania.org/id/docs/getting-help/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://usetania.org/id/docs/installation/</loc>
+    <lastmod>2019-02-04T19:34:29+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://usetania.org/docs/installation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://usetania.org/id/docs/installation/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://usetania.org/id/roadmap/</loc>
+    <lastmod>2019-02-04T18:51:54+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://usetania.org/roadmap/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://usetania.org/id/roadmap/"
+                />
+  </url>
+  
+  <url>
     <loc>https://usetania.org/id/docs/</loc>
     <lastmod>2019-02-04T18:14:30+08:00</lastmod>
     <xhtml:link
@@ -59,6 +209,7 @@
   
   <url>
     <loc>https://usetania.org/id/</loc>
+    <lastmod>2019-03-05T12:16:55+08:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
