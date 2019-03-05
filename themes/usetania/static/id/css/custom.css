@@ -336,6 +336,11 @@ blockquote {
     z-index: 4;
 }
 
+#eth-address {
+	font-weight: 600;
+	font-size: 1.2em;
+}
+
 
 
 

@@ -122,7 +122,12 @@ DefaultContentLanguage = "en"
       weight = 30
     
     [[languages.id.menu.usingtania]]
-      name = "Dasbor"
+      name = "Pengaturan Awal"
+      url = "docs/initial-setup/"
+      weight = 5
+
+    [[languages.id.menu.usingtania]]
+      name = "Dashboard"
       url = "docs/dashboard/"
       weight = 10
     
@@ -132,22 +137,22 @@ DefaultContentLanguage = "en"
       weight = 20
     
     [[languages.id.menu.usingtania]]
-      name = "Tanaman"
+      name = "Crop"
       url = "docs/crop/"
       weight = 30
     
     [[languages.id.menu.usingtania]]
-      name = "Penampungan Air"
+      name = "Reservoir"
       url = "docs/reservoir/"
       weight = 40
     
     [[languages.id.menu.usingtania]]
-      name = "Inventaris"
+      name = "Inventory"
       url = "docs/inventory/"
-      weight = 50
+      weight = 7
     
     [[languages.id.menu.usingtania]]
-      name = "Pengaturan"
+      name = "Settings"
       url = "docs/settings/"
       weight = 60
     

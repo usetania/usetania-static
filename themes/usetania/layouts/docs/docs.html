@@ -3,7 +3,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-3 hidden-sm">
-                {{- partial "sidebar.html" . -}}
+                {{- partial (printf "sidebar.%s.html" .Lang) . -}}
             </div>
             <div class="col-md-9 mb-xs-24">
                 <div class="post-snippet mb64">

@@ -1,11 +1,11 @@
 ---
-title: "What is Tania?"
+title: "Apa itu Tania?"
 date: 2019-02-04T18:14:30+08:00
 draft: false
 type: "docs"
 layout: "docs"
 ---
 
-**Tania** is a free and open source farm management software. You can manage your farm areas, farm reservoirs, farm tasks, inventories, and the crop growing progress. It is designed for any type of farms.
+**Tania** adalah perangkat lunak manajemen kebun yang gratis dan memiliki sumber terbuka. Anda bisa mengatur area kebun, tempat penampungan air, tugas, persediaan, dan proses pertumbuhan tanaman. Tania didesain untuk tipe kebun apapun.
 
-![Screenshot](screenshot.PNG)
+![Screenshot](/docs/screenshot.PNG)
