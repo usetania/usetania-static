@@ -28,6 +28,11 @@ DefaultContentLanguage = "en"
       url = "https://teespring.com/stores/usetania"
       weight = 40
     
+    [[languages.en.menu.main]]
+      name = "Contact Us"
+      url = "contact/"
+      weight = 45
+    
     [[languages.en.menu.gettingstarted]]
       name = "What is Tania?"
       url = "docs/"
@@ -106,6 +111,11 @@ DefaultContentLanguage = "en"
       url = "https://teespring.com/stores/usetania"
       weight = 40
     
+    [[languages.id.menu.main]]
+      name = "Kontak Kami"
+      url = "contact/"
+      weight = 45
+    
     [[languages.id.menu.gettingstarted]]
       name = "Apa Itu Tania?"
       url = "docs/"
@@ -183,6 +193,11 @@ DefaultContentLanguage = "en"
       name = "Shop"
       url = "https://teespring.com/stores/usetania"
       weight = 40
+    
+    [[languages.hu.menu.main]]
+      name = "Contact Us"
+      url = "contact/"
+      weight = 45
     
     [[languages.hu.menu.gettingstarted]]
       name = "What is Tania?"

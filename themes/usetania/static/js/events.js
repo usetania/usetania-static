@@ -7,6 +7,10 @@ $(document).ready(function() {
         ga('send', 'event', 'Binaries', 'download', 'Download - Linux');
     });
 
+    $('#submit-contact-en').click(function() {
+        ga('send', 'event', 'Contact', 'submit', 'Submit - English');
+    });
+
     // copy to clipboard
     $('#copy-address').bind('click', function() {
         var input = $('#eth-address');
