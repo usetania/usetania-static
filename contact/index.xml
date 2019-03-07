@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contact Us on Tania | Open Source Farm Management Sofware</title>
+    <link>https://usetania.org/contact/</link>
+    <description>Recent content in Contact Us on Tania | Open Source Farm Management Sofware</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 04 Feb 2019 18:51:54 +0800</lastBuildDate>
+    
+	<atom:link href="https://usetania.org/contact/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

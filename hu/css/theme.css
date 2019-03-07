@@ -1804,7 +1804,8 @@ input[type="password"] {
   cursor: default;
 }
 input[type="text"],
-input[type="password"] {
+input[type="password"],
+input[type="email"] {
   background: #F9FAFC;
   border: none;
   width: 100%;
@@ -1840,7 +1841,7 @@ input.dark {
 textarea {
   width: 100%;
   border: none;
-  background: #f5f5f5;
+  background: #F9FAFC !important;
   margin-bottom: 24px;
   border-radius: 0;
   padding: 16px 20px;
