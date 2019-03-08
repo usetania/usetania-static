@@ -27,13 +27,13 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://usetania.org/categories/"
+                hreflang="id"
+                href="https://usetania.org/id/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="id"
-                href="https://usetania.org/id/categories/"
+                hreflang="en"
+                href="https://usetania.org/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -47,13 +47,13 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://usetania.org/tags/"
+                hreflang="id"
+                href="https://usetania.org/id/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="id"
-                href="https://usetania.org/id/tags/"
+                hreflang="en"
+                href="https://usetania.org/tags/"
                 />
     <xhtml:link
                 rel="alternate"

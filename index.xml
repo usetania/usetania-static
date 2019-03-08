@@ -73,8 +73,8 @@ Next, you will define the source of water on your farm. You can choose the Tap/W
       <pubDate>Mon, 04 Feb 2019 19:54:39 +0800</pubDate>
       
       <guid>https://usetania.org/docs/dashboard/</guid>
-      <description>There is 3 grouped information on the dashboard:
- At a glance is the number of areas on your farm, varieties that you plant, and tasks that you have. Crops is the current plant you are growing and the quantity of each batch. Tasks is the to-do list activity on your farm.  </description>
+      <description>From the Dashboard screen presents information in blocks called widgets. By default, Tania delivers three widgets on this page:
+At a Glance  The At a Glance widget provides a summary of the number of areas on your farm, plant varieties you grow, and incomplete tasks you have. The content types are displayed in the form of a link. When clicked upon, it will direct you to the specific area to be managed.</description>
     </item>
     
     <item>
