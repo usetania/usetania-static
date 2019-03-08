@@ -8,7 +8,7 @@ layout: "docs"
 
 From the **Dashboard** screen presents information in blocks called **widgets**. By default, Tania delivers three widgets on this page:
 
-<img src="/docs/dashboard.PNG" alt="Dashboard" style="width:60%;">
+<img src="/docs/dashboard.PNG" alt="Dashboard">
 
 <div class="mt48">
 	<h4 class="bolder">At a Glance</h4>	

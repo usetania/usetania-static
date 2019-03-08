@@ -6,18 +6,34 @@ type: "docs"
 layout: "docs"
 ---
 
-After you have finished the installation step of Tania, you can start using the software by accessing `http://localhost:8080` (the default installation address.) Input `tania` as the default username and password.
+After you have finished the installation step of Tania, you can start using the software by:
 
-![login_screen](/docs/login_screen.PNG)
+<div class="mt48 pb0">
+	<h4 class="bolder">Login to Your Account</h4>	
+	<p>
+		Go to your browser, and access <code>http://localhost:8080</code> (the default installation address.) Input <code>tania</code> as the default username and password.
+	</p>
+</div>
 
-On the next screen, you will input the information about your farm. Fill all fields and click `Continue`.
+<!--<img src="/docs/login.png" alt="Login">-->
 
-![intro_1](/docs/intro_1.png)
+<div class="mt48 pb0">
+	<h4 class="bolder">Input your farm information</h4>	
+	<p>
+		On the next screen, you will input the information about your farm. Fill all fields and click <code>Continue</code>.
+	</p>
+</div>
 
-Next, you will define the source of water on your farm. You can choose the `Tap/Well` for the infinite water source, or you can choose `Water tank/Cistern` if you have the finite water source. Then you can click `Continue`.
+<div class="mt48 pb0">
+	<h4 class="bolder">Create first water reservoir</h4>	
+	<p>
+		Next, you will define the source of water on your farm. You can select the <code>Tap/Well</code> if you have infinite water source, or you can select <code>Water tank/Cistern</code> if you have limited water source. Then you can click <code>Continue</code>.
+	</p>
+</div>
 
-![intro_2](/docs/intro_2.PNG)
-
-The last step is defining your first area. You can set it as a seeding or growing place, and also determine the location of it. The system will automatically connect your first reservoir to the first area. Click `Finish Setup`, and you have completed the initial configuration.
-
-![intro_3](/docs/intro_3.PNG)
+<div class="mt48 pb0">
+	<h4 class="bolder">Create first area</h4>	
+	<p>
+		The last step is defining your first area. You can set it as a seeding or growing place, and also determine the location of it. The system will automatically connect your first reservoir to the first area. Click <code>Finish Setup</code>, and you have completed the initial configuration.
+	</p>
+</div>
