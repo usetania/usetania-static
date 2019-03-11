@@ -4,6 +4,23 @@ theme = "usetania"
 googleAnalytics = "UA-133765833-1"
 DefaultContentLanguage = "en"
 
+[params]
+  description = "A free and open source farm management software."
+  images = ["docs/dashboard.PNG"]
+
+  [params.facebook]
+    appid = "2277471495873880"
+  
+  [params.image]
+    url = "docs/dashboard.PNG"
+    width = 800
+    height = 600
+  
+  [params.logo]
+    url = "img/Tania_Icon200.png"
+    width = 200
+    height = 200
+
 [languages]
   [languages.en]
     title = "Tania | Open Source Farm Management Sofware"

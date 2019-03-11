@@ -1,7 +1,13 @@
 ---
 title: Intro to Tania Backend Architecture
+description: "The overall architecture of Tania is built so it doesn’t rely on particular storage, protocol, or serialization format."
 date: 2018-11-24
 publishdate: 2018-11-24
+tania:
+  image:
+    url: "https://usetaniaoss.files.wordpress.com/2019/02/tania-backend.jpg"
+    width: 800
+    height: 600
 ---
 
 ![Tania Dashboard](https://usetaniaoss.files.wordpress.com/2019/02/tania-backend.jpg)
