@@ -6,10 +6,21 @@
     <description>Recent content on Tania | Open Source Farm Management Sofware</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 05 Mar 2019 12:16:55 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 06 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://usetania.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Steps To Do Smart Farming</title>
+      <link>https://usetania.org/blog/steps-to-do-smart-farming/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://usetania.org/blog/steps-to-do-smart-farming/</guid>
+      <description>Smart farming is an idea to cultivate crops with a combination of the latest technology and data analysis. The objective of it is to get more yields with few bad impacts on the environment than the conventional farming method.
+How can we start doing smart farming? Is it expensive? These are common questions. We can start small without buying expensive equipment.
+Read more</description>
+    </item>
     
     <item>
       <title>Initial setup</title>
@@ -95,6 +106,27 @@ Feature requests For feature requests, please raise and discuss them on Tania&am
       <guid>https://usetania.org/docs/installation/</guid>
       <description>This software is built with Go programming language. It means you will get an executable binary to run on your machine. You don&amp;rsquo;t need extra software like MAMP, XAMPP, or WAMP to run Tania, but you may need MySQL database if you choose to use it instead of SQLite (the default database.)
 The easiest way to install Tania is using pre-built binaries for Windows (x64) and Linux (x64). You can download it from the release page.</description>
+    </item>
+    
+    <item>
+      <title>Intro to Tania Backend Architecture</title>
+      <link>https://usetania.org/blog/intro-to-tania-backend-architecture/</link>
+      <pubDate>Sat, 24 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://usetania.org/blog/intro-to-tania-backend-architecture/</guid>
+      <description>The overall architecture of Tania is built so it doesn’t rely on particular storage, protocol, or serialization format. Because it needs to be deployed to a different environment like Raspberry Pi, NAS QNAP, or the cloud like AWS. We name the Tania architecture as Modular Monolith as each domain share nothing.
+Read more</description>
+    </item>
+    
+    <item>
+      <title>The Journey Begins</title>
+      <link>https://usetania.org/blog/the-journey-begins/</link>
+      <pubDate>Sat, 03 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://usetania.org/blog/the-journey-begins/</guid>
+      <description> Agriculture is our wisest pursuit, because it will in the end contribute most to real wealth, good morals, and happiness.
+&amp;mdash; Thomas Jefferson
+ </description>
     </item>
     
   </channel>

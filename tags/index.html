@@ -93,145 +93,15 @@ if (!doNotTrack) {
 <section>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-3 hidden-sm"><div class="widget">
-    <h6 class="title">Search Docs</h6>
-    <iframe src="https://duckduckgo.com/search.html?site=usetania.org&prefill=Search by DuckDuckGo" style="overflow:hidden;margin:0;padding:0;width:100%;height:40px;" frameborder="0"></iframe>
-</div>
-<div class="widget">
-    <h6 class="title">Getting Started</h6>
-    <hr>
-    <ul class="link-list">
-        
-        
-        <li>
-            <a href="https://usetania.org/docs/">What is Tania?</a>
-        </li>
-        
-        <li>
-            <a href="https://usetania.org/docs/installation/">Installation</a>
-        </li>
-        
-        <li>
-            <a href="https://usetania.org/docs/getting-help/">Getting Help</a>
-        </li>
-        
-    </ul>
-</div>
-<div class="widget">
-    <h6 class="title">Using Tania</h6>
-    <hr>
-    <ul class="link-list">
-        
-        
-        <li>
-            <a href="https://usetania.org/docs/initial-setup/">Initial setup</a>
-        </li>
-        
-        <li>
-            <a href="https://usetania.org/docs/inventory/">Inventory</a>
-        </li>
-        
-        <li>
-            <a href="https://usetania.org/docs/dashboard/">Dashboard</a>
-        </li>
-        
-        <li>
-            <a href="https://usetania.org/docs/area/">Area</a>
-        </li>
-        
-        <li>
-            <a href="https://usetania.org/docs/crop/">Crop</a>
-        </li>
-        
-        <li>
-            <a href="https://usetania.org/docs/reservoir/">Reservoir</a>
-        </li>
-        
-        <li>
-            <a href="https://usetania.org/docs/settings/">Settings</a>
-        </li>
-        
-    </ul>
-</div></div>
-            <div class="col-md-9 mb-xs-24">
+            <div class="col-sm-12 col-md-6 col-md-offset-3">
                 <div class="post-snippet mb64">
                     <div class="post-title">
-                        <h2 class="inline-block">Installation</h2>
+                        <h2 class="inline-block">Tags</h2>
                     </div>
+                    <ul class="list-page">
                     
-
-<p>This software is built with <a href="https://golang.org">Go</a> programming language. It means you will get an executable binary to run on your machine. You <strong>don&rsquo;t need</strong> extra software like MAMP, XAMPP, or WAMP to run <strong>Tania</strong>, but you may need MySQL database if you choose to use it instead of SQLite <em>(the default database.)</em></p>
-
-<p>The easiest way to install Tania is using pre-built binaries for Windows (x64) and Linux (x64). You can download it from <a href="https://github.com/Tanibox/tania-core/releases/tag/1.5.1">the release page</a>. After the download process is finished, you can unzip it, and run it from Windows Command Prompt/Powershell by using <code>.\tania-core.exe</code> or from Linux terminal by using <code>./tania-core</code>.</p>
-
-<p>If your OS is neither Windows (x64) nor Linux (x64), then you must build Tania by yourself. You can follow this instruction below.</p>
-
-<h3 id="prerequisites">Prerequisites</h3>
-
-<ul>
-<li><a href="https://golang.org">Go</a> 1.11.x</li>
-<li><a href="https://nodejs.org/en/">NodeJS</a> 8 or 10</li>
-</ul>
-
-<h3 id="building-instructions">Building Instructions</h3>
-
-<p>Assume that your Go environment is in <code>~/go</code>.</p>
-
-<ol>
-<li>Make sure you have installed <code>golang/dep</code>
-
-<ul>
-<li><a href="https://golang.github.io/dep/docs/installation.html">https://golang.github.io/dep/docs/installation.html</a></li>
-<li><a href="https://gist.github.com/subfuzion/12342599e26f5094e4e2d08e9d4ad50d">https://gist.github.com/subfuzion/12342599e26f5094e4e2d08e9d4ad50d</a></li>
-</ul></li>
-<li>Clone the repo using <code>go get github.com/Tanibox/tania-core</code></li>
-<li>Checkout the stable version by using <code>cd ~/go/src/github.com/Tanibox/tania-core &amp;&amp; git checkout tags/1.5.1 -b v1.5.1</code></li>
-<li>From the project root, call <code>dep ensure</code> to install the Go dependencies
-
-<ul>
-<li>If you have an issue with <code>dep ensure</code>, you can call <code>go get</code> instead.</li>
-</ul></li>
-<li>Create a new file <code>conf.json</code> using the values from the <code>conf.json.example</code> and set it with your own values.</li>
-<li>Issue <code>npm install</code> to install VueJS dependencies.</li>
-<li>To build the VueJS, just run <code>npm run dev</code> for development purpose or <code>npm run prod</code> for production purpose.</li>
-<li>Setup SQLite:
-
-<ul>
-<li>Edit <code>SqlitePath</code> in <code>conf.json</code> to your sqlite DB file path (ex: /Users/user/Programs/sqlite/tania.db)</li>
-<li>Create an empty file with the exact filename and path that match the <code>SqlitePath</code> config.</li>
-</ul></li>
-<li>Compile the source code with <code>go build</code>. It will produces <code>tania-core.exe</code> (on Windows) or <code>tania-core</code> (on Linux and OSX.)</li>
-<li>Run the program from Terminal by issuing <code>./tania-core</code>, or from Windows Command Prompt by issuing <code>.\tania-core.exe</code>.</li>
-<li>The default username and password are <code>tania / tania</code>.</li>
-</ol>
-
-<h3 id="database-engine">Database Engine</h3>
-
-<p>Tania uses SQLite as the default database engine. You may use MySQL as your database engine by replacing <code>sqlite</code> with <code>mysql</code> at <code>tania_persistence_engine</code> field in your <code>conf.json</code>.</p>
-
-<pre><code>{
-  &quot;tania_persistence_engine&quot;: &quot;sqlite&quot;,
-  &quot;demo_mode&quot;: true,
-  &quot;upload_path_area&quot;: &quot;uploads/areas&quot;,
-  &quot;upload_path_crop&quot;: &quot;uploads/crops&quot;,
-  &quot;sqlite_path&quot;: &quot;db/sqlite/tania.db&quot;,
-  &quot;mysql_host&quot;: &quot;127.0.0.1&quot;,
-  &quot;mysql_port&quot;: &quot;3306&quot;,
-  &quot;mysql_dbname&quot;: &quot;tania&quot;,
-  &quot;mysql_user&quot;: &quot;root&quot;,
-  &quot;mysql_password&quot;: &quot;root&quot;,
-  &quot;redirect_uri&quot;: &quot;http://localhost:8080/&quot;,
-  &quot;client_id&quot;: &quot;f0ece679-3f53-463e-b624-73e83049d6ac&quot;
-}
-</code></pre>
-
-<h3 id="run-the-test">Run The Test</h3>
-
-<ul>
-<li>Use <code>go test ./...</code> to run all the Go tests.</li>
-<li>Use <code>npm run cypress:run</code> to run the end-to-end test</li>
-</ul>
-
+                    
+                    </ul>
                 </div>
             </div>
         </div>

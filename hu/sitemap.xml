@@ -23,6 +23,26 @@
   </url>
   
   <url>
+    <loc>https://usetania.org/hu/blog/</loc>
+    <lastmod>2017-03-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://usetania.org/id/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://usetania.org/blog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu"
+                href="https://usetania.org/hu/blog/"
+                />
+  </url>
+  
+  <url>
     <loc>https://usetania.org/hu/categories/</loc>
     <priority>0</priority>
     <xhtml:link
