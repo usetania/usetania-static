@@ -20,7 +20,7 @@ DefaultContentLanguage = "en"
 
     [[languages.en.menu.main]]
       name = "Blog"
-      url = "https://usetaniaoss.wordpress.com"
+      url = "blog/"
       weight = 30
     
     [[languages.en.menu.main]]
@@ -103,7 +103,7 @@ DefaultContentLanguage = "en"
 
     [[languages.id.menu.main]]
       name = "Blog"
-      url = "https://usetaniaoss.wordpress.com"
+      url = "blog/"
       weight = 30
     
     [[languages.id.menu.main]]
@@ -186,7 +186,7 @@ DefaultContentLanguage = "en"
 
     [[languages.hu.menu.main]]
       name = "Blog"
-      url = "https://usetaniaoss.wordpress.com"
+      url = "blog/"
       weight = 30
     
     [[languages.hu.menu.main]]

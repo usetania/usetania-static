@@ -1,0 +1,24 @@
+{{ define "main" }}
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-md-offset-3">
+                <div class="post-snippet mb64">
+                    <div class="post-title">
+                        <h2 class="inline-block">{{ .Title }}</h2>
+                    </div>
+                    <ul class="list-page">
+                    <!-- Ranges through content/posts/*.md -->
+                    {{ range .Pages }}
+                        <li>
+                            <h3><a href="{{.Permalink}}">{{.Title}}</a></h3>
+                            <p>{{.Date.Format "2 January 2006"}}</p>
+                        </li>
+                    {{ end }}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
