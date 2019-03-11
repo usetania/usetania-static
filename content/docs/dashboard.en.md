@@ -6,10 +6,30 @@ type: "docs"
 layout: "docs"
 ---
 
-There is 3 grouped information on the dashboard:
+From the **Dashboard** screen presents information in blocks called **widgets**. By default, Tania delivers three widgets on this page:
 
-- **At a glance** is the number of areas on your farm, varieties that you plant, and tasks that you have.
-- **Crops** is the current plant you are growing and the quantity of each batch.
-- **Tasks** is the to-do list activity on your farm.
+<img src="/docs/dashboard.PNG" alt="Dashboard">
 
-![Dashboard](/docs/dashboard.PNG)
+<div class="mt48">
+	<h4 class="bolder">At a Glance</h4>	
+	<p>
+		The <strong>At a Glance</strong> widget provides a summary of the number of areas on your farm, plant varieties you grow, and incomplete tasks you have. The content types are displayed in the form of a link. When clicked upon, it will direct you to the specific area to be managed.
+	</p>
+	<p>
+		A statement on the bottom part of this widget tells you the WordPress version you're running on.
+	</p>
+</div>
+
+<div class="mt48">
+	<h4 class="bolder">What's On Production</h4>
+	<p>
+		This widget shows you the plant batches you are currently growing and the quantity of each batch.
+	</p>	
+</div>
+
+<div class="mt48">
+	<h4 class="bolder">Tasks</h4>
+	<p>
+		This widget shows all of the incomplete tasks you need to be doing.
+	</p>	
+</div>
