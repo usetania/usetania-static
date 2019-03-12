@@ -1,0 +1,34 @@
+{{ define "main" }}
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-md-8 col-md-offset-2">
+                <div class="post-snippet mb64">
+                    <div class="post-title">
+                        <h2 class="inline-block">{{ .Title }}</h2>
+                    </div>
+                    {{ .Content }}
+                    <!-- Ranges through content/shop/*.md -->
+                    <div class="row">
+                    {{ range .Pages }}
+                        <div class="col-sm-12 col-md-6 product">
+                            <a href="{{.Param "tania.shop_link"}}" target="_blank"><img src="{{ .Param "tania.image.url" }}" alt="{{.Title}}"></a>
+                            <h4><a href="{{.Param "tania.shop_link"}}" target="_blank">{{.Title}}</a></h4>
+                            <p class="meta-date">{{.Param "tania.shop_price"}} - Checkout at Teespring</p>
+                        </div>
+                    {{ end }}
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12 text-center">
+                            <a href="https://teespring.com/stores/usetania" target="_blank" class="btn btn-default">
+                                See more variants at Teespring
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

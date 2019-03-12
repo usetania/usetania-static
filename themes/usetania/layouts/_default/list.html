@@ -7,6 +7,7 @@
                     <div class="post-title">
                         <h2 class="inline-block">{{ .Title }}</h2>
                     </div>
+                    {{ .Content }}
                     <ul class="list-page">
                     <!-- Ranges through content/posts/*.md -->
                     {{ range .Pages }}

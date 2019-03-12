@@ -5,7 +5,7 @@ googleAnalytics = "UA-133765833-1"
 DefaultContentLanguage = "en"
 
 [params]
-  description = "A free and open source farm management software."
+  description = "Tania is a free and open source farm management software."
   images = ["docs/dashboard.PNG"]
 
   [params.facebook]
@@ -42,7 +42,7 @@ DefaultContentLanguage = "en"
     
     [[languages.en.menu.main]]
       name = "Shop"
-      url = "https://teespring.com/stores/usetania"
+      url = "shop/"
       weight = 40
     
     [[languages.en.menu.main]]
