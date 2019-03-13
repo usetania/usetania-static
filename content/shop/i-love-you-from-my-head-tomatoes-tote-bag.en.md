@@ -9,5 +9,5 @@ tania:
     width: 800
     height: 600
   shop_price: "$25.99"
-  shop_link: "https://teespring.com/ily-fmht-totebag?tsmac=store&tsmic=usetania#pid=526&cid=101936&sid=front"
+  shop_link: "https://teespring.com/ily-fmht-totebag?tsmac=store&tsmic=usetania&utm_source=web_shop_link&utm_medium=web&utm_campaign=teespring_sale#pid=526&cid=101936&sid=front"
 ---
