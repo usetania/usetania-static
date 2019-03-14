@@ -105,17 +105,6 @@ Login to Your Account  Go to your browser, and access http://localhost:8080 (the
     </item>
     
     <item>
-      <title>Major Changes for v2.0</title>
-      <link>https://usetania.org/roadmap/v20/</link>
-      <pubDate>Mon, 04 Feb 2019 19:54:45 +0800</pubDate>
-      
-      <guid>https://usetania.org/roadmap/v20/</guid>
-      <description>The most fundamental changes that will be made in this version are:
-Mobile-first approach Tania should be able to be used on the field that is often not appropriate for laptop or PC usage. Therefore, with the mobile-first approach, Tania can be more easily used on smartphone without fear of missing data being stored.
-User Journey Some experiences on v1.5 are not designed properly and we know that it is frustrating for some people.</description>
-    </item>
-    
-    <item>
       <title>Dashboard</title>
       <link>https://usetania.org/docs/dashboard/</link>
       <pubDate>Mon, 04 Feb 2019 19:54:39 +0800</pubDate>
@@ -144,6 +133,15 @@ Feature requests For feature requests, please raise and discuss them on Tania&am
       <guid>https://usetania.org/docs/installation/</guid>
       <description>This software is built with Go programming language. It means you will get an executable binary to run on your machine. You don&amp;rsquo;t need extra software like MAMP, XAMPP, or WAMP to run Tania, but you may need MySQL database if you choose to use it instead of SQLite (the default database.)
 The easiest way to install Tania is using pre-built binaries for Windows (x64) and Linux (x64). You can download it from the release page.</description>
+    </item>
+    
+    <item>
+      <title>v.1.5</title>
+      <link>https://usetania.org/roadmap/v15/</link>
+      <pubDate>Mon, 04 Feb 2019 18:51:54 +0800</pubDate>
+      
+      <guid>https://usetania.org/roadmap/v15/</guid>
+      <description>Tania current stable version is 1.5.1 was released in 2018. It is a total rewrite of the initial Tania that is written in PHP (Symfony framework). Version 1.5.1 uses Go lang and we will use it for the later version. We change the language because we want to make Tania easy to install in any machine&amp;ndash;on the cloud environment, on the NAS (Network Attached Storage), or even on the small device like Raspberry Pi.</description>
     </item>
     
     <item>
