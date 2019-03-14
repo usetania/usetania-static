@@ -105,6 +105,17 @@ Login to Your Account  Go to your browser, and access http://localhost:8080 (the
     </item>
     
     <item>
+      <title>Major Changes for v2.0</title>
+      <link>https://usetania.org/roadmap/v20/</link>
+      <pubDate>Mon, 04 Feb 2019 19:54:45 +0800</pubDate>
+      
+      <guid>https://usetania.org/roadmap/v20/</guid>
+      <description>The most fundamental changes that will be made in this version are:
+Mobile-first approach Tania should be able to be used on the field that is often not appropriate for laptop or PC usage. Therefore, with the mobile-first approach, Tania can be more easily used on smartphone without fear of missing data being stored.
+User Journey Some experiences on v1.5 are not designed properly and we know that it is frustrating for some people.</description>
+    </item>
+    
+    <item>
       <title>Dashboard</title>
       <link>https://usetania.org/docs/dashboard/</link>
       <pubDate>Mon, 04 Feb 2019 19:54:39 +0800</pubDate>

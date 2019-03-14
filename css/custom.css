@@ -184,6 +184,14 @@ ul.bullets li ul li {
 	list-style-type: disc;
 }
 
+.post-snippet ul {
+	padding-left: 20px;
+}
+
+.post-snippet ul > li {
+	list-style: disc!important;
+}
+
 @media all and (max-width: 767px) {
 	.technology .info-item .icon-point {
 		position: absolute;
