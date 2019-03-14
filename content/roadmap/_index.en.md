@@ -1,5 +1,5 @@
 ---
-title: "2019"
+title: "What works and doesn't in v.1.5"
 date: 2019-02-04T18:51:54+08:00
 draft: false
 type: "roadmap"
@@ -10,9 +10,4 @@ Tania current [stable version is 1.5.1](https://github.com/Tanibox/tania-core) w
 
 The 1.5.1 is a good start, but we have more works to do to make Tania the best companion for farmers and growers.
 
-We will highlight some topics that we want to focus on this year.
 
-* **Localisation**, we get some feedback from users in some non-English speaking countries to add localisation feature into Tania.
-* **IoT integration**, we want Tania to have a capability to record data from sensors and controlling some aspect on the farm. 
-
-Our plans will evolve over time based on customer feedback and market opportunities. If you have feedback about what you think we should be working on, please get in touch with us on [Telegram](https://t.me/usetania). We appreciate any feedback and contributions from the community.
