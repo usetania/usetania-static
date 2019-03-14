@@ -7,5 +7,10 @@
         {{- block "main" . }}{{- end }}
         </div>
         {{- partial (printf "footer.%s.html" .Lang) . -}}
+        <script>
+            window.FontAwesomeConfig = {
+                searchPseudoElements: true
+            }
+        </script>
     </body>
 </html>

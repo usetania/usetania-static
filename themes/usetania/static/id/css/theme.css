@@ -1013,10 +1013,10 @@ nav.bg-dark .logo-dark {
   right: 0;
   font-size: 11px;
   content: "\f0d7";
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   speak: none;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 900;
   font-variant: normal;
   text-transform: none;
 }
