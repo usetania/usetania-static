@@ -101,13 +101,13 @@ DefaultContentLanguage = "en"
       weight = 60
     
     [[languages.en.menu.roadmap]]
-      name = "v.1.5"
+      name = "v2.0"
       url = "/roadmap/"
-      weight = 10
+      weight = 5
 
     [[languages.en.menu.roadmap]]
-      name = "v2.0"
-      url = "/roadmap/v2"
+      name = "v1.5"
+      url = "/roadmap/v15"
       weight = 10
   
   [languages.id]
