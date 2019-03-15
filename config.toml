@@ -26,6 +26,11 @@ DefaultContentLanguage = "en"
     title = "Tania | Open Source Farm Management Sofware"
 
     [[languages.en.menu.main]]
+      name = "About"
+      url = "about/"
+      weight = 5
+
+    [[languages.en.menu.main]]
       name = "Docs"
       url = "docs/"
       weight = 10
