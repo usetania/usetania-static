@@ -51,7 +51,7 @@ DefaultContentLanguage = "en"
       weight = 45
     
     [[languages.en.menu.gettingstarted]]
-      name = "What is Tania?"
+      name = "Overview"
       url = "docs/"
       weight = 10
     
