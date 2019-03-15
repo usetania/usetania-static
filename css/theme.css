@@ -2807,10 +2807,11 @@ button[type="submit"] .form-loading {
   float: left;
 }
 .feature-3 .left {
-  width: 15%;
+  width: 35%;
+  padding: 0 30px 0 0;
 }
 .feature-3 .right {
-  width: 85%;
+  width: 65%;
 }
 .feature-3 i {
   color: #513969;
