@@ -1,14 +1,21 @@
 $(document).ready(function() {
     $('#download-windows').click(function() {
         ga('send', 'event', 'Binaries', 'download', 'Download - Windows');
+        fbq('track', 'StartTrial', {
+            value: 'Windows'
+        });
     });
 
     $('#download-linux').click(function() {
         ga('send', 'event', 'Binaries', 'download', 'Download - Linux');
+        fbq('track', 'StartTrial', {
+            value: 'Linux'
+        });
     });
 
     $('#submit-contact-en').click(function() {
         ga('send', 'event', 'Contact', 'submit', 'Submit - English');
+        fbq('track', 'Lead');
     });
 
     // copy to clipboard
@@ -26,6 +33,10 @@ $(document).ready(function() {
                 $('#copy-address').trigger('copied', ['Copy with Ctrl-c']);
                 $temp.remove();
             }
+
+            // tracker
+            ga('send', 'event', 'Donate', 'click', 'Donate - Ethereum');
+            fbq('track', 'Donate');
         } catch (err) {
             $('#copy-address').trigger('copied', ['Copy with Ctrl-c']);
             $temp.remove();
