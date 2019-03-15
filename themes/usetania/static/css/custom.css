@@ -175,6 +175,12 @@ ul.bullets li ul li {
 	padding-left: 30px;
 }
 
+@media all and (max-width: 767px) {
+	.post-snippet {
+		padding: 0!important;
+	}
+}
+
 .post-snippet ol {
 	padding-left: 30px;
 }
