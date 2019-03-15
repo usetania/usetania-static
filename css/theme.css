@@ -4583,7 +4583,7 @@ video {
   }
   .image-square .image {
     height: 100vw;
-    margin-bottom: 48px;
+    margin-bottom: 24px;
     max-height: 500px;
   }
   .image-square > .content {
