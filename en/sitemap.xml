@@ -277,13 +277,13 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
-                hreflang="id"
-                href="https://usetania.org/id/categories/"
+                hreflang="hu"
+                href="https://usetania.org/hu/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="hu"
-                href="https://usetania.org/hu/categories/"
+                hreflang="id"
+                href="https://usetania.org/id/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -297,13 +297,13 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
-                hreflang="id"
-                href="https://usetania.org/id/tags/"
+                hreflang="hu"
+                href="https://usetania.org/hu/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="hu"
-                href="https://usetania.org/hu/tags/"
+                hreflang="id"
+                href="https://usetania.org/id/tags/"
                 />
     <xhtml:link
                 rel="alternate"
