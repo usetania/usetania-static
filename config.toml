@@ -119,6 +119,11 @@ DefaultContentLanguage = "en"
     title = "Tania | Sistem Manajemen Kebun Dengan Sumber Terbuka"
 
     [[languages.id.menu.main]]
+      name = "Tentang"
+      url = "about/"
+      weight = 5
+
+    [[languages.id.menu.main]]
       name = "Dokumentasi"
       url = "docs/"
       weight = 10
@@ -139,12 +144,12 @@ DefaultContentLanguage = "en"
       weight = 40
     
     [[languages.id.menu.main]]
-      name = "Kontak Kami"
+      name = "Kontak"
       url = "contact/"
       weight = 45
     
     [[languages.id.menu.gettingstarted]]
-      name = "Apa Itu Tania?"
+      name = "Seputar Tania"
       url = "docs/"
       weight = 10
     

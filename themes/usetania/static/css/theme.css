@@ -114,6 +114,9 @@ hr.short-thick {
 .list-inline > li:first-child {
   padding-left: 0;
 }
+.list-inline > li > a {
+  text-decoration: none;
+}
 .bg-primary .list-inline i {
   color: #8ed3ab;
 }
@@ -761,6 +764,7 @@ footer.bg-dark li,
   -moz-transition: all 0.3s ease;
   margin-right: 8px;
   margin-bottom: 24px;
+  text-decoration: none;
 }
 .btn:last-child,
 .btn:last-of-type {
@@ -1104,6 +1108,7 @@ nav.bg-dark .logo-dark {
   color: #292929;
   height: auto;
   padding: 6px 24px;
+  text-decoration: none;
 }
 .menu > li > ul > li > ul {
   left: 100%;
@@ -1420,7 +1425,7 @@ nav .cart-overview a {
     padding: 4px 0;
   }
   .menu li {
-    line-height: 24px;
+    line-height: 48px;
     float: none;
     display: block;
     width: 100%;
@@ -1455,7 +1460,7 @@ nav .cart-overview a {
   }
   .menu > li > ul li a,
   .mega-menu .title {
-    padding: 4px 16px;
+    padding: 15px;
   }
   .has-dropdown .has-dropdown li {
     padding-left: 18px;
@@ -1580,6 +1585,7 @@ nav.transparent .menu > li > a,
 nav.transparent .module.widget-handle i,
 nav.transparent .nav-utility {
   color: #504D4D;
+  text-decoration: none;
 }
 nav.transparent .nav-utility,
 nav.transparent .nav-bar {
@@ -1591,6 +1597,7 @@ nav.transparent .module.widget-handle {
 nav.transparent .menu > li > a,
 nav.transparent .module.widget-handle i {
   opacity: 1;
+  text-decoration: none;
 }
 nav.transparent .has-dropdown:after {
   color: #504D4D;
@@ -1667,13 +1674,15 @@ nav.bg-dark .menu > li > ul > .has-dropdown:after {
 nav.bg-dark .menu > li > ul li a {
   color: #fff;
   height: auto;
-  padding: 6px 24px;
+  padding: 15px;
+  text-decoration: none;
 }
 nav.bg-dark .menu > li > a,
 nav.bg-dark .module.widget-handle i,
 nav.bg-dark .nav-utility {
   color: #fff;
   opacity: .7;
+  text-decoration: none;
 }
 nav.bg-dark .module.widget-handle {
   border-left: 0px solid rgba(255, 255, 255, 0.2);
@@ -1688,6 +1697,7 @@ nav.transparent.fixed.bg-dark {
 nav.transparent.fixed.bg-dark .menu > li > a,
 nav.transparent.fixed.bg-dark .module.widget-handle i {
   color: #fff;
+  text-decoration: none;
 }
 nav.nav-centered.outOfSight .logo {
   display: none;
@@ -3040,7 +3050,14 @@ button[type="submit"] .form-loading {
   margin-bottom: 48px;
 }
 .link-list {
-  line-height: 32px;
+  line-height: 36px;
+}
+.link-list.docs li > a {
+  text-decoration: none!important;
+  font-size: 16px;
+}
+.link-list.docs li > a:hover {
+  text-decoration: underline;
 }
 
 .widget ul:last-child,
@@ -4496,6 +4513,9 @@ video {
   -moz-transition: all 0.3s ease;
   opacity: .5;
 }
+.fade-on-hover a {
+  text-decoration: none;
+}
 .fade-on-hover:hover {
   opacity: 1;
 }
@@ -5127,8 +5147,13 @@ section + .portfolio-pullup {
   }
 }
 /*!---------- 36. FOOTERS ----------*/
+footer.footer a {
+  text-decoration: none;
+  color: #755399;
+}
 footer.bg-dark a {
   color: #fff;
+  text-decoration: none;
 }
 .footer-1 .sub {
   opacity: .5;
