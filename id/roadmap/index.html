@@ -19,7 +19,7 @@ if (!doNotTrack) {
 <meta name="description" content="Tania is a free and open source farm management software.">
 
 
-<meta property="og:title" content="2019" />
+<meta property="og:title" content="Perubahan Besar di v2.0" />
 <meta property="og:description" content="Tania is a free and open source farm management software." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://usetania.org/id/roadmap/" />
@@ -28,7 +28,7 @@ if (!doNotTrack) {
 <meta property="fb:app_id" content="2277471495873880" />
 
 
-<meta name="twitter:title" content="2019"/>
+<meta name="twitter:title" content="Perubahan Besar di v2.0"/>
 <meta name="twitter:description" content="Tania is a free and open source farm management software."/>
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:image" content="https://usetania.org/id/img/Tania_Icon200.png" />
@@ -142,11 +142,15 @@ if (!doNotTrack) {
                 <div class="widget">
                     <h6 class="title">Daftar Konten</h6>
                     <hr>
-                    <ul class="link-list">
+                    <ul class="link-list docs">
                         
                         
                         <li>
-                            <a href="roadmap/">2019</a>
+                            <a href="/roadmap/">v2.0</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/roadmap/v15">v1.5</a>
                         </li>
                         
                     </ul>
@@ -155,20 +159,63 @@ if (!doNotTrack) {
             <div class="col-md-9 mb-xs-24">
                 <div class="post-snippet mb64">
                     <div class="post-title">
-                        <h2 class="inline-block" id="rm1">2019</h2>
+                        <h2 class="inline-block" id="rm1">Perubahan Besar di v2.0</h2>
                     </div>
-                    <p>Versi stabil Tania saat ini adalah <a href="https://github.com/Tanibox/tania-core">1.5.1</a> yang dirilis pada 2018. Versi ini adalah penulisan ulang dari versi awal Tania yang ditulis dengan menggunakan PHP (Symfony). Versi 1.5.1 menggunakan Go lang dan kami akan terus menggunakannya untuk versi-versi selanjutnya. Kami mengganti bahasa pemrograman karena kami menginginkan Tania agar mudah dipasang di mesin apapun&ndash;lingkungan komputasi awas, pada NAS (Network Attached Storage), atau bahkan pada perangkat kecil seperti Raspberry Pi. Go lang dapat memenuhi kebutuhan tersebut.</p>
+                    
 
-<p>Versi 1.5.1 merupakan langkah awal yang bagus, tapi kami memiliki banyak pekerjaan yang harus dilakukan untuk membuat Tania menjadi teman terbaik untuk petani dan pekebun.</p>
+<p>Perubahan paling mendasar yang akan diterapkan di versi ini adalah:</p>
 
-<p>Kami akan jelaskan beberapa topik yang akan kami fokuskan di tahun ini.</p>
+<h4 id="pendekatan-mobile-first"><strong>Pendekatan Mobile-first</strong></h4>
+
+<p>Tania harus dapat digunakan di lapangan yang seringkali tidak sesuai untuk penggunaan laptop atau PC. Karena itu, dengan pendekatan <em>mobile-first</em>, Tania dapat lebih mudah digunakan pada ponsel pintar tanpa takut kehilangan data yang disimpan.</p>
+
+<h4 id="user-journey"><strong>User Journey</strong></h4>
+
+<p>Beberapa pengalaman pada v1.5 tidak dirancang dengan baik dan kami tahu itu membuat frustasi bagi sebagian orang. Itu sebabnya Tania v2.0 akan memiliki perjalanan pengguna (<em>user journey</em>) yang didesain ulang untuk memudahkan.</p>
+
+<h4 id="tampilan-antarmuka-baru"><strong>Tampilan Antarmuka Baru</strong></h4>
+
+<p>Seiring dengan perancangan ulang <em>User Journey</em>, kami juga akan menerapkan antarmuka Tania yang baru, agar semakin mudah digunakan.</p>
+
+<p>Dan juga, berikut adalah beberapa fitur dan perangkat tambahan yang akan dimasukkan pada v2.0.</p>
+
+<h5 id="1-pelokalan"><strong>1. Pelokalan</strong></h5>
+
+<p>Beberapa bahasa yang akan didukung di Tania v2.0 yaitu:</p>
 
 <ul>
-<li><strong>Pelokalan</strong>, kami mendapat banyak masukan dari pengguna di beberapa negara yang tidak menggunakan Bahasa Inggris dalam keseharian mereka untuk menambahkan fitur pelokalan pada Tania.</li>
-<li><strong>Integrasi IoT</strong>, kami ingin Tania memiliki kapabilitas untuk merekam data dari sensor dan mengontrol beberapa aspek pada kebun.</li>
+<li>Bahasa Indonesia</li>
+<li>Hungaria</li>
 </ul>
 
-<p>Rencana kami akan terus berevolusi seiring waktu, masukan pengguna, dan juga peluang pasar. Jika anda memiliki masukan tentang apa yang sebaiknya dikerjakan, silakan terlibat langsung dengan kami di <a href="https://t.me/usetania">Telegram</a>. Kami apresiasi seluruh masukan dan kontribusi dari komunitas.</p>
+<h5 id="2-integrasi-perangkat-iot"><strong>2. Integrasi Perangkat IoT</strong></h5>
+
+<p>Menyediakan gateway untuk terhubung ke sensor menggunakan broker MQTT untuk merekam, mengontrol, dan memantau kondisi terkini di lahan pertanian.</p>
+
+<h5 id="3-plugin"><strong>3. Plugin</strong></h5>
+
+<p>Menyediakan sistem <strong>plugin</strong> untuk memperluas fungsionalitas dan/atau untuk menambahkan fitur baru ke instalasi Tania. Dengan ini, pengembang dapat membuat plugin mereka sendiri yang ditulis dalam bahasa Go untuk diintegrasikan dengan Tania.</p>
+
+<h5 id="4-peran-pengguna"><strong>4. Peran Pengguna</strong></h5>
+
+<p>Memberikan kemampuan untuk menciptakan tingkat akses yang berbeda untuk berbagai orang dalam sebuah organisasi/bisnis. Peran Pengguna sangat penting untuk mengontrol tindakan apa yang diizinkan dilakukan oleh berbagai pengguna. Dengan menerapkan Peran Pengguna, tidak ada yang memiliki kontrol pada sistem lebih dari yang diperbolehkan. Fitur ini dapat membuat sistem Tania lebih aman dan juga merampingkan alur kerja. Akan ada dua peran yang disediakan yaitu:</p>
+
+<ul>
+<li>Superadmin</li>
+<li>Staf</li>
+</ul>
+
+<h5 id="5-sub-area"><strong>5. Sub Area</strong></h5>
+
+<p>Dalam Area dengan tipe Pertumbuhan, pengguna dapat membaginya menjadi bagian-bagian yang lebih kecil, yang disebut sebagai Sub Area. Pembagian ini bertujuan untuk memfasilitasi pengaturan proses produksi yang dilakukan oleh banyak organisasi/bisnis pertanian.</p>
+
+<h5 id="6-templat-tugas"><strong>6. Templat Tugas</strong></h5>
+
+<p>Menyediakan fungsionalitas untuk membuat <em>template</em> tugas berulang yang perlu dilakukan, berdasarkan kategori.</p>
+
+<hr/>
+
+<p>Peta jalan Tania akan berkembang seiring waktu berdasarkan umpan balik pengguna dan peluang pasar. Jika Anda memiliki umpan balik tentang apa yang Anda pikir harus kami kerjakan, silakan hubungi kami di <a href="https://t.me/usetania">Telegram</a>. Kami menghargai setiap umpan balik dan kontribusi dari komunitas.</p>
 
                 </div>
             </div>

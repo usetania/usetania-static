@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2019 on Tania | Sistem Manajemen Kebun Dengan Sumber Terbuka</title>
+    <title>Perubahan Besar di v2.0 on Tania | Sistem Manajemen Kebun Dengan Sumber Terbuka</title>
     <link>https://usetania.org/id/roadmap/</link>
-    <description>Recent content in 2019 on Tania | Sistem Manajemen Kebun Dengan Sumber Terbuka</description>
+    <description>Recent content in Perubahan Besar di v2.0 on Tania | Sistem Manajemen Kebun Dengan Sumber Terbuka</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 04 Feb 2019 18:51:54 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 04 Feb 2019 17:54:45 +0800</lastBuildDate>
     
 	<atom:link href="https://usetania.org/id/roadmap/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>v.1.5</title>
+      <link>https://usetania.org/id/roadmap/v15/</link>
+      <pubDate>Mon, 04 Feb 2019 18:51:54 +0800</pubDate>
+      
+      <guid>https://usetania.org/id/roadmap/v15/</guid>
+      <description>Tania current stable version is 1.5.1 was released in 2018. It is a total rewrite of the initial Tania that is written in PHP (Symfony framework). Version 1.5.1 uses Go lang and we will use it for the later version. We change the language because we want to make Tania easy to install in any machine&amp;ndash;on the cloud environment, on the NAS (Network Attached Storage), or even on the small device like Raspberry Pi.</description>
+    </item>
     
   </channel>
 </rss>

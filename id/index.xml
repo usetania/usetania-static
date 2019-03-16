@@ -98,5 +98,14 @@ Permintaan Fitur Untuk permintaan fitur, sila ajukan dan diskusikan di grup Tele
 Cara termudah untuk melakukan instalasi Tania adalah dengan menggunakan binari yang telah kami sediakan untuk Windows (x64) dan Linux (x64).</description>
     </item>
     
+    <item>
+      <title>v.1.5</title>
+      <link>https://usetania.org/id/roadmap/v15/</link>
+      <pubDate>Mon, 04 Feb 2019 18:51:54 +0800</pubDate>
+      
+      <guid>https://usetania.org/id/roadmap/v15/</guid>
+      <description>Tania current stable version is 1.5.1 was released in 2018. It is a total rewrite of the initial Tania that is written in PHP (Symfony framework). Version 1.5.1 uses Go lang and we will use it for the later version. We change the language because we want to make Tania easy to install in any machine&amp;ndash;on the cloud environment, on the NAS (Network Attached Storage), or even on the small device like Raspberry Pi.</description>
+    </item>
+    
   </channel>
 </rss>
