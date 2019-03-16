@@ -199,8 +199,13 @@ DefaultContentLanguage = "en"
       weight = 60
     
     [[languages.id.menu.roadmap]]
-      name = "2019"
-      url = "roadmap/"
+      name = "v2.0"
+      url = "/roadmap/"
+      weight = 5
+
+    [[languages.id.menu.roadmap]]
+      name = "v1.5"
+      url = "/roadmap/v15"
       weight = 10
   
   [languages.hu]

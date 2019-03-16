@@ -1,18 +1,57 @@
 ---
-title: "2019"
-date: 2019-02-04T18:51:54+08:00
+title: "Perubahan Besar di v2.0"
+date: 2019-02-04T17:54:45+08:00
 draft: false
 type: "roadmap"
 layout: "roadmap"
 ---
 
-Versi stabil Tania saat ini adalah [1.5.1](https://github.com/Tanibox/tania-core) yang dirilis pada 2018. Versi ini adalah penulisan ulang dari versi awal Tania yang ditulis dengan menggunakan PHP (Symfony). Versi 1.5.1 menggunakan Go lang dan kami akan terus menggunakannya untuk versi-versi selanjutnya. Kami mengganti bahasa pemrograman karena kami menginginkan Tania agar mudah dipasang di mesin apapun--lingkungan komputasi awas, pada NAS (Network Attached Storage), atau bahkan pada perangkat kecil seperti Raspberry Pi. Go lang dapat memenuhi kebutuhan tersebut.
+Perubahan paling mendasar yang akan diterapkan di versi ini adalah:
 
-Versi 1.5.1 merupakan langkah awal yang bagus, tapi kami memiliki banyak pekerjaan yang harus dilakukan untuk membuat Tania menjadi teman terbaik untuk petani dan pekebun.
+#### **Pendekatan Mobile-first**
 
-Kami akan jelaskan beberapa topik yang akan kami fokuskan di tahun ini.
+Tania harus dapat digunakan di lapangan yang seringkali tidak sesuai untuk penggunaan laptop atau PC. Karena itu, dengan pendekatan *mobile-first*, Tania dapat lebih mudah digunakan pada ponsel pintar tanpa takut kehilangan data yang disimpan.
 
-* **Pelokalan**, kami mendapat banyak masukan dari pengguna di beberapa negara yang tidak menggunakan Bahasa Inggris dalam keseharian mereka untuk menambahkan fitur pelokalan pada Tania.
-* **Integrasi IoT**, kami ingin Tania memiliki kapabilitas untuk merekam data dari sensor dan mengontrol beberapa aspek pada kebun.
+#### **User Journey**
 
-Rencana kami akan terus berevolusi seiring waktu, masukan pengguna, dan juga peluang pasar. Jika anda memiliki masukan tentang apa yang sebaiknya dikerjakan, silakan terlibat langsung dengan kami di [Telegram](https://t.me/usetania). Kami apresiasi seluruh masukan dan kontribusi dari komunitas.
+Beberapa pengalaman pada v1.5 tidak dirancang dengan baik dan kami tahu itu membuat frustasi bagi sebagian orang. Itu sebabnya Tania v2.0 akan memiliki perjalanan pengguna (*user journey*) yang didesain ulang untuk memudahkan.
+
+#### **Tampilan Antarmuka Baru**
+
+Seiring dengan perancangan ulang *User Journey*, kami juga akan menerapkan antarmuka Tania yang baru, agar semakin mudah digunakan.
+
+Dan juga, berikut adalah beberapa fitur dan perangkat tambahan yang akan dimasukkan pada v2.0.
+
+##### **1. Pelokalan**
+
+Beberapa bahasa yang akan didukung di Tania v2.0 yaitu:
+
+* Bahasa Indonesia
+* Hungaria
+
+##### **2. Integrasi Perangkat IoT**
+
+Menyediakan gateway untuk terhubung ke sensor menggunakan broker MQTT untuk merekam, mengontrol, dan memantau kondisi terkini di lahan pertanian.
+
+##### **3. Plugin**
+
+Menyediakan sistem **plugin** untuk memperluas fungsionalitas dan/atau untuk menambahkan fitur baru ke instalasi Tania. Dengan ini, pengembang dapat membuat plugin mereka sendiri yang ditulis dalam bahasa Go untuk diintegrasikan dengan Tania.
+
+##### **4. Peran Pengguna**
+
+Memberikan kemampuan untuk menciptakan tingkat akses yang berbeda untuk berbagai orang dalam sebuah organisasi/bisnis. Peran Pengguna sangat penting untuk mengontrol tindakan apa yang diizinkan dilakukan oleh berbagai pengguna. Dengan menerapkan Peran Pengguna, tidak ada yang memiliki kontrol pada sistem lebih dari yang diperbolehkan. Fitur ini dapat membuat sistem Tania lebih aman dan juga merampingkan alur kerja. Akan ada dua peran yang disediakan yaitu:
+
+* Superadmin
+* Staf
+
+##### **5. Sub Area**
+
+Dalam Area dengan tipe Pertumbuhan, pengguna dapat membaginya menjadi bagian-bagian yang lebih kecil, yang disebut sebagai Sub Area. Pembagian ini bertujuan untuk memfasilitasi pengaturan proses produksi yang dilakukan oleh banyak organisasi/bisnis pertanian.
+
+##### **6. Templat Tugas**
+
+Menyediakan fungsionalitas untuk membuat *template* tugas berulang yang perlu dilakukan, berdasarkan kategori. 
+
+<hr/>
+
+Peta jalan Tania akan berkembang seiring waktu berdasarkan umpan balik pengguna dan peluang pasar. Jika Anda memiliki umpan balik tentang apa yang Anda pikir harus kami kerjakan, silakan hubungi kami di [Telegram](https://t.me/usetania). Kami menghargai setiap umpan balik dan kontribusi dari komunitas.

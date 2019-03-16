@@ -6,13 +6,11 @@ type: "roadmap"
 layout: "roadmap"
 ---
 
-<hr/>
-
 The most fundamental changes that will be made in this version are:
 
 #### **Mobile-first approach**
 
-Tania should be able to be used on the field that is often not appropriate for laptop or PC usage. Therefore, with the mobile-first approach, Tania can be more easily used on smartphone without fear of missing data being stored.
+Tania should be able to be used on the field that is often not appropriate for laptop or PC usage. Therefore, with the mobile-first approach, Tania can be more easily used on a smartphone without fear of missing data being stored.
 
 #### **User Journey**
 
@@ -33,7 +31,7 @@ Some languages that we are going to add on v2.0 are:
 
 ##### **2. IoT Integration**
 
-Provide a gateway to connect to sensors using MQTT broker to record, control and monitor realtime conditions on farm. 
+Provide a gateway to connect to sensors using MQTT broker to record, control and monitor real-time conditions on the field. 
 
 ##### **3. Plugins**
 
@@ -41,18 +39,18 @@ Provide **plugin** to extend functionality and/or add new features to Tania inst
 
 ##### **4. User Roles**
 
-Provide the ability to create different access level for various people. The User Roles are essential for controlling what actions the various users at your organisation are allowed to perform. By applying User Roles, no one has more power than they need, and this can make your Tania system more secure and streamline your workflows too. We are going to provide two roles:
+Provide the ability to create different access level for various people. The User Roles are essential for controlling what actions the various users at your organisation are allowed to perform. By applying the User Roles, no one has more power than they need, and this can make your Tania system more secure and streamline your workflows too. We are going to provide two roles:
 
 * Superadmin
 * Staff
 
 ##### **5. Sub Area**
 
-Within each area, you can break out your growing areas into smaller parts, referred to as Sub Area. This division aims to facilitate the organization of the production process which is mostly carried out by small and microfarms.
+Within each Area with type of Growing, you can break out your growing areas into smaller parts, referred to as Sub Area. This division aims to facilitate the organization of the production process which is mostly carried out by small and microfarms.
 
 ##### **6. Tasks Template**
 
-Provide a functionality to create template of repetitive tasks that need to be done, based on categories. 
+Provide functionality to create templates of repetitive tasks that need to be done, based on categories. 
 
 <hr/>
 
