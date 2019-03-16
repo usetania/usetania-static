@@ -12,6 +12,12 @@
 	color: #513969!important;
 }
 
+@media all and (max-width: 990px) {
+	.menu li a {
+		font-size: 1.3em;
+	}
+}
+
 .logo {
 	max-height: 80%;
 	width: 140px;
@@ -175,6 +181,12 @@ ul.bullets li ul li {
 	padding-left: 30px;
 }
 
+@media all and (max-width: 767px) {
+	.post-snippet {
+		padding: 0!important;
+	}
+}
+
 .post-snippet ol {
 	padding-left: 30px;
 }
@@ -182,6 +194,14 @@ ul.bullets li ul li {
 .post-snippet ol > li > ul {
 	padding-left: 30px;
 	list-style-type: disc;
+}
+
+.post-snippet ul {
+	padding-left: 20px;
+}
+
+.post-snippet ul > li {
+	list-style: disc!important;
 }
 
 @media all and (max-width: 767px) {
@@ -348,7 +368,14 @@ p.meta-date {
 ul.list-page {
 	margin-top: 30px;
 }
-
 ul.list-page > li > h3 {
 	margin-bottom: 0;
+}
+ul.list-page > li > a {
+	text-decoration: none;
+	color: #755399;
+}
+
+.product h4 {
+	margin: 15px 0 0 0;
 }

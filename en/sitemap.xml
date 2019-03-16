@@ -165,6 +165,16 @@
   <url>
     <loc>https://usetania.org/about/</loc>
     <lastmod>2019-02-04T18:51:54+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://usetania.org/id/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://usetania.org/about/"
+                />
   </url>
   
   <url>
