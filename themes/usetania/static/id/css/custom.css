@@ -175,6 +175,12 @@ ul.bullets li ul li {
 	padding-left: 30px;
 }
 
+@media all and (max-width: 767px) {
+	.post-snippet {
+		padding: 0!important;
+	}
+}
+
 .post-snippet ol {
 	padding-left: 30px;
 }
@@ -182,6 +188,14 @@ ul.bullets li ul li {
 .post-snippet ol > li > ul {
 	padding-left: 30px;
 	list-style-type: disc;
+}
+
+.post-snippet ul {
+	padding-left: 20px;
+}
+
+.post-snippet ul > li {
+	list-style: disc!important;
 }
 
 @media all and (max-width: 767px) {
@@ -351,4 +365,8 @@ ul.list-page {
 
 ul.list-page > li > h3 {
 	margin-bottom: 0;
+}
+
+.product h4 {
+	margin: 15px 0 0 0;
 }
