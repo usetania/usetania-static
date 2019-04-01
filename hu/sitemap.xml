@@ -3,26 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://usetania.org/hu/contact/</loc>
-    <lastmod>2019-02-04T18:51:54+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://usetania.org/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://usetania.org/id/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="hu"
-                href="https://usetania.org/hu/contact/"
-                />
-  </url>
-  
-  <url>
     <loc>https://usetania.org/hu/blog/</loc>
     <lastmod>2017-03-23T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -59,6 +39,25 @@
                 rel="alternate"
                 hreflang="hu"
                 href="https://usetania.org/hu/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://usetania.org/hu/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://usetania.org/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://usetania.org/id/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu"
+                href="https://usetania.org/hu/contact/"
                 />
   </url>
   

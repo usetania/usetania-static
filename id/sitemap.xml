@@ -18,6 +18,27 @@
   </url>
   
   <url>
+    <loc>https://usetania.org/id/</loc>
+    <lastmod>2019-03-05T12:16:55+08:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://usetania.org/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu"
+                href="https://usetania.org/hu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://usetania.org/id/"
+                />
+  </url>
+  
+  <url>
     <loc>https://usetania.org/id/docs/settings/</loc>
     <lastmod>2019-02-04T19:55:09+08:00</lastmod>
     <xhtml:link
@@ -158,6 +179,21 @@
   </url>
   
   <url>
+    <loc>https://usetania.org/id/roadmap/</loc>
+    <lastmod>2019-02-04T18:51:54+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://usetania.org/roadmap/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://usetania.org/id/roadmap/"
+                />
+  </url>
+  
+  <url>
     <loc>https://usetania.org/id/about/</loc>
     <lastmod>2019-02-04T18:51:54+08:00</lastmod>
     <xhtml:link
@@ -203,21 +239,6 @@
   </url>
   
   <url>
-    <loc>https://usetania.org/id/roadmap/</loc>
-    <lastmod>2019-02-04T17:54:45+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://usetania.org/roadmap/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://usetania.org/id/roadmap/"
-                />
-  </url>
-  
-  <url>
     <loc>https://usetania.org/id/blog/</loc>
     <lastmod>2017-03-23T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -242,13 +263,13 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
-                hreflang="hu"
-                href="https://usetania.org/hu/categories/"
+                hreflang="en"
+                href="https://usetania.org/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
-                href="https://usetania.org/categories/"
+                hreflang="hu"
+                href="https://usetania.org/hu/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -262,39 +283,18 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
-                hreflang="hu"
-                href="https://usetania.org/hu/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="https://usetania.org/tags/"
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="hu"
+                href="https://usetania.org/hu/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="id"
                 href="https://usetania.org/id/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://usetania.org/id/</loc>
-    <lastmod>2019-03-05T12:16:55+08:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hu"
-                href="https://usetania.org/hu/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://usetania.org/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://usetania.org/id/"
                 />
   </url>
   

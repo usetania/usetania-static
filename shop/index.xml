@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The Official Merchandise Store on Tania | Open Source Farm Management Sofware</title>
+    <title>Tania Shop on Tania | Open Source Farm Management Sofware</title>
     <link>https://usetania.org/shop/</link>
-    <description>Recent content in The Official Merchandise Store on Tania | Open Source Farm Management Sofware</description>
+    <description>Recent content in Tania Shop on Tania | Open Source Farm Management Sofware</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 12 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://usetania.org/shop/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tania Kit</title>
+      <link>https://usetania.org/shop/smart-growing-kit/</link>
+      <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://usetania.org/shop/smart-growing-kit/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>I Love You From My Head Tomatoes</title>

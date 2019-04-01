@@ -3,6 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://usetania.org/shop/smart-growing-kit/</loc>
+    <lastmod>2019-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://usetania.org/shop/</loc>
+    <lastmod>2019-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://usetania.org/</loc>
+    <lastmod>2019-03-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://usetania.org/id/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu"
+                href="https://usetania.org/hu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://usetania.org/"
+                />
+  </url>
+  
+  <url>
     <loc>https://usetania.org/shop/i-love-you-from-my-head-tomatoes/</loc>
     <lastmod>2019-03-12T00:00:00+00:00</lastmod>
   </url>
@@ -14,11 +45,6 @@
   
   <url>
     <loc>https://usetania.org/shop/i-am-a-smart-farmer/</loc>
-    <lastmod>2019-03-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://usetania.org/shop/</loc>
     <lastmod>2019-03-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -182,13 +208,13 @@
     <lastmod>2019-02-04T18:51:54+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="hu"
-                href="https://usetania.org/hu/contact/"
+                hreflang="id"
+                href="https://usetania.org/id/contact/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="id"
-                href="https://usetania.org/id/contact/"
+                hreflang="hu"
+                href="https://usetania.org/hu/contact/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -309,27 +335,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://usetania.org/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://usetania.org/</loc>
-    <lastmod>2019-03-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="hu"
-                href="https://usetania.org/hu/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://usetania.org/id/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://usetania.org/"
                 />
   </url>
   
