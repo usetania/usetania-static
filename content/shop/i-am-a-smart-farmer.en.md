@@ -10,4 +10,5 @@ tania:
     height: 600
   shop_price: "$22.99"
   shop_link: "https://teespring.com/ima-smart-farmer-shirt?tsmac=store&tsmic=usetania&utm_source=web_shop_link&utm_medium=web&utm_campaign=teespring_sale#pid=2&cid=2122&sid=front"
+  shop_featured: false
 ---
