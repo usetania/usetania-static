@@ -1,12 +1,12 @@
 dist: xenial
 language: go
 go:
-    - master
+    - "1.12.2"
 
 # before_install
 # install - install any dependencies required
 install:
-    - go get github.com/gohugoio/hugo    # consume time 70.85s
+    - go get -u github.com/gohugoio/hugo    # consume time 70.85s
 
 before_script:
     - rm -rf public 2> /dev/null
