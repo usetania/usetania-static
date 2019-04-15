@@ -574,7 +574,7 @@ ul.lead li {
   color: #3A294D !important;
 }
 .color-secondary {
-  color: #755399 !important;
+  color: #502085 !important;
 }
 .color-red {
   color: #e31d3b !important;
@@ -646,7 +646,7 @@ footer.bg-dark li,
 }
 @media all and (max-width: 767px) {
   section {
-    padding: 40px 0;
+    padding: 20px 0;
   }
 }
 .overlay:before {
@@ -747,7 +747,7 @@ footer.bg-dark li,
 /*!---------- 6. BUTTONS ----------*/
 .btn {
   font-family: 'Poppins', sans-serif;
-  border: 2px solid #755399;
+  border: 2px solid #502085;
   padding: 0 26px;
   height: 40px;
   min-width: 150px;
@@ -757,7 +757,7 @@ footer.bg-dark li,
   text-transform: uppercase;
   letter-spacing: 1px;
   border-radius: 6px;
-  color: #755399;
+  color: #502085;
   text-align: center;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -771,7 +771,7 @@ footer.bg-dark li,
   margin-right: 0;
 }
 .btn:hover {
-  background: #755399;
+  background: #502085;
   color: #fff;
 }
 .btn-secondary {
@@ -2774,7 +2774,7 @@ button[type="submit"] .form-loading {
 }
 .feature.bordered {
   padding: 32px;
-  border: 1px solid #755399;
+  border: 1px solid #502085;
 }
 .feature {
   margin-bottom: 24px;
@@ -2802,10 +2802,10 @@ button[type="submit"] .form-loading {
   display: block;
   width: 80px;
   height: 80px;
-  border: 1px solid #755399;
+  border: 1px solid #502085;
   text-align: center;
   line-height: 80px;
-  color: #755399;
+  color: #502085;
   border-radius: 50%;
   margin: 0 auto;
   margin-bottom: 24px;
@@ -5149,7 +5149,7 @@ section + .portfolio-pullup {
 /*!---------- 36. FOOTERS ----------*/
 footer.footer a {
   text-decoration: none;
-  color: #755399;
+  color: #502085;
 }
 footer.bg-dark a {
   color: #fff;

@@ -179,21 +179,6 @@
   </url>
   
   <url>
-    <loc>https://usetania.org/id/roadmap/</loc>
-    <lastmod>2019-02-04T18:51:54+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://usetania.org/roadmap/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://usetania.org/id/roadmap/"
-                />
-  </url>
-  
-  <url>
     <loc>https://usetania.org/id/about/</loc>
     <lastmod>2019-02-04T18:51:54+08:00</lastmod>
     <xhtml:link
@@ -235,6 +220,21 @@
                 rel="alternate"
                 hreflang="id"
                 href="https://usetania.org/id/docs/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://usetania.org/id/roadmap/</loc>
+    <lastmod>2019-02-04T17:54:45+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://usetania.org/roadmap/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://usetania.org/id/roadmap/"
                 />
   </url>
   
