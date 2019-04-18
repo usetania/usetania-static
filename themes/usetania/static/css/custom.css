@@ -258,9 +258,6 @@ ul.bullets li ul li {
 	.icoboard {
 		text-align: center !important;
 	}
-	.icon-feature img {
-		width: 50%;
-	}
 }
 
 table, th, td {
@@ -391,7 +388,7 @@ ul.list-page > li > a {
 	margin: 15px 0 0 0;
 }
 
-@media all and (min-width: 997px) {
+@media all and (min-width: 735px) {
 	.icon-feature img {
 		width: 50%;
 	}
