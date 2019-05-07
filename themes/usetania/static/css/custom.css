@@ -66,9 +66,17 @@ nav.transparent .bg-dark {
 	color: #FFFFFF;
 }
 
-h1.hero {
-	font-size: 3.55em!important;
-	letter-spacing: -1px;
+@media all and (min-width: 1040px) {
+	h1.hero {
+		font-size: 3.55em!important;
+		letter-spacing: -1px;
+	}
+}
+@media all and (max-width: 997px) {
+	h1.hero {
+		font-size: 2.65em!important;
+		letter-spacing: -1px;
+	}
 }
 
 small {
@@ -378,4 +386,10 @@ ul.list-page > li > a {
 
 .product h4 {
 	margin: 15px 0 0 0;
+}
+
+@media all and (min-width: 735px) {
+	.icon-feature img {
+		width: 50%;
+	}
 }
