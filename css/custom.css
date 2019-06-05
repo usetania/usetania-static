@@ -195,6 +195,10 @@ ul.bullets li ul li {
 	}
 }
 
+.post-snippet .inner {
+	border: 1px solid #d1d3d5;
+}
+
 .post-snippet ol {
 	padding-left: 30px;
 }
@@ -210,6 +214,10 @@ ul.bullets li ul li {
 
 .post-snippet ul > li {
 	list-style: disc!important;
+}
+
+.post-snippet a {
+	text-decoration: none!important;
 }
 
 @media all and (max-width: 767px) {
