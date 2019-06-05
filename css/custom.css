@@ -195,6 +195,20 @@ ul.bullets li ul li {
 	}
 }
 
+ul.post-meta {
+	list-style: none;
+}
+
+.post-meta li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+	list-style: none;
+}
+
+.post-snippet {
+	min-height: 450px;
+}
+
 .post-snippet .inner {
 	border: 1px solid #d1d3d5;
 }
