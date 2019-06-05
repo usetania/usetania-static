@@ -9,9 +9,9 @@
             </div>
         </div>
         {{ .Content }}
-        <div class="row masonry masonryFlyIn mt64 mb40">
+        <div class="row mt64 mb40">
             {{ range .Pages }}
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 post-snippet masonry-item">
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 post-snippet pb24">
                 <a href="{{.Permalink}}">
                     <img src="{{ .Params.featuredimg }}" />
                 </a>
@@ -19,6 +19,7 @@
                     <a href="{{.Permalink}}">
                         <h4 class="mb0">{{.Title}}</h4>
                         <span class="inline-block mb16">{{.Date.Format "2 January 2006"}}</span>
+                        <span>{{ .Params.author }}</span>
                     </a>
                 </div>
             </div>
