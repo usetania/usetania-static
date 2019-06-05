@@ -2,23 +2,27 @@
 <section>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-12 col-md-6 col-md-offset-3">
-                <div class="post-snippet mb64">
-                    <div class="post-title">
-                        <h2 class="inline-block">{{ .Title }}</h2>
-                    </div>
-                    {{ .Content }}
-                    <ul class="list-page">
-                    <!-- Ranges through content/posts/*.md -->
-                    {{ range .Pages }}
-                        <li>
-                            <a href="{{.Permalink}}" class="h3">{{.Title}}</a>
-                            <p>{{.Date.Format "2 January 2006"}}</p>
-                        </li>
-                    {{ end }}
-                    </ul>
+            <div class="col-md-12 text-center text-center-xs">
+                <div class="post-title">
+                    <h2 class="inline-block">{{ .Title }}</h2>
                 </div>
             </div>
+        </div>
+        {{ .Content }}
+        <div class="row masonry masonryFlyIn mt64 mb40">
+            {{ range .Pages }}
+            <div class="col-sm-4 post-snippet masonry-item">
+                <a href="{{.Permalink}}">
+                    <img src="{{ .Params.featuredimg }}" />
+                </a>
+                <div class="inner">
+                    <a href="{{.Permalink}}">
+                        <h4 class="mb0">{{.Title}}</h4>
+                        <span class="inline-block mb16">{{.Date.Format "2 January 2006"}}</span>
+                    </a>
+                </div>
+            </div>
+            {{ end }}
         </div>
     </div>
 </section>

@@ -1,13 +1,21 @@
 {{ define "main" }}
-<section>
+<section class="post-snippet pb64">
     <div class="container-fluid">
+        <div class="row text-center text-center-xs">
+            <div class="col-xs-12 col-md-10 col-md-offset-1">
+                <div class="pb48 pt48"><a href="/blog"><i class="fas fa-arrow-left"></i> Back to Blog</a></div>
+                <div class="post-title">
+                    <h2 class="inline-block">{{ .Title }}</h2>
+                    <p class="meta-date"><b>Published date:</b> {{ .Date.Format "2 January 2006" }}</p>
+                </div>
+                <div class="pt40 pb40">
+                    <img src="{{ .Params.featuredimg }}">
+                </div>
+            </div>
+        </div>
         <div class="row">
             <div class="col-sm-12 col-md-6 col-md-offset-3">
-                <div class="post-snippet mb64">
-                    <div class="post-title">
-                        <h2 class="inline-block">{{ .Title }}</h2>
-                        <p class="meta-date"><b>Published date:</b> {{ .Date.Format "2 January 2006" }}</p>
-                    </div>
+                <div class="mb64">
                     {{ .Content }}
                 </div>
             </div>
