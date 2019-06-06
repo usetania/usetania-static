@@ -197,6 +197,7 @@ ul.bullets li ul li {
 
 ul.post-meta {
 	list-style: none;
+	display: inline-block;
 }
 
 .post-meta li {
@@ -206,7 +207,7 @@ ul.post-meta {
 }
 
 .post-snippet {
-	min-height: 450px;
+	min-height: 500px;
 }
 
 .post-snippet .inner {
