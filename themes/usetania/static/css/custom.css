@@ -206,8 +206,8 @@ ul.post-meta {
 	list-style: none;
 }
 
-.post-snippet {
-	min-height: 460px;
+.post-snippet img {
+	object-fit: cover;
 }
 
 .post-snippet .inner {
@@ -412,7 +412,23 @@ ul.list-page > li > a {
 }
 
 @media all and (min-width: 735px) {
+	.post-snippet img {
+		height: 220px;
+	}
+
 	.icon-feature img {
 		width: 50%;
+	}
+}
+
+@media (min-width: 992px) {
+	.post-snippet img {
+		height: 180px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.post-snippet img {
+		height: 370px;
 	}
 }
