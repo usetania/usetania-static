@@ -5,7 +5,7 @@ draft: false
 featuredimg: /img/young-farmer.jpg
 author: Retno Ika S.
 ---
-<small class="text-center">Photo by Gregory Hayes on <a href="https://unsplash.com/photos/QFmNQXLPbZc">Unsplash</a>.</small>
+<small class="text-center">Photo by <a href="https://unsplash.com/photos/QFmNQXLPbZc" target="_blank">Gregory Hayes</a> on <a href="https://unsplash.com">Unsplash</a>.</small>
 
 There are some key skills and attributes to be a successful farmer, that are more important than others. If you're considering farming as your business, I think you should "invest" in these skills. 
 
