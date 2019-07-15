@@ -3,13 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://usetania.org/subscribe/</loc>
-    <lastmod>2019-06-23T07:51:54+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://usetania.org/</loc>
-    <lastmod>2019-06-21T00:00:00+00:00</lastmod>
+    <lastmod>2019-07-15T12:49:52+08:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -29,8 +24,13 @@
   </url>
   
   <url>
-    <loc>https://usetania.org/blog/tania-saas-indiegogo-campaign/</loc>
-    <lastmod>2019-06-21T00:00:00+00:00</lastmod>
+    <loc>https://usetania.org/blog/the-new-direction-of-tania-project/</loc>
+    <lastmod>2019-07-15T12:49:52+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://usetania.org/subscribe/</loc>
+    <lastmod>2019-06-23T07:51:54+08:00</lastmod>
   </url>
   
   <url>
