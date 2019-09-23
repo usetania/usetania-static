@@ -425,12 +425,9 @@ p.super {
   font-size: 12px;
 }
 @media all and (max-width: 767px) {
-  p.lead {
-    font-size: 13px;
-    line-height: 24px;
-  }
-  p {
-    font-size: 12px;
+  p, p.lead {
+    font-size: 18px;
+    line-height: 34px;
   }
 }
 a,
@@ -766,6 +763,8 @@ footer.bg-dark li,
   margin-right: 8px;
   margin-bottom: 24px;
   text-decoration: none;
+  overflow: hidden;
+  white-space: normal;
 }
 .btn:last-child,
 .btn:last-of-type {
@@ -835,6 +834,13 @@ footer.bg-dark li,
   line-height: 46px;
   min-width: 200px;
 }
+
+@media all and (max-width: 767px) {
+  .btn {
+    
+  }
+}
+
 .btn-icon.btn-lg {
   width: 50px;
   height: 50px;
