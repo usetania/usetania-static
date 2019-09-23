@@ -20,12 +20,12 @@
                     </ul>     
                 </div>
                 <div class="pt40 pb40">
-                    <img src="{{ .Params.featuredimg }}">
+                    <img src="{{ .Params.featuredimg }}" title="{{ .Params.imgtitle }}" alt="{{ .Params.imgalt }}">
                 </div>
             </div>
         </div>
         <div class="row post-snippet">
-            <div class="col-sm-12 col-md-6 col-md-offset-3">
+            <div class="col-sm-12 col-md-8 col-md-offset-2">
                 <div class="mb64">
                     {{ .Content }}
                 </div>
