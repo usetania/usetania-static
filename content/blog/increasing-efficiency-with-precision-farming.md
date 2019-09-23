@@ -1,6 +1,6 @@
 ---
 title: "Increasing Efficiency with Precision Farming; How Satellites Can Help Farmers To Do That"
-date: 2019-09-23T17:15:36+08:00
+date: 2019-09-18T17:15:36+08:00
 draft: false
 featuredimg: /img/precision-farming-using-satellite.jpg
 imgtitle: Increasing Efficiency with Precision Farming; How Satellites Can Help Farmers To Do That
