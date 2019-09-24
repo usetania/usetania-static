@@ -432,3 +432,25 @@ ul.list-page > li > a {
 		height: 370px;
 	}
 }
+
+#TableOfContents > ul, #TableOfContents > ul > li > ul {
+	padding-left: 10px;
+}
+
+#TableOfContents > ul > li {
+	list-style-type: none!important;
+}
+
+#TableOfContents > ul > li > ul > li {
+	list-style-type: upper-roman!important;
+	padding-left: 12px;
+}
+
+#TableOfContents > ul > li > ul > li > ul > li {
+	list-style-type: lower-roman!important;
+	padding-left: 12px;
+}
+
+
+
+
