@@ -3,7 +3,7 @@ languageCode = "en-gb"
 theme = "usetania"
 googleAnalytics = "UA-133765833-1"
 DefaultContentLanguage = "en"
-disqusShortname = "taniafarmersjournal"
+disqusShortname = "usetania"
 
 [params]
   description = "Tania is a free and open source farm management software."
