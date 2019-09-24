@@ -12,7 +12,7 @@ Do you know that 37% of Earth's land is used for agricultural purposes? 11% is u
 
 <br>
 
-## What is precision farming?
+## What is Precision Farming?
 
 Precision farming is a method that uses a data-driven feedback loop to determine how to optimise the farm to the highest extent. The easiest way to understand it is to think of it as everything that makes the practice of farming more accurate and controlled when it comes to growing crops and raising livestock. A key component of this approach is the use of information technology and a wide array of items such as GPS guidance, sensors, robotics, control systems, drones, autonomous vehicles, variable rate technology, GPS-based soil sampling, automated hardware, telematics, and software.
 
@@ -22,7 +22,7 @@ While precision farming principles have existed for more than 25 years, it's onl
 
 <br>
 
-## Why use satellites?
+## Why Use Satellites?
 
 The goal is to make farming as sustainable as possible, by minimising inputs and still produce more outputs and eliminate as much waste as we can. One way to achieve this is by leveraging satellite data to maximise efficiency on farms. You might ask me, "How can satellites that orbiting Earth thousands kilometres away from surface can improve the future of agriculture?" My answer is, quite a lot.
 
