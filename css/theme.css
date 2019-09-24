@@ -316,19 +316,23 @@ h1.large {
 h2 {
   font-size: 40px;
   line-height: 64px;
+  padding-top: 20px;
 }
 h3 {
   font-size: 32px;
   line-height: 40px;
+  padding-top: 16px;
 }
 h4 {
   font-size: 20px;
   line-height: 32px;
+  padding-top: 12px;
 }
 h5 {
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
+  padding-top: 10px
 }
 h6,
 .h6 {
