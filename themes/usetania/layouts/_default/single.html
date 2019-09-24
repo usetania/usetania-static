@@ -27,8 +27,15 @@
         <div class="row post-snippet">
             <div class="col-sm-12 col-md-8 col-md-offset-2">
                 <div class="mb64">
+                    {{ .TableOfContents }}
+                    <br>
                     {{ .Content }}
                 </div>
+            </div>
+        </div>
+        <div class="row post-snippet">
+            <div class="col-sm-12 col-md-8 col-md-offset-2">
+                {{ partial "disqus.html" . }}
             </div>
         </div>
     </div>
