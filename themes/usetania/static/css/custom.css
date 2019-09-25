@@ -451,6 +451,15 @@ ul.list-page > li > a {
 	padding-left: 12px;
 }
 
+@media all and (max-width: 640px) {
+	#TableOfContents {
+		margin-bottom: 64px;
+	}
+	.pricing-table {
+		margin-bottom: 32px;
+	}
+}
+
 .post-title-thumb {
 	min-height: 128px;
 }
