@@ -3,13 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://usetania.org/blog/increasing-efficiency-with-precision-farming/</loc>
-    <lastmod>2019-09-18T17:15:36+08:00</lastmod>
+    <loc>https://usetania.org/blog/make-the-most-of-precision-farming/</loc>
+    <lastmod>2019-09-23T17:23:09+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://usetania.org/</loc>
-    <lastmod>2019-09-18T17:15:36+08:00</lastmod>
+    <lastmod>2019-09-23T17:23:09+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
@@ -25,6 +25,11 @@
                 hreflang="en"
                 href="https://usetania.org/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://usetania.org/blog/increasing-efficiency-with-precision-farming/</loc>
+    <lastmod>2019-09-18T17:15:36+08:00</lastmod>
   </url>
   
   <url>

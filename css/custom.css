@@ -434,7 +434,7 @@ ul.list-page > li > a {
 }
 
 #TableOfContents > ul, #TableOfContents > ul > li > ul {
-	padding-left: 18px;
+	padding-left: 10px;
 }
 
 #TableOfContents > ul > li {
@@ -442,15 +442,19 @@ ul.list-page > li > a {
 }
 
 #TableOfContents > ul > li > ul > li {
-	list-style-type: upper-roman!important;
+	list-style-type: disc!important;
 	padding-left: 12px;
 }
 
 #TableOfContents > ul > li > ul > li > ul > li {
-	list-style-type: lower-roman!important;
+	list-style-type: circle!important;
 	padding-left: 12px;
 }
 
+.post-title-thumb {
+	min-height: 128px;
+}
 
-
-
+.blog-list {
+	padding: 0 48px;
+}
