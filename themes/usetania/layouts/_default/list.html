@@ -1,6 +1,6 @@
 {{ define "main" }}
 <section>
-    <div class="container-fluid">
+    <div class="container-fluid blog-list">
         <div class="row">
             <div class="col-md-12 text-center text-center-xs">
                 <div class="post-title">
@@ -17,7 +17,7 @@
                 </a>
                 <div class="inner card-body">
                     <a href="{{.Permalink}}">
-                        <h4 class="mb0">{{.Title}}</h4>
+                        <h4 class="mb0 post-title-thumb">{{.Title}}</h4>
                         <span class="inline-block mb16">{{.Date.Format "2 January 2006"}}</span> by 
                         <span>{{ .Params.author }}</span>
                     </a>

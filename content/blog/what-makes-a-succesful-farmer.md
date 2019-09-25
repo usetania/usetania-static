@@ -1,5 +1,5 @@
 ---
-title: "What Makes a Succesful Farmer"
+title: "What Makes You The Succesful Farmer"
 date: 2019-06-01T17:43:59+08:00
 draft: false
 featuredimg: /img/success-farmer.jpg

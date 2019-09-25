@@ -1,5 +1,5 @@
 ---
-title: "The New Direction of Tania Project"
+title: "The New Direction of Tania Project: What We're Going to Develop on Tania"
 date: 2019-07-15T12:49:52+08:00
 draft: false
 featuredimg: /img/collaboration.jpg
