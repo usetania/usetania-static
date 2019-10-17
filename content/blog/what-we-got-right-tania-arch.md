@@ -180,7 +180,8 @@ It turns out that abstracting making everything as interface helps us a lot on e
 **embrace the uncertainty of technology**. We didn't even decide what database we will use until much-much later. We saw
 databases like a *real option*:
 
-> Real Options are options that exist outside of legal frameworks such as tickets.
+> Real Options are options that exist outside of legal frameworks such as tickets, visiting friends, greeting a
+> stranger, going overseas, etc.
 
 An option allows us to commit later when we exactly know why. In this case, it's the persistence engine we'd want to use
 to persist the entities.
