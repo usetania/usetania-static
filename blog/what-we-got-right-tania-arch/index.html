@@ -175,7 +175,7 @@ uncertainty</strong> in mind and I think there are things we got right when buil
 
 <h2 id="applying-domain-driven-design">Applying Domain-Driven Design</h2>
 
-<p>I think this is the most important thing that makes our software can be evolved over time. Implementing Domain Driven
+<p>This is the most important thing that makes our software can be evolved over time. Implementing Domain Driven
 Design was a blessing for us. When we tried to build Gro, our smart planter, we use <strong>the same exact code</strong> as the
 open-source one, we forked it and implemented <a href="https://aws.amazon.com/cognito/">Amazon Cognito</a> as our authentication
 backend. The change is not major and it didn&rsquo;t touch any code other than the code involved in authenticating and
@@ -362,7 +362,7 @@ it&rsquo;s done is implementation details. Here&rsquo;s an example of the interf
 
 <p>At first, we just implement simple storage based on Golang&rsquo;s in-memory map. Yes, no fancy database at all. Later on,
 we&rsquo;re able to persist our entities on Sqlite and MySQL. This makes our implementation is compatible with <a href="https://aws.amazon.com/rds/aurora/">Amazon
-Aurora</a>.</p>
+Aurora</a> which is used in Gro backend.</p>
 
 <p>We also implement an in-memory simple event bus to be able to send messages from one domain to another. As domains are
 implemented totally separated to each other we need an event bus in which each domain can publish and subscribe. The
@@ -397,11 +397,11 @@ files.</p>
 <h2 id="conclusion">Conclusion</h2>
 
 <p>Tania was built with &lsquo;embracing uncertainty&rsquo; at heart. This allows us to be flexible and implement our software not only
-extendable and scalable but also malleable. Implementing Gro backend from Tania backend shows its malleability.</p>
+extendable and scalable but also malleable.</p>
 
 <p>The fact that Tania can be deployed on a small ARM machine to managed container engine shows that Tania is extendable
-and scalable. And because it&rsquo;s deployed as <strong>modular monolith</strong>, it can be transformed to <strong>micro services</strong> with little
-effort as every domain is clearly defined.</p>
+and scalable. Implementing Gro backend from Tania backend shows its malleability. Because it&rsquo;s deployed as <strong>modular
+monolith</strong>, it can be transformed to <strong>micro services</strong> with little effort as every domain is clearly defined.</p>
 
                 </div>
             </div>
