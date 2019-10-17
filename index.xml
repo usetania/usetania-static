@@ -17,7 +17,7 @@
       <pubDate>Thu, 17 Oct 2019 12:38:51 +0800</pubDate>
       
       <guid>https://usetania.org/blog/what-we-got-right-tania-arch/</guid>
-      <description>What we got right when building Tania Hi, my name is Didiet, one of the co-founders of Tanibox. Two years ago in 2017, Asep, my co-founder told me that he wanted to rewrite the software that he has been built to better architecture. He felt that the three-tier architecture built on top of PHP and Laravel is not flexible enough to meet our business need. We rewrote Tania with embracing uncertainty in mind and I think there are things we got right when building Tania.</description>
+      <description>What we got right when building Tania Hi, my name is Didiet, one of the co-founders of Tanibox. Two years ago in 2017, Asep, my co-founder told me that he wanted to rewrite the software that he has been built to better architecture. He felt that the three-tier architecture built on top of PHP and Symfony is not flexible enough to meet our business need. We rewrote Tania with embracing uncertainty in mind and I think there are things we got right when building Tania.</description>
     </item>
     
     <item>
