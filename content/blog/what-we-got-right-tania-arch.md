@@ -10,7 +10,7 @@ author: Didiet Noor
 
 Hi, my name is Didiet, one of the co-founders of Tanibox. Two years ago in 2017, Asep, my co-founder told me that he
 wanted to rewrite the software that he has been built to better architecture. He felt that the three-tier architecture
-built on top of PHP and Laravel is not flexible enough to meet our business need. We rewrote Tania with **embracing
+built on top of PHP and Symfony is not flexible enough to meet our business need. We rewrote Tania with **embracing
 uncertainty** in mind and I think there are things we got right when building Tania.
 
 ## Applying Domain-Driven Design
