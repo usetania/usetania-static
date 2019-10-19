@@ -1,0 +1,147 @@
+.dark-mode-switcher {
+	padding-top: 15px !important;
+}
+
+.theme-switch-wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.theme-switch {
+	display: inline-block;
+	height: 34px;
+	position: relative;
+	width: 60px;
+}
+
+.theme-switch input {
+	display: none;
+}
+
+.slider {
+	background-color: #ccc;
+	bottom: 0;
+	cursor: pointer;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	transition: .4s;
+}
+
+.slider:after {
+	content: "\f185";
+	font-family: "Font Awesome 5 Free";
+	position: absolute;
+	line-height: normal;
+	top: 10px;
+	font-size: 14px;
+	left: 10px;
+	color: #081B33;
+	transition: all 0.4s;
+}
+
+html[data-theme="dark"] .slider:after {
+	content: "\f186";
+	right: 10px;
+	left: unset;
+}
+
+.slider:before {
+	background-color: #fff;
+	bottom: 4px;
+	content: "";
+	height: 26px;
+	left: 4px;
+	position: absolute;
+	transition: .4s;
+	width: 26px;
+}
+
+input:checked+.slider {
+	background-color: #506680;
+}
+
+input:checked+.slider:before {
+	transform: translateX(26px);
+}
+
+.slider.round {
+	border-radius: 34px;
+}
+
+.slider.round:before {
+	border-radius: 50%;
+}
+
+/* ------------------------------
+	DARK STYLE
+------------------------------ */
+html[data-theme="dark"] ::selection {
+	color: #fff;
+	background-color: #506680 !important;
+}
+
+html[data-theme="dark"] body,
+html[data-theme="dark"] footer {
+	background: #081B33;
+	color: #fff;
+}
+
+html[data-theme="dark"] a {
+	color: #8C3DE0;
+}
+
+html[data-theme="dark"] nav.transparent .logo-dark,
+html[data-theme="dark"] nav.transparent.fixed .logo-dark {
+	display: none;
+}
+
+html[data-theme="dark"] nav.transparent .logo-light,
+html[data-theme="dark"] nav.transparent.fixed .logo-light {
+	display: inline-block;
+}
+
+html[data-theme="dark"] .menu li a:hover {
+	color: #8C3DE0;
+}
+
+html[data-theme="dark"] .image-square {
+	background: #081B33;
+}
+
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3,
+html[data-theme="dark"] h4,
+html[data-theme="dark"] h5,
+html[data-theme="dark"] h6,
+html[data-theme="dark"] nav.transparent .menu>li>a,
+html[data-theme="dark"] nav.transparent .module.widget-handle i,
+html[data-theme="dark"] nav.transparent .nav-utility,
+html[data-theme="dark"] .color-dark,
+html[data-theme="dark"] nav.transparent.fixed .menu>li>a,
+html[data-theme="dark"] nav.transparent.fixed .module.widget-handle i {
+	color: #fff;
+}
+
+html[data-theme="dark"] nav.transparent .module.widget-handle {
+	border-left: 1px solid #152642 !important;
+}
+
+html[data-theme="dark"] nav.transparent.fixed .module.widget-handle {
+	border-left: 1px solid #fff !important;
+}
+
+html[data-theme="dark"] .btn {
+	border-color: #8C3DE0;
+	color: #8C3DE0;
+}
+
+html[data-theme="dark"] .bg-secondary {
+	background: #152642;
+}
+
+html[data-theme="dark"] nav.transparent.fixed {
+	background: #2F4562;
+}
