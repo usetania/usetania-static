@@ -296,12 +296,12 @@ disqusShortname = "usetania"
     
     [[languages.el.menu.roadmap]]
       name = "v2.0"
-      url = "/roadmap/"
+      url = ""
       weight = 5
 
     [[languages.el.menu.roadmap]]
       name = "v1.5"
-      url = "/roadmap/v15"
+      url = "v15"
       weight = 10
 
   [languages.hu]
