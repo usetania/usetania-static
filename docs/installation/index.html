@@ -1,29 +1,17 @@
 <!DOCTYPE html>
-<html lang="en-gb">
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-133765833-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
-<meta charset="utf-8">
+<html lang="en-gb"><meta charset="utf-8">
 <title>Tania | Open Source Farm Management Sofware</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
 <meta name="description"
-	content="This software is built with Go programming language. It means you will get an executable binary to run on your machine. You don&rsquo;t need extra software like MAMP, XAMPP, or WAMP to run Tania, but you may need MySQL database if you choose to use it instead of SQLite (the default database.)
+	content="This software is built with Go programming language. It means you will get an executable binary to run on your machine. You don&#39;t need extra software like MAMP, XAMPP, or WAMP to run Tania, but you may need MySQL database if you choose to use it instead of SQLite (the default database.)
 The easiest way to install Tania is using pre-built binaries for Windows (x64) and Linux (x64). You can download it from the release page.">
 
 
 <meta property="og:title" content="Installation" />
 <meta property="og:description"
-	content="This software is built with Go programming language. It means you will get an executable binary to run on your machine. You don&rsquo;t need extra software like MAMP, XAMPP, or WAMP to run Tania, but you may need MySQL database if you choose to use it instead of SQLite (the default database.)
+	content="This software is built with Go programming language. It means you will get an executable binary to run on your machine. You don&#39;t need extra software like MAMP, XAMPP, or WAMP to run Tania, but you may need MySQL database if you choose to use it instead of SQLite (the default database.)
 The easiest way to install Tania is using pre-built binaries for Windows (x64) and Linux (x64). You can download it from the release page." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://usetania.org/docs/installation/" />
@@ -37,7 +25,7 @@ The easiest way to install Tania is using pre-built binaries for Windows (x64) a
 
 <meta name="twitter:title" content="Installation" />
 <meta name="twitter:description"
-	content="This software is built with Go programming language. It means you will get an executable binary to run on your machine. You don&rsquo;t need extra software like MAMP, XAMPP, or WAMP to run Tania, but you may need MySQL database if you choose to use it instead of SQLite (the default database.)
+	content="This software is built with Go programming language. It means you will get an executable binary to run on your machine. You don&#39;t need extra software like MAMP, XAMPP, or WAMP to run Tania, but you may need MySQL database if you choose to use it instead of SQLite (the default database.)
 The easiest way to install Tania is using pre-built binaries for Windows (x64) and Linux (x64). You can download it from the release page." />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:image"
@@ -80,6 +68,7 @@ The easiest way to install Tania is using pre-built binaries for Windows (x64) a
 </script>
 <noscript><img height="1" width="1" style="display:none"
 		src="https://www.facebook.com/tr?id=250881212460717&ev=PageView&noscript=1" /></noscript>
+
 
 
 <body class="scroll-assist"><div class="nav-container">
@@ -137,6 +126,9 @@ The easiest way to install Tania is using pre-built binaries for Windows (x64) a
 								<li>
 									<a href="https://usetania.org/id">Bahasa Indonesia</a>
 								</li>
+								<li>
+									<a href="https://usetania.org/el">Ελληνικα</a>
+								</li>
 							</ul>
 						</li>
 					</ul>
@@ -152,7 +144,8 @@ The easiest way to install Tania is using pre-built binaries for Windows (x64) a
 			</div>
 		</div>
 	</nav>
-</div><div class="main-container">
+</div>
+<div class="main-container">
 <section>
     <div class="container-fluid">
         <div class="row">
@@ -221,57 +214,45 @@ The easiest way to install Tania is using pre-built binaries for Windows (x64) a
                     <div class="post-title">
                         <h2 class="inline-block">Installation</h2>
                     </div>
-                    
-
-<p>This software is built with <a href="https://golang.org">Go</a> programming language. It means you will get an executable binary to run on your machine. You <strong>don&rsquo;t need</strong> extra software like MAMP, XAMPP, or WAMP to run <strong>Tania</strong>, but you may need MySQL database if you choose to use it instead of SQLite <em>(the default database.)</em></p>
-
+                    <p>This software is built with <a href="https://golang.org">Go</a> programming language. It means you will get an executable binary to run on your machine. You <strong>don't need</strong> extra software like MAMP, XAMPP, or WAMP to run <strong>Tania</strong>, but you may need MySQL database if you choose to use it instead of SQLite <em>(the default database.)</em></p>
 <p>The easiest way to install Tania is using pre-built binaries for Windows (x64) and Linux (x64). You can download it from <a href="https://github.com/Tanibox/tania-core/releases/tag/1.5.1">the release page</a>. After the download process is finished, you can unzip it, and run it from Windows Command Prompt/Powershell by using <code>.\tania-core.exe</code> or from Linux terminal by using <code>./tania-core</code>.</p>
-
 <p>If your OS is neither Windows (x64) nor Linux (x64), then you must build Tania by yourself. You can follow this instruction below.</p>
-
 <h3 id="prerequisites">Prerequisites</h3>
-
 <ul>
 <li><a href="https://golang.org">Go</a> 1.11.x</li>
 <li><a href="https://nodejs.org/en/">NodeJS</a> 8 or 10</li>
 </ul>
-
 <h3 id="building-instructions">Building Instructions</h3>
-
 <p>Assume that your Go environment is in <code>~/go</code>.</p>
-
 <ol>
 <li>Make sure you have installed <code>golang/dep</code>
-
 <ul>
 <li><a href="https://golang.github.io/dep/docs/installation.html">https://golang.github.io/dep/docs/installation.html</a></li>
 <li><a href="https://gist.github.com/subfuzion/12342599e26f5094e4e2d08e9d4ad50d">https://gist.github.com/subfuzion/12342599e26f5094e4e2d08e9d4ad50d</a></li>
-</ul></li>
+</ul>
+</li>
 <li>Clone the repo using <code>go get github.com/Tanibox/tania-core</code></li>
 <li>Checkout the stable version by using <code>cd ~/go/src/github.com/Tanibox/tania-core &amp;&amp; git checkout tags/1.5.1 -b v1.5.1</code></li>
 <li>From the project root, call <code>dep ensure</code> to install the Go dependencies
-
 <ul>
 <li>If you have an issue with <code>dep ensure</code>, you can call <code>go get</code> instead.</li>
-</ul></li>
+</ul>
+</li>
 <li>Create a new file <code>conf.json</code> using the values from the <code>conf.json.example</code> and set it with your own values.</li>
 <li>Issue <code>npm install</code> to install VueJS dependencies.</li>
 <li>To build the VueJS, just run <code>npm run dev</code> for development purpose or <code>npm run prod</code> for production purpose.</li>
 <li>Setup SQLite:
-
 <ul>
 <li>Edit <code>SqlitePath</code> in <code>conf.json</code> to your sqlite DB file path (ex: /Users/user/Programs/sqlite/tania.db)</li>
 <li>Create an empty file with the exact filename and path that match the <code>SqlitePath</code> config.</li>
-</ul></li>
+</ul>
+</li>
 <li>Compile the source code with <code>go build</code>. It will produces <code>tania-core.exe</code> (on Windows) or <code>tania-core</code> (on Linux and OSX.)</li>
 <li>Run the program from Terminal by issuing <code>./tania-core</code>, or from Windows Command Prompt by issuing <code>.\tania-core.exe</code>.</li>
 <li>The default username and password are <code>tania / tania</code>.</li>
 </ol>
-
 <h3 id="database-engine">Database Engine</h3>
-
 <p>Tania uses SQLite as the default database engine. You may use MySQL as your database engine by replacing <code>sqlite</code> with <code>mysql</code> at <code>tania_persistence_engine</code> field in your <code>conf.json</code>.</p>
-
 <pre><code>{
   &quot;tania_persistence_engine&quot;: &quot;sqlite&quot;,
   &quot;demo_mode&quot;: true,
@@ -286,10 +267,7 @@ The easiest way to install Tania is using pre-built binaries for Windows (x64) a
   &quot;redirect_uri&quot;: &quot;http://localhost:8080/&quot;,
   &quot;client_id&quot;: &quot;f0ece679-3f53-463e-b624-73e83049d6ac&quot;
 }
-</code></pre>
-
-<h3 id="run-the-test">Run The Test</h3>
-
+</code></pre><h3 id="run-the-test">Run The Test</h3>
 <ul>
 <li>Use <code>go test ./...</code> to run all the Go tests.</li>
 <li>Use <code>npm run cypress:run</code> to run the end-to-end test</li>

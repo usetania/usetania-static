@@ -7,6 +7,11 @@
     <lastmod>2019-03-05T12:16:55+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="el"
+                href="https://usetania.org/el/docs/initial-setup/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://usetania.org/docs/initial-setup/"
                 />
@@ -20,6 +25,11 @@
   <url>
     <loc>https://usetania.org/id/</loc>
     <lastmod>2019-03-05T12:16:55+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="https://usetania.org/el/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -42,6 +52,11 @@
     <lastmod>2019-02-04T19:55:09+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="el"
+                href="https://usetania.org/el/docs/settings/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://usetania.org/docs/settings/"
                 />
@@ -55,6 +70,11 @@
   <url>
     <loc>https://usetania.org/id/docs/inventory/</loc>
     <lastmod>2019-02-04T19:55:03+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="https://usetania.org/el/docs/inventory/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -72,6 +92,11 @@
     <lastmod>2019-02-04T19:54:57+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="el"
+                href="https://usetania.org/el/docs/reservoir/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://usetania.org/docs/reservoir/"
                 />
@@ -85,6 +110,11 @@
   <url>
     <loc>https://usetania.org/id/docs/crop/</loc>
     <lastmod>2019-02-04T19:54:51+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="https://usetania.org/el/docs/crop/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -102,6 +132,11 @@
     <lastmod>2019-02-04T19:54:45+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="el"
+                href="https://usetania.org/el/docs/area/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://usetania.org/docs/area/"
                 />
@@ -115,6 +150,11 @@
   <url>
     <loc>https://usetania.org/id/docs/dashboard/</loc>
     <lastmod>2019-02-04T19:54:39+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="https://usetania.org/el/docs/dashboard/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -132,6 +172,11 @@
     <lastmod>2019-02-04T19:47:55+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="el"
+                href="https://usetania.org/el/docs/getting-help/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://usetania.org/docs/getting-help/"
                 />
@@ -147,6 +192,11 @@
     <lastmod>2019-02-04T19:34:29+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="el"
+                href="https://usetania.org/el/docs/installation/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://usetania.org/docs/installation/"
                 />
@@ -160,6 +210,11 @@
   <url>
     <loc>https://usetania.org/id/contact/</loc>
     <lastmod>2019-02-04T18:51:54+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="https://usetania.org/el/contact/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -182,6 +237,11 @@
     <lastmod>2019-02-04T18:51:54+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="el"
+                href="https://usetania.org/el/about/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://usetania.org/about/"
                 />
@@ -195,6 +255,11 @@
   <url>
     <loc>https://usetania.org/id/roadmap/v15/</loc>
     <lastmod>2019-02-04T18:51:54+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="https://usetania.org/el/roadmap/v15/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -212,6 +277,11 @@
     <lastmod>2019-02-04T18:14:30+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="el"
+                href="https://usetania.org/el/docs/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://usetania.org/docs/"
                 />
@@ -227,6 +297,11 @@
     <lastmod>2019-02-04T17:54:45+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="el"
+                href="https://usetania.org/el/roadmap/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://usetania.org/roadmap/"
                 />
@@ -240,6 +315,11 @@
   <url>
     <loc>https://usetania.org/id/blog/</loc>
     <lastmod>2017-03-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="https://usetania.org/el/blog/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="hu"
@@ -261,6 +341,11 @@
     <loc>https://usetania.org/id/categories/</loc>
     <xhtml:link
                 rel="alternate"
+                hreflang="el"
+                href="https://usetania.org/el/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://usetania.org/categories/"
                 />
@@ -278,6 +363,11 @@
   
   <url>
     <loc>https://usetania.org/id/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="https://usetania.org/el/tags/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"

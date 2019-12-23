@@ -17,8 +17,7 @@
       <pubDate>Tue, 05 Mar 2019 12:16:55 +0800</pubDate>
       
       <guid>https://usetania.org/docs/initial-setup/</guid>
-      <description>After you have finished the installation step of Tania, you can start using the software by:
-Login to Your Account  Go to your browser, and access http://localhost:8080 (the default installation address.) Input tania as the default username and password.  -- Input your farm information  On the next screen, you will input the information about your farm. Fill all fields and click Continue.  Create first water reservoir  Next, you will define the source of water on your farm.</description>
+      <description>After you have finished the installation step of Tania, you can start using the software by:</description>
     </item>
     
     <item>
@@ -72,8 +71,7 @@ Login to Your Account  Go to your browser, and access http://localhost:8080 (the
       <pubDate>Mon, 04 Feb 2019 19:54:39 +0800</pubDate>
       
       <guid>https://usetania.org/docs/dashboard/</guid>
-      <description>From the Dashboard screen presents information in blocks called widgets. By default, Tania delivers three widgets on this page:
-At a Glance  The At a Glance widget provides a summary of the number of areas on your farm, plant varieties you grow, and incomplete tasks you have. The content types are displayed in the form of a link. When clicked upon, it will direct you to the specific area to be managed.</description>
+      <description>From the Dashboard screen presents information in blocks called widgets. By default, Tania delivers three widgets on this page:</description>
     </item>
     
     <item>
@@ -82,9 +80,9 @@ At a Glance  The At a Glance widget provides a summary of the number of areas on
       <pubDate>Mon, 04 Feb 2019 19:47:55 +0800</pubDate>
       
       <guid>https://usetania.org/docs/getting-help/</guid>
-      <description>Raising Issues Please raise any bug reports on Tania&amp;rsquo;s Github issue trackers. Be sure to search the list to see if your issue has already been raised.
+      <description>Raising Issues Please raise any bug reports on Tania&#39;s Github issue trackers. Be sure to search the list to see if your issue has already been raised.
 A good bug report is one that make it easy to understand what you were trying to do and what went wrong.
-Feature requests For feature requests, please raise and discuss them on Tania&amp;rsquo;s Telegram group.</description>
+Feature requests For feature requests, please raise and discuss them on Tania&#39;s Telegram group.</description>
     </item>
     
     <item>
@@ -93,7 +91,7 @@ Feature requests For feature requests, please raise and discuss them on Tania&am
       <pubDate>Mon, 04 Feb 2019 19:34:29 +0800</pubDate>
       
       <guid>https://usetania.org/docs/installation/</guid>
-      <description>This software is built with Go programming language. It means you will get an executable binary to run on your machine. You don&amp;rsquo;t need extra software like MAMP, XAMPP, or WAMP to run Tania, but you may need MySQL database if you choose to use it instead of SQLite (the default database.)
+      <description>This software is built with Go programming language. It means you will get an executable binary to run on your machine. You don&#39;t need extra software like MAMP, XAMPP, or WAMP to run Tania, but you may need MySQL database if you choose to use it instead of SQLite (the default database.)
 The easiest way to install Tania is using pre-built binaries for Windows (x64) and Linux (x64). You can download it from the release page.</description>
     </item>
     

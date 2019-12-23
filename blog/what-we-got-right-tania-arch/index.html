@@ -1,17 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-gb">
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-133765833-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
-<meta charset="utf-8">
+<html lang="en-gb"><meta charset="utf-8">
 <title>Tania | Open Source Farm Management Sofware</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -79,6 +67,7 @@ if (!doNotTrack) {
 		src="https://www.facebook.com/tr?id=250881212460717&ev=PageView&noscript=1" /></noscript>
 
 
+
 <body class="scroll-assist"><div class="nav-container">
 	<a id="top"></a>
 	<nav class="bg-dark">
@@ -134,6 +123,9 @@ if (!doNotTrack) {
 								<li>
 									<a href="https://usetania.org/id">Bahasa Indonesia</a>
 								</li>
+								<li>
+									<a href="https://usetania.org/el">Ελληνικα</a>
+								</li>
 							</ul>
 						</li>
 					</ul>
@@ -149,7 +141,8 @@ if (!doNotTrack) {
 			</div>
 		</div>
 	</nav>
-</div><div class="main-container">
+</div>
+<div class="main-container">
 <section class="post pb64">
     <div class="container-fluid">
         <div class="row text-center text-center-xs">
@@ -179,254 +172,202 @@ if (!doNotTrack) {
             <div class="col-sm-12 col-md-8 col-md-offset-2">
                 <div class="mb64">
                     <nav id="TableOfContents">
-<ul>
-<li><a href="#what-we-got-right-when-building-tania">What we got right when building Tania</a>
-<ul>
-<li><a href="#applying-domain-driven-design">Applying Domain-Driven Design</a></li>
-<li><a href="#implementing-onion-hexagonal-architecture">Implementing Onion/Hexagonal Architecture</a></li>
-<li><a href="#using-go-as-our-development-language">Using Go as our development language.</a></li>
-<li><a href="#conclusion">Conclusion</a></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#applying-domain-driven-design">Applying Domain-Driven Design</a></li>
+    <li><a href="#implementing-onionhexagonal-architecture">Implementing Onion/Hexagonal Architecture</a></li>
+    <li><a href="#using-go-as-our-development-language">Using Go as our development language.</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
 </nav>
                     <br>
-                    
-
-<h1 id="what-we-got-right-when-building-tania">What we got right when building Tania</h1>
-
+                    <h1 id="what-we-got-right-when-building-tania">What we got right when building Tania</h1>
 <p>Hi, my name is Didiet, one of the co-founders of Tanibox. Two years ago in 2017, Asep, my co-founder told me that he
 wanted to rewrite the software that he has been built to better architecture. He felt that the three-tier architecture
 built on top of PHP and Symfony is not flexible enough to meet our business need. We rewrote Tania with <strong>embracing
 uncertainty</strong> in mind and I think there are things we got right when building Tania.</p>
-
 <h2 id="applying-domain-driven-design">Applying Domain-Driven Design</h2>
-
 <p>This is the most important thing that makes our software can be evolved over time. Implementing Domain Driven
 Design was a blessing for us. When we tried to build Gro, our smart planter, we use <strong>the same exact code</strong> as the
 open-source one, we forked it and implemented <a href="https://aws.amazon.com/cognito/">Amazon Cognito</a> as our authentication
-backend. The change is not major and it didn&rsquo;t touch any code other than the code involved in authenticating and
+backend. The change is not major and it didn't touch any code other than the code involved in authenticating and
 authorising.</p>
-
 <p>Domain-Driven Design also enables the developers to <strong>talk directly to the product manager</strong> to verify three the most
 important things: <strong>Behaviours, Rules, and Edge Cases</strong> and write tests based on that without thinking about how we
 persist the entities. Focusing on business behaviours makes developers more emphatic to business rules and needs.</p>
-
-<p><img src="/img/DDD.png" alt="DDD" title="Domain Driven Design" /></p>
-
+<p><img src="/img/DDD.png" alt="DDD" title="Domain Driven Design"></p>
 <p><strong>Identifying Domain</strong> was a fun exercise. We interviewed our product owner and then deduce which part of the software
 can be built and deployed independently to each other. This helps us to build the <em>modular monolith</em> architecture that
 able to be scaled to <em>micro-services</em> when we ready to scale.</p>
-
 <p><strong>Ubiquitous Language</strong> helps communications and removes the need for so-called &lsquo;translation layer&rsquo; between product
 owner and engineers. We defined vocabularies for each domain and we use the <strong>exact</strong> wording for communication as well
 as in the code itself.</p>
-
 <p>In the code, we implement the entities as <strong>rich entities</strong> with behaviours in POGO (Plain Old Go Object).</p>
-
-<pre><code class="language-go">type Farm struct {
-	UID         uuid.UUID 
-	Name        string 
-	Latitude    string 
-	Longitude   string    
-	Type        string    
-	Country     string    
-	City        string    
-	IsActive    bool      
-	CreatedDate time.Time 
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#66d9ef">type</span> <span style="color:#a6e22e">Farm</span> <span style="color:#66d9ef">struct</span> {
+	<span style="color:#a6e22e">UID</span>         <span style="color:#a6e22e">uuid</span>.<span style="color:#a6e22e">UUID</span> 
+	<span style="color:#a6e22e">Name</span>        <span style="color:#66d9ef">string</span> 
+	<span style="color:#a6e22e">Latitude</span>    <span style="color:#66d9ef">string</span> 
+	<span style="color:#a6e22e">Longitude</span>   <span style="color:#66d9ef">string</span>    
+	<span style="color:#a6e22e">Type</span>        <span style="color:#66d9ef">string</span>    
+	<span style="color:#a6e22e">Country</span>     <span style="color:#66d9ef">string</span>    
+	<span style="color:#a6e22e">City</span>        <span style="color:#66d9ef">string</span>    
+	<span style="color:#a6e22e">IsActive</span>    <span style="color:#66d9ef">bool</span>      
+	<span style="color:#a6e22e">CreatedDate</span> <span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Time</span> 
 }
-</code></pre>
-
-<p>The structure describes the properties of the farm. It&rsquo;s not an ORM, just a plain object. We also define methods in the
+</code></pre></div><p>The structure describes the properties of the farm. It's not an ORM, just a plain object. We also define methods in the
 object to reflect its behaviours. We ban the use of <strong>Update</strong> in the method name because it has many semantic meanings
-in which it&rsquo;s not easy to be communicated. So we use verbs such as <code>change</code>, <code>increase</code>, <code>decrease</code> in the model to be
+in which it's not easy to be communicated. So we use verbs such as <code>change</code>, <code>increase</code>, <code>decrease</code> in the model to be
 able to communicate <strong>what the entity does</strong> more accurately. For example:</p>
-
-<pre><code class="language-go">func (f *Farm) ChangeName(name string) error {
-	err := validateFarmName(name)
-	if err != nil {
-		return err
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#66d9ef">func</span> (<span style="color:#a6e22e">f</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">Farm</span>) <span style="color:#a6e22e">ChangeName</span>(<span style="color:#a6e22e">name</span> <span style="color:#66d9ef">string</span>) <span style="color:#66d9ef">error</span> {
+	<span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">validateFarmName</span>(<span style="color:#a6e22e">name</span>)
+	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+		<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">err</span>
 	}
 	
-	f.Name = name
-	//.. redacted
-}
-</code></pre>
-
-<p>This is an example of the <strong>behaviour</strong>. We name the method as if we&rsquo;re saying &ldquo;please change the farm name&rdquo;. Inside the
-method, there&rsquo;s one validator to validate whether the farm name is correct and return an error when it&rsquo;s not correct.
-Let&rsquo;s see the implementation of the validator.</p>
-
-<pre><code class="language-go">func validateFarmName(name string) error {
-	if name == &quot;&quot; {
-		return FarmError{FarmErrorNameEmptyCode}
+	<span style="color:#a6e22e">f</span>.<span style="color:#a6e22e">Name</span> = <span style="color:#a6e22e">name</span>
+	<span style="color:#75715e">//.. redacted
+</span><span style="color:#75715e"></span>}
+</code></pre></div><p>This is an example of the <strong>behaviour</strong>. We name the method as if we're saying &ldquo;please change the farm name&rdquo;. Inside the
+method, there's one validator to validate whether the farm name is correct and return an error when it's not correct.
+Let's see the implementation of the validator.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">validateFarmName</span>(<span style="color:#a6e22e">name</span> <span style="color:#66d9ef">string</span>) <span style="color:#66d9ef">error</span> {
+	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">name</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;&#34;</span> {
+		<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">FarmError</span>{<span style="color:#a6e22e">FarmErrorNameEmptyCode</span>}
 	}
-	if !validationhelper.IsAlphanumSpaceHyphenUnderscore(name) {
-		return FarmError{FarmErrorNameAlphanumericOnlyCode}
+	<span style="color:#66d9ef">if</span> !<span style="color:#a6e22e">validationhelper</span>.<span style="color:#a6e22e">IsAlphanumSpaceHyphenUnderscore</span>(<span style="color:#a6e22e">name</span>) {
+		<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">FarmError</span>{<span style="color:#a6e22e">FarmErrorNameAlphanumericOnlyCode</span>}
 	}
-	if len(name) &lt; 5 {
-		return FarmError{FarmErrorNameNotEnoughCharacterCode}
+	<span style="color:#66d9ef">if</span> len(<span style="color:#a6e22e">name</span>) &lt; <span style="color:#ae81ff">5</span> {
+		<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">FarmError</span>{<span style="color:#a6e22e">FarmErrorNameNotEnoughCharacterCode</span>}
 	}
-	if len(name) &gt; 100 {
-		return FarmError{FarmErrorNameExceedMaximunCharacterCode}
+	<span style="color:#66d9ef">if</span> len(<span style="color:#a6e22e">name</span>) &gt; <span style="color:#ae81ff">100</span> {
+		<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">FarmError</span>{<span style="color:#a6e22e">FarmErrorNameExceedMaximunCharacterCode</span>}
 	}
 	
-	return nil
+	<span style="color:#66d9ef">return</span> <span style="color:#66d9ef">nil</span>
 }
-</code></pre>
-
-<p>This validator defines <strong>Rules</strong> in which we can say that farm name:</p>
-
+</code></pre></div><p>This validator defines <strong>Rules</strong> in which we can say that farm name:</p>
 <ul>
 <li>Should not be empty.</li>
 <li>Should only consist of alphanumerics, hyphen and underscore.</li>
 <li>Should be more than 5 characters and less than 100 characters.</li>
 </ul>
-
-<p>If those rules aren&rsquo;t satisfied, it&rsquo;ll return an error. These errors are <strong>domain error</strong> not HTTP error nor
-infrastructure error. We <strong>don&rsquo;t care</strong> about them when we talk about domain. Let&rsquo;s see how custom errors are
+<p>If those rules aren't satisfied, it'll return an error. These errors are <strong>domain error</strong> not HTTP error nor
+infrastructure error. We <strong>don't care</strong> about them when we talk about domain. Let's see how custom errors are
 implemented.</p>
-
-<pre><code class="language-go">// FarmError is a custom error from Go built-in error
-type FarmError struct {
-	Code int
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#75715e">// FarmError is a custom error from Go built-in error
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">type</span> <span style="color:#a6e22e">FarmError</span> <span style="color:#66d9ef">struct</span> {
+	<span style="color:#a6e22e">Code</span> <span style="color:#66d9ef">int</span>
 }
 
-const (
-	FarmErrorInvalidFarmTypeCode = iota
+<span style="color:#66d9ef">const</span> (
+	<span style="color:#a6e22e">FarmErrorInvalidFarmTypeCode</span> = <span style="color:#66d9ef">iota</span>
 
-	FarmErrorReservoirAlreadyAdded
-	FarmErrorReservoirNotFound
+	<span style="color:#a6e22e">FarmErrorReservoirAlreadyAdded</span>
+	<span style="color:#a6e22e">FarmErrorReservoirNotFound</span>
 
-	FarmErrorAreaAlreadyAdded
-	FarmErrorAreaNotFound
+	<span style="color:#a6e22e">FarmErrorAreaAlreadyAdded</span>
+	<span style="color:#a6e22e">FarmErrorAreaNotFound</span>
 
-	FarmErrorNameEmptyCode
-	FarmErrorNameNotEnoughCharacterCode
-	FarmErrorNameExceedMaximunCharacterCode
-	FarmErrorNameAlphanumericOnlyCode
+	<span style="color:#a6e22e">FarmErrorNameEmptyCode</span>
+	<span style="color:#a6e22e">FarmErrorNameNotEnoughCharacterCode</span>
+	<span style="color:#a6e22e">FarmErrorNameExceedMaximunCharacterCode</span>
+	<span style="color:#a6e22e">FarmErrorNameAlphanumericOnlyCode</span>
 
-	FarmErrorInvalidLatitudeValueCode
-	FarmErrorInvalidLongitudeValueCode
-	FarmErrorInvalidCountry
-	FarmErrorInvalidCity
+	<span style="color:#a6e22e">FarmErrorInvalidLatitudeValueCode</span>
+	<span style="color:#a6e22e">FarmErrorInvalidLongitudeValueCode</span>
+	<span style="color:#a6e22e">FarmErrorInvalidCountry</span>
+	<span style="color:#a6e22e">FarmErrorInvalidCity</span>
 )
 
-func (e FarmError) Error() string {
-	switch e.Code {
-	case FarmErrorInvalidFarmTypeCode:
-		return &quot;Farm type code value is invalid.&quot;
-	case FarmErrorReservoirAlreadyAdded:
-		return &quot;Reservoir is already added.&quot;
-	case FarmErrorReservoirNotFound:
-		return &quot;Farm reservoir not found.&quot;
-	case FarmErrorAreaAlreadyAdded:
-		return &quot;Area is already added.&quot;
-	case FarmErrorAreaNotFound:
-		return &quot;Farm area not found.&quot;
-	case FarmErrorNameEmptyCode:
-		return &quot;Farm name is required.&quot;
-	case FarmErrorNameNotEnoughCharacterCode:
-		return &quot;Not enough character on farm name&quot;
-	case FarmErrorNameExceedMaximunCharacterCode:
-		return &quot;Farm name cannot more than 100 characters&quot;
-	case FarmErrorNameAlphanumericOnlyCode:
-		return &quot;Farm name should be alphanumeric, space, hypen, or underscore&quot;
-	case FarmErrorInvalidLatitudeValueCode:
-		return &quot;Latitude value is invalid&quot;
-	case FarmErrorInvalidLongitudeValueCode:
-		return &quot;Longitude value is invalid&quot;
-	case FarmErrorInvalidCountry:
-		return &quot;Invalid country&quot;
-	case FarmErrorInvalidCity:
-		return &quot;Invalid city&quot;
-	default:
-		return &quot;Unrecognized location error code&quot;
+<span style="color:#66d9ef">func</span> (<span style="color:#a6e22e">e</span> <span style="color:#a6e22e">FarmError</span>) <span style="color:#a6e22e">Error</span>() <span style="color:#66d9ef">string</span> {
+	<span style="color:#66d9ef">switch</span> <span style="color:#a6e22e">e</span>.<span style="color:#a6e22e">Code</span> {
+	<span style="color:#66d9ef">case</span> <span style="color:#a6e22e">FarmErrorInvalidFarmTypeCode</span>:
+		<span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Farm type code value is invalid.&#34;</span>
+	<span style="color:#66d9ef">case</span> <span style="color:#a6e22e">FarmErrorReservoirAlreadyAdded</span>:
+		<span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Reservoir is already added.&#34;</span>
+	<span style="color:#66d9ef">case</span> <span style="color:#a6e22e">FarmErrorReservoirNotFound</span>:
+		<span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Farm reservoir not found.&#34;</span>
+	<span style="color:#66d9ef">case</span> <span style="color:#a6e22e">FarmErrorAreaAlreadyAdded</span>:
+		<span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Area is already added.&#34;</span>
+	<span style="color:#66d9ef">case</span> <span style="color:#a6e22e">FarmErrorAreaNotFound</span>:
+		<span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Farm area not found.&#34;</span>
+	<span style="color:#66d9ef">case</span> <span style="color:#a6e22e">FarmErrorNameEmptyCode</span>:
+		<span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Farm name is required.&#34;</span>
+	<span style="color:#66d9ef">case</span> <span style="color:#a6e22e">FarmErrorNameNotEnoughCharacterCode</span>:
+		<span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Not enough character on farm name&#34;</span>
+	<span style="color:#66d9ef">case</span> <span style="color:#a6e22e">FarmErrorNameExceedMaximunCharacterCode</span>:
+		<span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Farm name cannot more than 100 characters&#34;</span>
+	<span style="color:#66d9ef">case</span> <span style="color:#a6e22e">FarmErrorNameAlphanumericOnlyCode</span>:
+		<span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Farm name should be alphanumeric, space, hypen, or underscore&#34;</span>
+	<span style="color:#66d9ef">case</span> <span style="color:#a6e22e">FarmErrorInvalidLatitudeValueCode</span>:
+		<span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Latitude value is invalid&#34;</span>
+	<span style="color:#66d9ef">case</span> <span style="color:#a6e22e">FarmErrorInvalidLongitudeValueCode</span>:
+		<span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Longitude value is invalid&#34;</span>
+	<span style="color:#66d9ef">case</span> <span style="color:#a6e22e">FarmErrorInvalidCountry</span>:
+		<span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Invalid country&#34;</span>
+	<span style="color:#66d9ef">case</span> <span style="color:#a6e22e">FarmErrorInvalidCity</span>:
+		<span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Invalid city&#34;</span>
+	<span style="color:#66d9ef">default</span>:
+		<span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;Unrecognized location error code&#34;</span>
 	}
 }
-</code></pre>
-
-<p>You can see that the error will have its own code and description. It implements <code>error</code> interface so it can return a
+</code></pre></div><p>You can see that the error will have its own code and description. It implements <code>error</code> interface so it can return a
 string that can be used by the upper layer to show the error.</p>
-
 <p>This way, behaviours and rules can be tested with the <strong>edge cases</strong> found during product discovery.</p>
-
-<h2 id="implementing-onion-hexagonal-architecture">Implementing Onion/Hexagonal Architecture</h2>
-
+<h2 id="implementing-onionhexagonal-architecture">Implementing Onion/Hexagonal Architecture</h2>
 <p>With Domain-Driven Design in mind, we implement the software with Hexagonal Architecture. Hexagonal Architecture was
 invented by <a href="https://en.wikipedia.org/wiki/Alistair_Cockburn">Alistair Cockburn</a> with this intent:</p>
-
 <blockquote>
 <p>Allow an application to equally be driven by users, programs, automated test or batch scripts, and to be developed and
 tested in isolation from its eventual run-time devices and databases.</p>
 </blockquote>
-
 <p>It turns out that abstracting making everything as interface helps us a lot on evolving the software. This allows us to
-<strong>embrace the uncertainty of technology</strong>. We didn&rsquo;t even decide what database we will use until much-much later. We saw
+<strong>embrace the uncertainty of technology</strong>. We didn't even decide what database we will use until much-much later. We saw
 databases like a <em>real option</em>:</p>
-
 <blockquote>
 <p>Real Options are options that exist outside of legal frameworks such as tickets, visiting friends, greeting a
 stranger, going overseas, etc.</p>
 </blockquote>
-
-<p>An option allows us to commit later when we exactly know why. In this case, it&rsquo;s the persistence engine we&rsquo;d want to use
+<p>An option allows us to commit later when we exactly know why. In this case, it's the persistence engine we'd want to use
 to persist the entities.</p>
-
-<p><img src="/img/hexagonal.jpg" alt="hexagonal" title="Hexagonal Architecture" /></p>
-
+<p><img src="/img/hexagonal.jpg" alt="hexagonal" title="Hexagonal Architecture"></p>
 <p>Implementing as interfaces make us easily see and digest the code. We can see <strong>what</strong> a particular persistence engine
 can do such as: <code>FindFarmByID()</code> , <code>SearchFarmByName()</code> and we can <code>Save()</code> a <code>Farm</code> entity to that storage. <strong>How</strong>
-it&rsquo;s done is implementation details. Here&rsquo;s an example of the interface of the queries for <code>Farm</code>:</p>
-
-<pre><code class="language-go">type FarmReadQuery interface {
-	FindByID(farmUID uuid.UUID) &lt;-chan QueryResult
-	FindAll() &lt;-chan QueryResult
+it's done is implementation details. Here's an example of the interface of the queries for <code>Farm</code>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#66d9ef">type</span> <span style="color:#a6e22e">FarmReadQuery</span> <span style="color:#66d9ef">interface</span> {
+	<span style="color:#a6e22e">FindByID</span>(<span style="color:#a6e22e">farmUID</span> <span style="color:#a6e22e">uuid</span>.<span style="color:#a6e22e">UUID</span>) <span style="color:#f92672">&lt;-</span><span style="color:#66d9ef">chan</span> <span style="color:#a6e22e">QueryResult</span>
+	<span style="color:#a6e22e">FindAll</span>() <span style="color:#f92672">&lt;-</span><span style="color:#66d9ef">chan</span> <span style="color:#a6e22e">QueryResult</span>
 }
-</code></pre>
-
-<p>This says that the persistence engine can be queried and will return a channel with the result inside.</p>
-
-<p>At first, we just implement simple storage based on Golang&rsquo;s in-memory map. Yes, no fancy database at all. Later on,
-we&rsquo;re able to persist our entities on Sqlite and MySQL. This makes our implementation is compatible with <a href="https://aws.amazon.com/rds/aurora/">Amazon
+</code></pre></div><p>This says that the persistence engine can be queried and will return a channel with the result inside.</p>
+<p>At first, we just implement simple storage based on Golang's in-memory map. Yes, no fancy database at all. Later on,
+we're able to persist our entities on Sqlite and MySQL. This makes our implementation is compatible with <a href="https://aws.amazon.com/rds/aurora/">Amazon
 Aurora</a> which is used in Gro backend.</p>
-
 <p>We also implement an in-memory simple event bus to be able to send messages from one domain to another. As domains are
 implemented totally separated to each other we need an event bus in which each domain can publish and subscribe. The
 interface is pretty simple.</p>
-
-<pre><code class="language-go">type TaniaEventBus interface {
-	Publish(eventName string, event interface{})
-	Subscribe(eventName string, handlerFunc interface{})
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#66d9ef">type</span> <span style="color:#a6e22e">TaniaEventBus</span> <span style="color:#66d9ef">interface</span> {
+	<span style="color:#a6e22e">Publish</span>(<span style="color:#a6e22e">eventName</span> <span style="color:#66d9ef">string</span>, <span style="color:#a6e22e">event</span> <span style="color:#66d9ef">interface</span>{})
+	<span style="color:#a6e22e">Subscribe</span>(<span style="color:#a6e22e">eventName</span> <span style="color:#66d9ef">string</span>, <span style="color:#a6e22e">handlerFunc</span> <span style="color:#66d9ef">interface</span>{})
 }
-</code></pre>
-
-<p>This interface can be implemented to &ldquo;real&rdquo; message broker like Kafka, NATS, or even <a href="aws.amazon.com/sqs">Amazon SQS</a>
+</code></pre></div><p>This interface can be implemented to &ldquo;real&rdquo; message broker like Kafka, NATS, or even <a href="aws.amazon.com/sqs">Amazon SQS</a>
 when we decide to make microservices from Tania. At the moment we only use a simple, in-memory event bus like
 <a href="https://github.com/asaskevich/EventBus">here</a>.</p>
-
-<p>We still haven&rsquo;t committed yet on what kind of message broker we&rsquo;ll be using because <strong>the option of choosing message
-broke hasn&rsquo;t expired yet</strong> as we&rsquo;re still in &lsquo;modular monolith&rsquo; phase.</p>
-
+<p>We still haven't committed yet on what kind of message broker we'll be using because <strong>the option of choosing message
+broke hasn't expired yet</strong> as we're still in &lsquo;modular monolith&rsquo; phase.</p>
 <h2 id="using-go-as-our-development-language">Using Go as our development language.</h2>
-
 <p>Go was chosen because we want the <strong>easy deployment</strong> of our software. Go produce <strong>single binary</strong> that can be run on
 Windows, macOS, and Linux. With the help of <a href="https://www.musl-libc.org/">musl</a> we can produce a <em>static binary</em> that is
 self-contained in Linux.</p>
-
-<p><img src="/img/golang.png" alt="Golang" title="Go Programming Language" /></p>
-
+<p><img src="/img/golang.png" alt="Golang" title="Go Programming Language"></p>
 <p>The choice of Golang makes Tania becomes virtually scalable to any machines that run ARM or Intel chips. Tania can run
 on Raspberry Pi to managed container engine like <a href="https://aws.amazon.com/fargate/">Amazon Fargate</a>. Moreover, the
-frontend can be deployed as a website on <a href="https://aws.amazon.com/s3/">Amazon S3</a> because it&rsquo;s just static Javascript
+frontend can be deployed as a website on <a href="https://aws.amazon.com/s3/">Amazon S3</a> because it's just static Javascript
 files.</p>
-
 <h2 id="conclusion">Conclusion</h2>
-
 <p>Tania was built with &lsquo;embracing uncertainty&rsquo; at heart. This allows us to be flexible and implement our software not only
 extendable and scalable but also malleable.</p>
-
 <p>The fact that Tania can be deployed on a small ARM machine to managed container engine shows that Tania is extendable
-and scalable. Implementing Gro backend from Tania backend shows its malleability. Because it&rsquo;s deployed as <strong>modular
+and scalable. Implementing Gro backend from Tania backend shows its malleability. Because it's deployed as <strong>modular
 monolith</strong>, it can be transformed to <strong>micro services</strong> with little effort as every domain is clearly defined.</p>
 
                 </div>

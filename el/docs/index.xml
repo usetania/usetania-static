@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Επισκόπηση του Tania on Tania | Λογισμικό Ανοιχτου Κώδικα Διαχείρισης Aγροκτήματος</title>
+    <link>https://usetania.org/el/docs/</link>
+    <description>Recent content in Επισκόπηση του Tania on Tania | Λογισμικό Ανοιχτου Κώδικα Διαχείρισης Aγροκτήματος</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 04 Feb 2019 18:14:30 +0800</lastBuildDate>
+    
+	<atom:link href="https://usetania.org/el/docs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Αρχική Παραμετροποίηση</title>
+      <link>https://usetania.org/el/docs/initial-setup/</link>
+      <pubDate>Tue, 05 Mar 2019 12:16:55 +0800</pubDate>
+      
+      <guid>https://usetania.org/el/docs/initial-setup/</guid>
+      <description>Αφού έχετε ολοκληρώσει τα βήματα εγκατάστασης του Tania, μπορείτε να αρχίσετε να το χρησιμοποιείτε ως εξής:</description>
+    </item>
+    
+    <item>
+      <title>Ρυθμίσεις</title>
+      <link>https://usetania.org/el/docs/settings/</link>
+      <pubDate>Mon, 04 Feb 2019 19:55:09 +0800</pubDate>
+      
+      <guid>https://usetania.org/el/docs/settings/</guid>
+      <description>Από αυτόν τον τομέα, μπορείτε να αλλάξετε τον προεπιλεγμένο κωδικό του λογαριασμού σας.</description>
+    </item>
+    
+    <item>
+      <title>Απόθεμα</title>
+      <link>https://usetania.org/el/docs/inventory/</link>
+      <pubDate>Mon, 04 Feb 2019 19:55:03 +0800</pubDate>
+      
+      <guid>https://usetania.org/el/docs/inventory/</guid>
+      <description>Προτού ξεκινήσετε να χρησιμοποιείτε το Tania για να παρακολουθείτε τις δραστηριότητες καλλιέργειας, πρέπει να καταχωρίσετε τους σπόρους που έχετε στον τομέα Απόθεμα. Σε αυτόν τον τομέα, μπορείτε επίσης να καταγράψετε τα εργαλεία σας, τα λιπάσματα και οποιαδήποτε άλλο εξοπλισμό.</description>
+    </item>
+    
+    <item>
+      <title>Ταμιευτήρας</title>
+      <link>https://usetania.org/el/docs/reservoir/</link>
+      <pubDate>Mon, 04 Feb 2019 19:54:57 +0800</pubDate>
+      
+      <guid>https://usetania.org/el/docs/reservoir/</guid>
+      <description>Στον τομέα ταμιευτήρα, μπορείτε να διαχειριστείτε και να δημιουργήσετε εργασίες που σχετίζονται με το συγκεκριμένο ταμιευτήρα.</description>
+    </item>
+    
+    <item>
+      <title>Σοδειά</title>
+      <link>https://usetania.org/el/docs/crop/</link>
+      <pubDate>Mon, 04 Feb 2019 19:54:51 +0800</pubDate>
+      
+      <guid>https://usetania.org/el/docs/crop/</guid>
+      <description>Ο τομέας Σοδειά αποτελεί την καρδία του Tania. Σε αυτό τον τομέα, μπορείτε να καταγράφετε και να παρακολουθείτε τις δραστηριότητες που αφορούν κάθε παραγωγή που φυτεύετε. Οπετεδήποτε δημιουργείτε μία νέα παρτίδα καλλιεργήσιμης παραγωγής, το Tania θα αναθέσει μία στοιχειοσειρά αναγνώρισης ώστε να μπορείτε να την παρακολουθείτε από τη σπορά μέχρι τη συγκομιδή/απόρριψη.</description>
+    </item>
+    
+    <item>
+      <title>Περιοχή</title>
+      <link>https://usetania.org/el/docs/area/</link>
+      <pubDate>Mon, 04 Feb 2019 19:54:45 +0800</pubDate>
+      
+      <guid>https://usetania.org/el/docs/area/</guid>
+      <description>Μπορείτε να λάβετε όλες τις πληροφορίες για τις παραγωγές σας, τις εργασίες σας και να καταγράφετε τις δραστηριότητες ποτίσματος για μια συγκεκριμένη περιοχή.</description>
+    </item>
+    
+    <item>
+      <title>Κεντρικός Πίνακας</title>
+      <link>https://usetania.org/el/docs/dashboard/</link>
+      <pubDate>Mon, 04 Feb 2019 19:54:39 +0800</pubDate>
+      
+      <guid>https://usetania.org/el/docs/dashboard/</guid>
+      <description>H οθόνη Dashboard παρουσιάζει πληροφορίες σε τμήματα τα οποία ονομάζονται widgets. Από προεπιλογή, το Tania παρέχει τρία widgets σε αυτή τη σελίδα:</description>
+    </item>
+    
+    <item>
+      <title>Λήψη Βοήθειας</title>
+      <link>https://usetania.org/el/docs/getting-help/</link>
+      <pubDate>Mon, 04 Feb 2019 19:47:55 +0800</pubDate>
+      
+      <guid>https://usetania.org/el/docs/getting-help/</guid>
+      <description>Αναφορά Ζητημάτων Παρακαλούμε να εγείρετε οποιοδήποτε αναφορά σφάλματος στο Tania&#39;s Github issue trackers. Σιγουρευτείτε ότι ψάξατε τη λίστα για να δείτε αν το ζήτημά σας έχει ήδη τεθεί.
+Μία καλή αναφορά σφάλματος είναι εκείνη η οποία διευκολύνει την κατανόηση του τι θέλετε να κάνετε και τι πήγε λάθος.
+Αιτήσεις νέων Λειτουργιών Για αιτήσεις νέων λειτουργιών, παρακαλούμε να τις θέτετε και να τις συζητάτε στο Tania&#39;s Telegram group.</description>
+    </item>
+    
+    <item>
+      <title>Εγκατάσταση</title>
+      <link>https://usetania.org/el/docs/installation/</link>
+      <pubDate>Mon, 04 Feb 2019 19:34:29 +0800</pubDate>
+      
+      <guid>https://usetania.org/el/docs/installation/</guid>
+      <description>Αυτό το λογισμικό είναι υλοποιημένο στη γλώσσα προγραμματισμού Go. Αυτό σημαίνει ότι θα λάβετε ένα δυαδικό εκτελέσιμο για να το εκτελέσετε στο σύστημά σας. Δεν απαιτείται επιπλέον λογισμικό όπως MAMP, XAMPP, ή WAMP για να εκτελέσετε το Tania, αλλά ίσως χρειαστείτε βάση δεδομένων MySQL εάν επιλέξετε να τη χρησιμοποιήσετε αντί της SQLite (η οποία αποτελεί την προεπιλεγμένη βάση δεδομένων)
+Ο πιο εύκολος τρόπος εγκατάστασης του Tania είναι χρησιμοποιώντας τα ήδη μεταγλωττισμένα εκτελέσιμα για Windows (x64) και Linux (x64).</description>
+    </item>
+    
+  </channel>
+</rss>

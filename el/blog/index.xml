@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Tania | Λογισμικό Ανοιχτου Κώδικα Διαχείρισης Aγροκτήματος</title>
+    <link>https://usetania.org/el/blog/</link>
+    <description>Recent content in Blog on Tania | Λογισμικό Ανοιχτου Κώδικα Διαχείρισης Aγροκτήματος</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 23 Mar 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://usetania.org/el/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What We Got Right When We Built Tania</title>
+      <link>https://usetania.org/el/blog/what-we-got-right-tania-arch/</link>
+      <pubDate>Thu, 17 Oct 2019 12:38:51 +0800</pubDate>
+      
+      <guid>https://usetania.org/el/blog/what-we-got-right-tania-arch/</guid>
+      <description>What we got right when building Tania Hi, my name is Didiet, one of the co-founders of Tanibox. Two years ago in 2017, Asep, my co-founder told me that he wanted to rewrite the software that he has been built to better architecture. He felt that the three-tier architecture built on top of PHP and Symfony is not flexible enough to meet our business need. We rewrote Tania with embracing uncertainty in mind and I think there are things we got right when building Tania.</description>
+    </item>
+    
+    <item>
+      <title>Hacktoberfest With Tania</title>
+      <link>https://usetania.org/el/blog/tania-hacktoberfest/</link>
+      <pubDate>Wed, 02 Oct 2019 12:38:51 +0800</pubDate>
+      
+      <guid>https://usetania.org/el/blog/tania-hacktoberfest/</guid>
+      <description>Hacktoberfest is the month-long festival of supporting and contributing to open source by Digital Ocean and DEV. It&#39;s open to everyone, and all skill levels are encouraged to participate. You can win a free t-shirt. It&#39;s limited to the first 50,000 participants. To participate in this event, all you have to do is making four pull-requests between 1 October 2019 to 31 October 2019.
+You can contribute to Tania open-source project by submitting pull-request to our repository.</description>
+    </item>
+    
+    <item>
+      <title>Precision Farming: What You Need to Know in Advance and How to Make The Most of It</title>
+      <link>https://usetania.org/el/blog/make-the-most-of-precision-farming/</link>
+      <pubDate>Mon, 23 Sep 2019 17:23:09 +0800</pubDate>
+      
+      <guid>https://usetania.org/el/blog/make-the-most-of-precision-farming/</guid>
+      <description>You probably have heard the term precision farming or precision agriculture almost from everywhere. But how much do you understand it? Precision farming is a booming sector, involves various equipment and lengthy knowledge and resources to work. And some farmers can be a bit confused. Do you feel the same way too? Let&#39;s break it down.
+What is Precision Farming? It&#39;s definitely more than just using a farm management system and do your daily work at your farm&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Increasing Efficiency with Precision Farming; How Satellites Can Help Farmers</title>
+      <link>https://usetania.org/el/blog/increasing-efficiency-with-precision-farming/</link>
+      <pubDate>Wed, 18 Sep 2019 17:15:36 +0800</pubDate>
+      
+      <guid>https://usetania.org/el/blog/increasing-efficiency-with-precision-farming/</guid>
+      <description>Do you know that 37% of Earth&#39;s land is used for agricultural purposes? 11% is used for growing crops, and the rest is for pastures. One of the most overlooked challenges in agriculture is maintaining and improving efficiency. With climate changes already happen everywhere, humanity will have to face and tackle these challenges. Why? As the population only continues to grow, much of the world will depend on more effective agriculture practices to produce more outputs the world population relies on.</description>
+    </item>
+    
+    <item>
+      <title>The New Direction of Tania Project: What We&#39;re Going to Develop on Tania</title>
+      <link>https://usetania.org/el/blog/the-new-direction-of-tania-project/</link>
+      <pubDate>Mon, 15 Jul 2019 12:49:52 +0800</pubDate>
+      
+      <guid>https://usetania.org/el/blog/the-new-direction-of-tania-project/</guid>
+      <description>Photo by Elaine Casapon Unsplash.In the last few weeks, there&#39;s a discussion between initiators of this project about the direction of Tania. We all agree that Tania should be more involving the community in the agriculture ecosystem around the world to promote precision agriculture practice. Because we believe precision agriculture can make farming more sustainable ecologically and economically. The world is too big for us to do it alone. Therefore, this is what we will do to achieve that goal.</description>
+    </item>
+    
+    <item>
+      <title>Important Skills to Be A Successful Farmer</title>
+      <link>https://usetania.org/el/blog/important-skills-to-be-a-successful-farmer/</link>
+      <pubDate>Wed, 05 Jun 2019 22:05:06 +0800</pubDate>
+      
+      <guid>https://usetania.org/el/blog/important-skills-to-be-a-successful-farmer/</guid>
+      <description>There are some key skills and attributes to be a successful farmer, that are more important than others. If you&#39;re considering farming as your business, I think you should &amp;ldquo;invest&amp;rdquo; in these skills.
+Organisational Skills If you never manage your checkbook balance, you&#39;ll be easier to get a crazy shock by your unorganised system. Farmers must keep all kinds of records accurately, regularly. From clients invoices to certification papers to taxation to labor contracts to payroll and so on.</description>
+    </item>
+    
+    <item>
+      <title>What Makes You The Succesful Farmer</title>
+      <link>https://usetania.org/el/blog/what-makes-a-succesful-farmer/</link>
+      <pubDate>Sat, 01 Jun 2019 17:43:59 +0800</pubDate>
+      
+      <guid>https://usetania.org/el/blog/what-makes-a-succesful-farmer/</guid>
+      <description>Since running Tanibox, I have met many farmers who are pretty successful in running their farming businesses. By having deep conversations with them, it&#39;s not that they know how to grow pretty vegetables. It&#39;s that these farmers have a deep understanding of how a business should work.
+I&#39;ve come to this conclusion.
+ If you can&#39;t make a living by farming, then you&#39;re NOT a great farmer. You might be a great grower, but you’re not a good farmer nor a successful one.</description>
+    </item>
+    
+    <item>
+      <title>Smart Farming; Steps to Do and Common Questions Around That</title>
+      <link>https://usetania.org/el/blog/steps-to-do-smart-farming/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://usetania.org/el/blog/steps-to-do-smart-farming/</guid>
+      <description>Smart farming is an idea to cultivate crops with a combination of the latest technology and data analysis. The objective of it is to get more yields with few bad impacts on the environment than the conventional farming method.
+How can we start doing smart farming? Is it expensive? These are common questions. We can start small without buying expensive equipment.
+The first step is collecting data. We can start to gather data by using a simple tool like a spreadsheet such as Microsoft Excel or Google Sheets.</description>
+    </item>
+    
+    <item>
+      <title>Intro to Tania Backend Architecture</title>
+      <link>https://usetania.org/el/blog/intro-to-tania-backend-architecture/</link>
+      <pubDate>Sat, 24 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://usetania.org/el/blog/intro-to-tania-backend-architecture/</guid>
+      <description>The overall architecture of Tania is built so it doesn’t rely on particular storage, protocol, or serialization format. Because it needs to be deployed to a different environment like Raspberry Pi, NAS QNAP, or the cloud like AWS. We name the Tania architecture as Modular Monolith as each domain share nothing.
+Read more</description>
+    </item>
+    
+    <item>
+      <title>The Journey Begins</title>
+      <link>https://usetania.org/el/blog/the-journey-begins/</link>
+      <pubDate>Sat, 03 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://usetania.org/el/blog/the-journey-begins/</guid>
+      <description> Agriculture is our wisest pursuit, because it will in the end contribute most to real wealth, good morals, and happiness.
+— Thomas Jefferson </description>
+    </item>
+    
+  </channel>
+</rss>

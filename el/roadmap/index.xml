@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Κύριες αλλαγές για την έκδοση v2.0 on Tania | Λογισμικό Ανοιχτου Κώδικα Διαχείρισης Aγροκτήματος</title>
+    <link>https://usetania.org/el/roadmap/</link>
+    <description>Recent content in Κύριες αλλαγές για την έκδοση v2.0 on Tania | Λογισμικό Ανοιχτου Κώδικα Διαχείρισης Aγροκτήματος</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 04 Feb 2019 17:54:45 +0800</lastBuildDate>
+    
+	<atom:link href="https://usetania.org/el/roadmap/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>v.1.5</title>
+      <link>https://usetania.org/el/roadmap/v15/</link>
+      <pubDate>Mon, 04 Feb 2019 17:54:45 +0800</pubDate>
+      
+      <guid>https://usetania.org/el/roadmap/v15/</guid>
+      <description>Η τρέχουσα σταθερή έκδοση του Tania είναι η 1.5.1 η οποία εκδόθηκε το 2018. Είναι μία εκ νέου συγγραφή του αρχικού Tania το οποίο είναι γραμμένο σε PHP (Symfony framework). H έκδοση 1.5.1 χρησιμοποιεί τη γλώσσα Go και θα τη χρησιμοποιούμε στις επόμενες εκδόσεις. Αλλάξαμε τη γλώσσα επειδή θέλαμε να κάνουμε την εγκατάσταση του Tania εύκολη σε οποιοδήποτε μηχάνημα&amp;ndash;σε περιβάλλον cloud, σε NAS (Network Attached Storage), ή ακόμη σε μικρή συσκευή όπως το Raspberry Pi.</description>
+    </item>
+    
+  </channel>
+</rss>

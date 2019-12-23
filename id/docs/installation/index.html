@@ -1,17 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-gb">
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-133765833-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
-<meta charset="utf-8">
+<html lang="en-gb"><meta charset="utf-8">
 <title>Tania | Sistem Manajemen Kebun Dengan Sumber Terbuka</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -82,6 +70,7 @@ Cara termudah untuk melakukan instalasi Tania adalah dengan menggunakan binari y
 		src="https://www.facebook.com/tr?id=250881212460717&ev=PageView&noscript=1" /></noscript>
 
 
+
 <body class="scroll-assist"><div class="nav-container">
 	<a id="top"></a>
 	<nav class="bg-dark">
@@ -137,6 +126,9 @@ Cara termudah untuk melakukan instalasi Tania adalah dengan menggunakan binari y
 								<li>
 									<a href="https://usetania.org/id">Bahasa Indonesia</a>
 								</li>
+								<li>
+									<a href="https://usetania.org/el">Ελληνικα</a>
+								</li>
 							</ul>
 						</li>
 					</ul>
@@ -152,7 +144,8 @@ Cara termudah untuk melakukan instalasi Tania adalah dengan menggunakan binari y
 			</div>
 		</div>
 	</nav>
-</div><div class="main-container">
+</div>
+<div class="main-container">
 <section>
     <div class="container-fluid">
         <div class="row">
@@ -221,57 +214,45 @@ Cara termudah untuk melakukan instalasi Tania adalah dengan menggunakan binari y
                     <div class="post-title">
                         <h2 class="inline-block">Instalasi</h2>
                     </div>
-                    
-
-<p>Perangkat lunak ini dibuat dengan menggunakan bahasa pemrograman <a href="https://golang.org">Go</a>. Artinya Anda akan mendapat binari yang bisa dijalankan langsung di mesin Anda. Anda <strong>tidak butuh</strong> perangkat lunak tambahan seperti MAMP, XAMPP, atau WAMP untuk menjalankan <strong>Tania</strong>, tapi Anda mungkin akan membutuhkan basis data MySQL jika Anda tidak ingin menggunakan SQLite <em>(basis data bawaan.)</em></p>
-
+                    <p>Perangkat lunak ini dibuat dengan menggunakan bahasa pemrograman <a href="https://golang.org">Go</a>. Artinya Anda akan mendapat binari yang bisa dijalankan langsung di mesin Anda. Anda <strong>tidak butuh</strong> perangkat lunak tambahan seperti MAMP, XAMPP, atau WAMP untuk menjalankan <strong>Tania</strong>, tapi Anda mungkin akan membutuhkan basis data MySQL jika Anda tidak ingin menggunakan SQLite <em>(basis data bawaan.)</em></p>
 <p>Cara termudah untuk melakukan instalasi Tania adalah dengan menggunakan binari yang telah kami sediakan untuk Windows (x64) dan Linux (x64). Anda dapat mengunduhnya dari <a href="https://github.com/Tanibox/tania-core/releases/tag/1.5.1">halaman rilis GitHub</a>. Setelah proses unduh selesai, Anda dapat mengekstraksi dengan <em>unzip</em>, dan menjalankan Tania dari Windows Command Prompt/Powershell dengan menggunakan <code>.\tania-core.exe</code> atau dari terminal Linux dengan menggunakan <code>./tania-core</code>.</p>
-
 <p>Jika OS Anda bukan Windows (x64) atau Linux (x64), maka Anda harus mengkompilasi Tania sendiri. Silakan ikuti instruksi di bawah ini.</p>
-
 <h3 id="persyaratan">Persyaratan</h3>
-
 <ul>
 <li><a href="https://golang.org">Go</a> 1.11.x</li>
 <li><a href="https://nodejs.org/en/">NodeJS</a> 8 or 10</li>
 </ul>
-
 <h3 id="instruksi-cara-mengkompilasi">Instruksi cara mengkompilasi</h3>
-
 <p>Kami asumsikan lingkungan Go Anda berada di <code>~/go</code>.</p>
-
 <ol>
 <li>Pastikan Anda telah memasang <code>golang/dep</code>
-
 <ul>
 <li><a href="https://golang.github.io/dep/docs/installation.html">https://golang.github.io/dep/docs/installation.html</a></li>
 <li><a href="https://gist.github.com/subfuzion/12342599e26f5094e4e2d08e9d4ad50d">https://gist.github.com/subfuzion/12342599e26f5094e4e2d08e9d4ad50d</a></li>
-</ul></li>
+</ul>
+</li>
 <li>Kloning repositori dengan menggunakan <code>go get github.com/Tanibox/tania-core</code></li>
 <li>Pilih versi yang stabil dengan menggunakan <code>cd ~/go/src/github.com/Tanibox/tania-core &amp;&amp; git checkout tags/1.5.1 -b v1.5.1</code></li>
 <li>Dari <em>root</em> proyek, panggil <code>dep ensure</code> untuk melakukan instalasi dependensi Go
-
 <ul>
 <li>Jika Anda menemukan masalah dengan <code>dep ensure</code>, Anda dapat menggunakan <code>go get</code> saja.</li>
-</ul></li>
+</ul>
+</li>
 <li>Buat sebuah file <code>conf.json</code> dengan menggunakan isi dari <code>conf.json.example</code> dan modifikasi dengan menggunakan nilai Anda sendiri.</li>
 <li>Jalankan <code>npm install</code> untuk memasang seluruh dependensi Vue.js.</li>
 <li>Untuk membangun Vue.js, jalankan <code>npm run dev</code> untuk lingkungan pengembangan atau <code>npm run prod</code> untuk lingkungan produksi.</li>
 <li>Atur SQLite:
-
 <ul>
 <li>Sunting <code>SqlitePath</code> di <code>conf.json</code> menggunakan lokasi berkas Anda (contoh: /Users/user/Programs/sqlite/tania.db)</li>
 <li>Buat sebuah berkas kosong dengan menggunakan nama yang sama dengan isi <code>SqlitePath</code> di <code>conf.json</code>.</li>
-</ul></li>
+</ul>
+</li>
 <li>Kompilasi kode sumber dengan menggunakan <code>go build</code>. Itu akan menghasilkan <code>tania-core.exe</code> (pada Windows) atau <code>tania-core</code> (pada Linux dan macOS.)</li>
 <li>Jalankan program dari terminal dengan menggunakan <code>./tania-core</code>, atau dari Windows Command Prompt menggunakan <code>.\tania-core.exe</code>.</li>
 <li>Nama pengguna dan kata sandi bawaan adalah <code>tania / tania</code>.</li>
 </ol>
-
 <h3 id="mesin-basis-data">Mesin Basis Data</h3>
-
 <p>Tania menggunakan SQLite sebagai basis data bawaan. Anda boleh menggunakan MySQL dengan mengganti <code>sqlite</code> dengan <code>mysql</code> pada kolom <code>tania_persistence_engine</code> di <code>conf.json</code>.</p>
-
 <pre><code>{
   &quot;tania_persistence_engine&quot;: &quot;sqlite&quot;,
   &quot;demo_mode&quot;: true,
@@ -286,10 +267,7 @@ Cara termudah untuk melakukan instalasi Tania adalah dengan menggunakan binari y
   &quot;redirect_uri&quot;: &quot;http://localhost:8080/&quot;,
   &quot;client_id&quot;: &quot;f0ece679-3f53-463e-b624-73e83049d6ac&quot;
 }
-</code></pre>
-
-<h3 id="jalankan-tes">Jalankan Tes</h3>
-
+</code></pre><h3 id="jalankan-tes">Jalankan Tes</h3>
 <ul>
 <li>Gunakan <code>go test ./...</code> untuk menjalankan semua tes pada Go.</li>
 <li>Gunakan <code>npm run cypress:run</code> untuk menjalankan tes menyeluruh.</li>
