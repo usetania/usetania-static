@@ -208,7 +208,102 @@ disqusShortname = "usetania"
       name = "v1.5"
       url = "/roadmap/v15"
       weight = 10
-  
+
+  [languages.el]
+    title = "Tania | Λογισμικό Ανοιχτου Κώδικα Διαχείρισης Aγροκτήματος"
+    languageName = "Greek"
+    weight = 4
+
+    [[languages.el.menu.main]]
+      name = "Σχετικα"
+      url = "about/"
+      weight = 5
+
+    [[languages.el.menu.main]]
+      name = "Τεκμηριωση"
+      url = "docs/"
+      weight = 10
+    
+    [[languages.el.menu.main]]
+      name = "Χαρτης"
+      url = "roadmap/"
+      weight = 20
+
+    [[languages.el.menu.main]]
+      name = "Blog"
+      url = "blog/"
+      weight = 30
+    
+    [[languages.el.menu.main]]
+      name = "Καταστημα"
+      url = "shop/"
+      weight = 40
+    
+    [[languages.el.menu.main]]
+      name = "Επικοινωνια"
+      url = "contact/"
+      weight = 45
+    
+    [[languages.el.menu.gettingstarted]]
+      name = "Επισκόπηση"
+      url = "docs/"
+      weight = 10
+    
+    [[languages.el.menu.gettingstarted]]
+      name = "Εγκατάσταση"
+      url = "docs/installation/"
+      weight = 20
+    
+    [[languages.el.menu.gettingstarted]]
+      name = "Λήψη Βοήθειας"
+      url = "docs/getting-help/"
+      weight = 30
+    
+    [[languages.el.menu.usingtania]]
+      name = "Αρχική Παραμετροποίηση"
+      url = "docs/initial-setup/"
+      weight = 5
+
+    [[languages.el.menu.usingtania]]
+      name = "Κεντρικός Πίνακας"
+      url = "docs/dashboard/"
+      weight = 10
+    
+    [[languages.el.menu.usingtania]]
+      name = "Περιοχή"
+      url = "docs/area/"
+      weight = 20
+    
+    [[languages.el.menu.usingtania]]
+      name = "Σοδειά"
+      url = "docs/crop/"
+      weight = 30
+    
+    [[languages.el.menu.usingtania]]
+      name = "Ταμιευτήρας"
+      url = "docs/reservoir/"
+      weight = 40
+    
+    [[languages.el.menu.usingtania]]
+      name = "Απόθεμα"
+      url = "docs/inventory/"
+      weight = 7
+    
+    [[languages.el.menu.usingtania]]
+      name = "Ρυθμίσεις"
+      url = "docs/settings/"
+      weight = 60
+    
+    [[languages.el.menu.roadmap]]
+      name = "v2.0"
+      url = ""
+      weight = 5
+
+    [[languages.el.menu.roadmap]]
+      name = "v1.5"
+      url = "v15"
+      weight = 10
+
   [languages.hu]
     title = "Tania | Open Source Farm Management Sofware"
 
@@ -286,3 +381,5 @@ disqusShortname = "usetania"
       name = "2019"
       url = "roadmap/"
       weight = 10
+
+
