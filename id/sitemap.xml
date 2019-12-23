@@ -37,11 +37,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="hu"
-                href="https://usetania.org/hu/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="id"
                 href="https://usetania.org/id/"
                 />
@@ -222,11 +217,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="hu"
-                href="https://usetania.org/hu/contact/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="id"
                 href="https://usetania.org/id/contact/"
                 />
@@ -322,11 +312,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="hu"
-                href="https://usetania.org/hu/blog/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="en"
                 href="https://usetania.org/blog/"
                 />
@@ -351,11 +336,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="hu"
-                href="https://usetania.org/hu/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="id"
                 href="https://usetania.org/id/categories/"
                 />
@@ -372,11 +352,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://usetania.org/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="hu"
-                href="https://usetania.org/hu/tags/"
                 />
     <xhtml:link
                 rel="alternate"
