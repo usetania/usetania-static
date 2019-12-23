@@ -20,7 +20,7 @@
                         {{ $currentPage := . }}
                         {{ range .Site.Menus.roadmap }}
                         <li>
-                            <a href="{{ .URL }}">{{ .Name }}</a>
+                            <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
                         </li>
                         {{ end }}
                     </ul>
