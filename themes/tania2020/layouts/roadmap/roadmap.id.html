@@ -1,0 +1,40 @@
+{{ define "main" }}
+<section class="page-title page-title-3 bg-secondary">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 text-center text-center-xs">
+                <h3 class="uppercase">Peta Jalan Produk</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 hidden-sm">
+                <div class="widget">
+                    <h6 class="title">Daftar Konten</h6>
+                    <hr>
+                    <ul class="link-list docs">
+                        {{ $currentPage := . }}
+                        {{ range .Site.Menus.roadmap }}
+                        <li>
+                            <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-9 mb-xs-24">
+                <div class="post-snippet mb64">
+                    <div class="post-title">
+                        <h2 class="inline-block" id="rm1">{{ .Title }}</h2>
+                    </div>
+                    {{ .Content }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

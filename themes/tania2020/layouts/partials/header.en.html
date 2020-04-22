@@ -1,0 +1,53 @@
+<!-- Header -->
+<header id="header" data-transparent="true" data-fullwidth="true" class="light submenu-light">
+    <div class="header-inner">
+        <div class="container">
+            <div id="logo">
+                <a href="{{ .Site.BaseURL | relLangURL }}">
+                    <span class="logo-default"><img src="/img/logo/Tania_long-light.svg"></span>
+                    <span class="logo-dark"><img src="/img/logo/Tania_long-dark.svg"></span>
+                </a>
+            </div>
+            <div id="search"><a id="btn-search-close" class="btn-search-close" aria-label="Close search form"><i class="icon-x"></i></a>
+                <form class="search-form" action="search-results-page.html" method="get">
+                    <input class="form-control" name="q" type="text" placeholder="Type & Search..." />
+                    <span class="text-muted">Start typing & press "Enter" or "ESC" to close</span>
+                </form>
+            </div>
+            <div class="header-extras">
+                <ul>
+                    <li class="d-none d-sm-block"><a href="#"><i class="fab fa-github"></i></a></li>
+                    <li class="d-none d-sm-block"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="d-none d-sm-block"><a href="#"><i class="fab fa-telegram"></i></a></li>
+                    <li class="pl-3 pr-3 d-none d-lg-block d-xl-none"><a href="#" class="btn btn-outline">Download</a></li>
+                    <li>
+                        <div class="p-dropdown">
+                            <a href="#"><i class="far fa-flag"></i></a>
+                            <ul class="p-dropdown-content">
+                                <li><a href="{{ "id" | absURL }}">🇮🇩 Bahasa Indonesia</a></li>
+                                <li><a href="{{ "en" | absURL }}">🇬🇧 English</a></li>
+                                <li><a href="{{ "el" | absURL }}">🇬🇷 Ελληνικα</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="mainMenu-trigger">
+                <a class="lines-button x"><span class="lines"></span></a>
+            </div>
+            <div id="mainMenu" class="menu-left">
+                <div class="container">
+                    <nav>
+                        <ul>
+                        	{{ $currentPage := . }}
+							{{ range .Site.Menus.main }}
+                            <li><a href="{{ .URL | absLangURL  }}">{{ .Name }}</a></li>
+                            {{ end }}
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- end: Header -->

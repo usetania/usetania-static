@@ -6,6 +6,8 @@ featuredimg: /img/precision-farming-using-satellite.jpg
 imgtitle: Increasing Efficiency with Precision Farming; How Satellites Can Help Farmers To Do That
 imgalt: precision farming, tania, precision agriculture
 author: Retno Ika S.
+categories:
+- Precision Farming
 ---
 
 Do you know that 37% of Earth's land is used for agricultural purposes? 11% is used for growing crops, and the rest is for pastures. One of the most overlooked challenges in agriculture is maintaining and improving efficiency. With climate changes already happen everywhere, humanity will have to face and tackle these challenges. Why? As the population only continues to grow, much of the world will depend on more effective agriculture practices to produce more outputs the world population relies on. This is where precision farming can help farmers.

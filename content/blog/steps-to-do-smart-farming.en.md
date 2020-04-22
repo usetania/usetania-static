@@ -5,6 +5,8 @@ date: 2019-03-06
 publishdate: 2019-03-06
 featuredimg: /img/smart-farming.jpg
 author: Asep Bagja P.
+categories:
+- Smart Farming
 ---
 
 Smart farming is an idea to cultivate crops with a combination of the latest technology and data analysis. The objective of it is to get more yields with few bad impacts on the environment than the conventional farming method.

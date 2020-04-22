@@ -6,6 +6,8 @@ featuredimg: /img/hacktoberfest.png
 imgtitle: Hacktoberfest with Tania
 imgalt: hacktoberfest
 author: Asep Bagja P.
+categories:
+- Event
 ---
 
 [**Hacktoberfest**](https://hacktoberfest.digitalocean.com) is the month-long festival of supporting and contributing to open source by Digital Ocean and DEV. It's open to everyone, and all skill levels are encouraged to participate. You can win a free t-shirt. It's limited to the first 50,000 participants. To participate in this event, all you have to do is making four pull-requests between 1 October 2019 to 31 October 2019.

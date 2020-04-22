@@ -4,9 +4,9 @@ date: 2019-10-17T12:38:51+08:00
 draft: false
 featuredimg: /img/tania-fe.jpg
 author: Didiet Noor
+categories:
+- Engineering
 ---
-
-# What we got right when building Tania
 
 Hi, my name is Didiet, one of the co-founders of Tanibox. Two years ago in 2017, Asep, my co-founder told me that he
 wanted to rewrite the software that he has been built to better architecture. He felt that the three-tier architecture

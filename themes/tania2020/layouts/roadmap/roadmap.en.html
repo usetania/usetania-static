@@ -1,0 +1,48 @@
+{{ define "main" }}
+<!-- Page title -->
+<section id="page-title" class="text-theme background-white">
+    <div class="container">
+        <div class="page-title">
+            <h1>Roadmap</h1>
+        </div>
+    </div>
+</section>
+<!-- end: Page title -->
+<!-- Content -->
+<section id="page-content">
+    <div class="container-wide">
+        <div class="row">
+            <div class="sidebar sticky-sidebar m-b-60 col-12 col-lg-2 p-t-40">
+                <div class="widget clearfix widget-categories">
+                    <h4 class="widget-title">Versions</h4>
+                    <ul class="list">
+                        {{ $currentPage := . }}
+                        {{ range .Site.Menus.roadmap }}
+                        <li>
+                            <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div>
+            </div>
+
+            <div class="content col-12 col-lg-10">
+                <!-- Blog -->
+                <div id="blog" class="single-post">
+                    <!-- Post single item-->
+                    <div class="post-item">
+                        <div class="post-item-wrap">
+                            <div class="post-item-description">
+                                <h1>{{ .Title }}</h1>
+                                {{ .Content }}
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: Post single item-->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end: Content -->
+{{ end }}

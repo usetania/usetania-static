@@ -6,6 +6,8 @@ featuredimg: /img/mtmpf.jpg
 imgtitle: Precision Farming - What You Need to Know in Advance and How to Make The Most of It
 imgalt: precision farming, tania, precision agriculture
 author: Retno Ika S.
+categories:
+- Precision Farming
 ---
 
 You probably have heard the term precision farming or precision agriculture almost from everywhere. But how much do you understand it? Precision farming is a booming sector, involves various equipment and lengthy knowledge and resources to work. And some farmers can be a bit confused. Do you feel the same way too? Let's break it down.

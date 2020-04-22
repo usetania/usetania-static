@@ -1,0 +1,34 @@
+{{ define "main" }}
+<!-- Content -->
+<section id="page-content" class="sidebar-both">
+    <div class="container-wide">
+        <div class="row">
+            <div class="sidebar sticky-sidebar m-b-60 col-12 col-lg-2 p-t-40">
+                {{- partial (printf "sidebar.%s.html" .Lang) . -}}
+            </div>
+
+            <div class="content col-12 col-lg-8">
+                <!-- Blog -->
+                <div id="blog" class="single-post">
+                    <!-- Post single item-->
+                    <div class="post-item">
+                        <div class="post-item-wrap">
+                            <div class="post-item-description">
+                                <h1>{{ .Title }}</h1>
+                                {{ .Content }}
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end: Post single item-->
+                </div>
+            </div>
+            <div class="sidebar sticky-sidebar docs--toc col-12 col-lg-2">
+                <div class="widget clearfix widget-categories">
+                    {{ .TableOfContents }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end: Content -->
+{{ end }}

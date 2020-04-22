@@ -4,6 +4,8 @@ date: 2019-07-15T12:49:52+08:00
 draft: false
 featuredimg: /img/collaboration.jpg
 author: Asep Bagja P.
+categories:
+- From The Team
 ---
 <small class="text-center">Photo by <a href="https://unsplash.com/photos/qgHGDbbSNm8" target="_blank">Elaine Casap</a> on <a href="https://unsplash.com">Unsplash</a>.</small>
 

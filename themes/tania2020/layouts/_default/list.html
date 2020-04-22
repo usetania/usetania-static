@@ -1,0 +1,77 @@
+{{ define "main" }}
+<!-- Page title -->
+<section id="page-title" class="text-theme background-white">
+    <div class="container">
+        <div class="page-title">
+            <h1>{{ .Title }}</h1>
+        </div>
+    </div>
+</section>
+<!-- end: Page title -->
+<!-- Content -->
+<section id="page-content">
+    <!-- Blog on Wide Screen -->
+    <div class="container-wide">
+        {{ .Content }}
+        <div id="blog" class="grid-layout post-5-columns d-none d-lg-block m-b-30" data-item="post-item">
+            {{ range .Pages }}
+            <div class="post-item border mb-lg-5">
+                <div class="post-item-wrap">
+                    <div class="post-image">
+                        <a href="{{.Permalink}}"><img alt="" src="{{ .Params.featuredimg }}"></a>
+                        {{ $taxo := "categories" }}
+                        <span class="post-meta-category">
+                            {{ range .Param $taxo }}
+                            {{ $name := . }}
+                            {{ with $.Site.GetPage (printf "/%s/%s" $taxo ($name | urlize)) }}
+                            <a href="{{ .Permalink }}">{{ $name }}</a>
+                            {{ end }}
+                        </span>
+                        {{ end }}
+                    </div>
+                    <div class="post-item-description">
+                        <h2><a href="{{.Permalink}}">{{.Title}}</a></h2>
+                        <div>
+                            <span class="post-meta-date"><i class="far fa-calendar"></i>{{.Date.Format "2 January 2006"}}</span>
+                            <span class="post-meta-date"><i class="far fa-user"></i>{{ .Params.author }}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+    <!-- Blog on Regular Screen -->
+    <div class="container">
+        {{ .Content }}
+        <div id="blog" class="grid-layout post-3-columns d-lg-none m-b-30 p-t-40" data-item="post-item">
+            {{ range .Pages }}
+            <div class="post-item border">
+                <div class="post-item-wrap">
+                    <div class="post-image">
+                        <a href="{{.Permalink}}"><img alt="" src="{{ .Params.featuredimg }}"></a>
+                        {{ $taxo := "categories" }}
+                        <span class="post-meta-category">
+                            {{ range .Param $taxo }}
+                            {{ $name := . }}
+                            {{ with $.Site.GetPage (printf "/%s/%s" $taxo ($name | urlize)) }}
+                            <a href="{{ .Permalink }}">{{ $name }}</a>
+                            {{ end }}
+                        </span>
+                        {{ end }}
+                    </div>
+                    <div class="post-item-description">
+                        <h2><a href="{{.Permalink}}">{{.Title}}</a></h2>
+                        <div>
+                            <span class="post-meta-date"><i class="far fa-calendar"></i>{{.Date.Format "2 January 2006"}}</span>
+                            <span class="post-meta-date"><i class="far fa-user"></i>{{ .Params.author }}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section> 
+<!-- end: Content -->
+{{ end }}

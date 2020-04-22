@@ -1,6 +1,6 @@
 baseURL = "https://usetania.org/"
 languageCode = "en-gb"
-theme = "usetania"
+theme = "tania2020"
 googleAnalytics = "UA-133765833-1"
 DefaultContentLanguage = "en"
 disqusShortname = "usetania"
@@ -23,17 +23,43 @@ disableLanguages = ["hu"]
     width = 200
     height = 200
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+    [markup.highlight]
+      codeFences = true
+      guessSyntax = false
+      hl_Lines = ""
+      lineNoStart = 1
+      lineNos = false
+      lineNumbersInTable = true
+      noClasses = true
+      style = "monokai"
+      tabWidth = 2
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 1
+
 [languages]
   [languages.en]
-    title = "Tania | Open Source Farm Management Sofware"
+    title = "Tania ・ Open Source Farm Management Sofware"
 
     [[languages.en.menu.main]]
-      name = "About"
-      url = "about/"
-      weight = 5
-
-    [[languages.en.menu.main]]
-      name = "Docs"
+      name = "Documentation"
       url = "docs/"
       weight = 10
     
@@ -46,16 +72,6 @@ disableLanguages = ["hu"]
       name = "Blog"
       url = "blog/"
       weight = 30
-    
-    [[languages.en.menu.main]]
-      name = "Shop"
-      url = "shop/"
-      weight = 40
-    
-    [[languages.en.menu.main]]
-      name = "Contact Us"
-      url = "contact/"
-      weight = 45
     
     [[languages.en.menu.gettingstarted]]
       name = "Overview"
