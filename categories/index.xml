@@ -1,14 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Tania | Open Source Farm Management Sofware</title>
+    <title>Categories on Tania ・ Open Source Farm Management Sofware</title>
     <link>https://usetania.org/categories/</link>
-    <description>Recent content in Categories on Tania | Open Source Farm Management Sofware</description>
+    <description>Recent content in Categories on Tania ・ Open Source Farm Management Sofware</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
+    <lastBuildDate>Thu, 17 Oct 2019 12:38:51 +0800</lastBuildDate>
     
 	<atom:link href="https://usetania.org/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Engineering</title>
+      <link>https://usetania.org/categories/engineering/</link>
+      <pubDate>Thu, 17 Oct 2019 12:38:51 +0800</pubDate>
+      
+      <guid>https://usetania.org/categories/engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Event</title>
+      <link>https://usetania.org/categories/event/</link>
+      <pubDate>Wed, 02 Oct 2019 12:38:51 +0800</pubDate>
+      
+      <guid>https://usetania.org/categories/event/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Precision Farming</title>
+      <link>https://usetania.org/categories/precision-farming/</link>
+      <pubDate>Mon, 23 Sep 2019 17:23:09 +0800</pubDate>
+      
+      <guid>https://usetania.org/categories/precision-farming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>From The Team</title>
+      <link>https://usetania.org/categories/from-the-team/</link>
+      <pubDate>Mon, 15 Jul 2019 12:49:52 +0800</pubDate>
+      
+      <guid>https://usetania.org/categories/from-the-team/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Smart Farming</title>
+      <link>https://usetania.org/categories/smart-farming/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://usetania.org/categories/smart-farming/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

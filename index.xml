@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tania | Open Source Farm Management Sofware</title>
+    <title>Tania ・ Open Source Farm Management Sofware</title>
     <link>https://usetania.org/</link>
-    <description>Recent content on Tania | Open Source Farm Management Sofware</description>
+    <description>Recent content on Tania ・ Open Source Farm Management Sofware</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Thu, 17 Oct 2019 12:38:51 +0800</lastBuildDate>
@@ -17,7 +17,7 @@
       <pubDate>Thu, 17 Oct 2019 12:38:51 +0800</pubDate>
       
       <guid>https://usetania.org/blog/what-we-got-right-tania-arch/</guid>
-      <description>What we got right when building Tania Hi, my name is Didiet, one of the co-founders of Tanibox. Two years ago in 2017, Asep, my co-founder told me that he wanted to rewrite the software that he has been built to better architecture. He felt that the three-tier architecture built on top of PHP and Symfony is not flexible enough to meet our business need. We rewrote Tania with embracing uncertainty in mind and I think there are things we got right when building Tania.</description>
+      <description>Hi, my name is Didiet, one of the co-founders of Tanibox. Two years ago in 2017, Asep, my co-founder told me that he wanted to rewrite the software that he has been built to better architecture. He felt that the three-tier architecture built on top of PHP and Symfony is not flexible enough to meet our business need. We rewrote Tania with embracing uncertainty in mind and I think there are things we got right when building Tania.</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Wed, 02 Oct 2019 12:38:51 +0800</pubDate>
       
       <guid>https://usetania.org/blog/tania-hacktoberfest/</guid>
-      <description>Hacktoberfest is the month-long festival of supporting and contributing to open source by Digital Ocean and DEV. It&#39;s open to everyone, and all skill levels are encouraged to participate. You can win a free t-shirt. It&#39;s limited to the first 50,000 participants. To participate in this event, all you have to do is making four pull-requests between 1 October 2019 to 31 October 2019.
+      <description>Hacktoberfest is the month-long festival of supporting and contributing to open source by Digital Ocean and DEV. It&amp;rsquo;s open to everyone, and all skill levels are encouraged to participate. You can win a free t-shirt. It&amp;rsquo;s limited to the first 50,000 participants. To participate in this event, all you have to do is making four pull-requests between 1 October 2019 to 31 October 2019.
 You can contribute to Tania open-source project by submitting pull-request to our repository.</description>
     </item>
     
@@ -36,8 +36,8 @@ You can contribute to Tania open-source project by submitting pull-request to ou
       <pubDate>Mon, 23 Sep 2019 17:23:09 +0800</pubDate>
       
       <guid>https://usetania.org/blog/make-the-most-of-precision-farming/</guid>
-      <description>You probably have heard the term precision farming or precision agriculture almost from everywhere. But how much do you understand it? Precision farming is a booming sector, involves various equipment and lengthy knowledge and resources to work. And some farmers can be a bit confused. Do you feel the same way too? Let&#39;s break it down.
-What is Precision Farming? It&#39;s definitely more than just using a farm management system and do your daily work at your farm&amp;hellip;</description>
+      <description>You probably have heard the term precision farming or precision agriculture almost from everywhere. But how much do you understand it? Precision farming is a booming sector, involves various equipment and lengthy knowledge and resources to work. And some farmers can be a bit confused. Do you feel the same way too? Let&amp;rsquo;s break it down.
+What is Precision Farming? It&amp;rsquo;s definitely more than just using a farm management system and do your daily work at your farm&amp;hellip;</description>
     </item>
     
     <item>
@@ -46,7 +46,7 @@ What is Precision Farming? It&#39;s definitely more than just using a farm manag
       <pubDate>Wed, 18 Sep 2019 17:15:36 +0800</pubDate>
       
       <guid>https://usetania.org/blog/increasing-efficiency-with-precision-farming/</guid>
-      <description>Do you know that 37% of Earth&#39;s land is used for agricultural purposes? 11% is used for growing crops, and the rest is for pastures. One of the most overlooked challenges in agriculture is maintaining and improving efficiency. With climate changes already happen everywhere, humanity will have to face and tackle these challenges. Why? As the population only continues to grow, much of the world will depend on more effective agriculture practices to produce more outputs the world population relies on.</description>
+      <description>Do you know that 37% of Earth&amp;rsquo;s land is used for agricultural purposes? 11% is used for growing crops, and the rest is for pastures. One of the most overlooked challenges in agriculture is maintaining and improving efficiency. With climate changes already happen everywhere, humanity will have to face and tackle these challenges. Why? As the population only continues to grow, much of the world will depend on more effective agriculture practices to produce more outputs the world population relies on.</description>
     </item>
     
     <item>
@@ -55,28 +55,8 @@ What is Precision Farming? It&#39;s definitely more than just using a farm manag
       <pubDate>Mon, 15 Jul 2019 12:49:52 +0800</pubDate>
       
       <guid>https://usetania.org/blog/the-new-direction-of-tania-project/</guid>
-      <description>Photo by Elaine Casapon Unsplash.In the last few weeks, there&#39;s a discussion between initiators of this project about the direction of Tania. We all agree that Tania should be more involving the community in the agriculture ecosystem around the world to promote precision agriculture practice. Because we believe precision agriculture can make farming more sustainable ecologically and economically. The world is too big for us to do it alone. Therefore, this is what we will do to achieve that goal.</description>
-    </item>
-    
-    <item>
-      <title>Important Skills to Be A Successful Farmer</title>
-      <link>https://usetania.org/blog/important-skills-to-be-a-successful-farmer/</link>
-      <pubDate>Wed, 05 Jun 2019 22:05:06 +0800</pubDate>
-      
-      <guid>https://usetania.org/blog/important-skills-to-be-a-successful-farmer/</guid>
-      <description>There are some key skills and attributes to be a successful farmer, that are more important than others. If you&#39;re considering farming as your business, I think you should &amp;ldquo;invest&amp;rdquo; in these skills.
-Organisational Skills If you never manage your checkbook balance, you&#39;ll be easier to get a crazy shock by your unorganised system. Farmers must keep all kinds of records accurately, regularly. From clients invoices to certification papers to taxation to labor contracts to payroll and so on.</description>
-    </item>
-    
-    <item>
-      <title>What Makes You The Succesful Farmer</title>
-      <link>https://usetania.org/blog/what-makes-a-succesful-farmer/</link>
-      <pubDate>Sat, 01 Jun 2019 17:43:59 +0800</pubDate>
-      
-      <guid>https://usetania.org/blog/what-makes-a-succesful-farmer/</guid>
-      <description>Since running Tanibox, I have met many farmers who are pretty successful in running their farming businesses. By having deep conversations with them, it&#39;s not that they know how to grow pretty vegetables. It&#39;s that these farmers have a deep understanding of how a business should work.
-I&#39;ve come to this conclusion.
- If you can&#39;t make a living by farming, then you&#39;re NOT a great farmer. You might be a great grower, but you’re not a good farmer nor a successful one.</description>
+      <description>Photo by Elaine Casap on Unsplash.
+In the last few weeks, there&amp;rsquo;s a discussion between initiators of this project about the direction of Tania. We all agree that Tania should be more involving the community in the agriculture ecosystem around the world to promote precision agriculture practice. Because we believe precision agriculture can make farming more sustainable ecologically and economically. The world is too big for us to do it alone.</description>
     </item>
     
     <item>
@@ -132,7 +112,10 @@ The first step is collecting data. We can start to gather data by using a simple
       <pubDate>Tue, 05 Mar 2019 12:16:55 +0800</pubDate>
       
       <guid>https://usetania.org/docs/initial-setup/</guid>
-      <description>After you have finished the installation step of Tania, you can start using the software by:</description>
+      <description>After you have finished the installation step of Tania, you can start using the software by:
+Login to your account Go to your browser, and access http://localhost:8080 (the default installation address.) Input tania as the default username and password.
+-- Input your farm information On the next screen, you will input the information about your farm. Fill all fields and click Continue.
+Create first water reservoir Next, you will define the source of water on your farm.</description>
     </item>
     
     <item>
@@ -186,7 +169,8 @@ The first step is collecting data. We can start to gather data by using a simple
       <pubDate>Mon, 04 Feb 2019 19:54:39 +0800</pubDate>
       
       <guid>https://usetania.org/docs/dashboard/</guid>
-      <description>From the Dashboard screen presents information in blocks called widgets. By default, Tania delivers three widgets on this page:</description>
+      <description>From the Dashboard screen presents information in blocks called widgets. By default, Tania delivers three widgets on this page:
+  At a Glance The At a Glance widget provides a summary of the number of areas on your farm, plant varieties you grow, and incomplete tasks you have. The content types are displayed in the form of a link. When clicked upon, it will direct you to the specific area to be managed.</description>
     </item>
     
     <item>
@@ -195,9 +179,9 @@ The first step is collecting data. We can start to gather data by using a simple
       <pubDate>Mon, 04 Feb 2019 19:47:55 +0800</pubDate>
       
       <guid>https://usetania.org/docs/getting-help/</guid>
-      <description>Raising Issues Please raise any bug reports on Tania&#39;s Github issue trackers. Be sure to search the list to see if your issue has already been raised.
+      <description>Raising Issues Please raise any bug reports on Tania&amp;rsquo;s Github issue trackers. Be sure to search the list to see if your issue has already been raised.
 A good bug report is one that make it easy to understand what you were trying to do and what went wrong.
-Feature requests For feature requests, please raise and discuss them on Tania&#39;s Telegram group.</description>
+Feature requests For feature requests, please raise and discuss them on Tania&amp;rsquo;s Telegram group.</description>
     </item>
     
     <item>
@@ -206,7 +190,7 @@ Feature requests For feature requests, please raise and discuss them on Tania&#3
       <pubDate>Mon, 04 Feb 2019 19:34:29 +0800</pubDate>
       
       <guid>https://usetania.org/docs/installation/</guid>
-      <description>This software is built with Go programming language. It means you will get an executable binary to run on your machine. You don&#39;t need extra software like MAMP, XAMPP, or WAMP to run Tania, but you may need MySQL database if you choose to use it instead of SQLite (the default database.)
+      <description>This software is built with Go programming language. It means you will get an executable binary to run on your machine. You don&amp;rsquo;t need extra software like MAMP, XAMPP, or WAMP to run Tania, but you may need MySQL database if you choose to use it instead of SQLite (the default database.)
 The easiest way to install Tania is using pre-built binaries for Windows (x64) and Linux (x64). You can download it from the release page.</description>
     </item>
     
@@ -236,7 +220,8 @@ Read more</description>
       
       <guid>https://usetania.org/blog/the-journey-begins/</guid>
       <description> Agriculture is our wisest pursuit, because it will in the end contribute most to real wealth, good morals, and happiness.
-— Thomas Jefferson </description>
+— Thomas Jefferson
+ </description>
     </item>
     
   </channel>

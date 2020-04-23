@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://usetania.org/categories/</loc>
+    <lastmod>2019-10-17T12:38:51+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="el"
+                href="https://usetania.org/el/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://usetania.org/id/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://usetania.org/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://usetania.org/categories/engineering/</loc>
+    <lastmod>2019-10-17T12:38:51+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://usetania.org/</loc>
     <lastmod>2019-10-17T12:38:51+08:00</lastmod>
     <xhtml:link
@@ -38,6 +63,11 @@
   </url>
   
   <url>
+    <loc>https://usetania.org/categories/event/</loc>
+    <lastmod>2019-10-02T12:38:51+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://usetania.org/blog/tania-hacktoberfest/</loc>
     <lastmod>2019-10-02T12:38:51+08:00</lastmod>
     <xhtml:link
@@ -50,6 +80,11 @@
                 hreflang="en"
                 href="https://usetania.org/blog/tania-hacktoberfest/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://usetania.org/categories/precision-farming/</loc>
+    <lastmod>2019-09-23T17:23:09+08:00</lastmod>
   </url>
   
   <url>
@@ -83,6 +118,11 @@
   </url>
   
   <url>
+    <loc>https://usetania.org/categories/from-the-team/</loc>
+    <lastmod>2019-07-15T12:49:52+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://usetania.org/blog/the-new-direction-of-tania-project/</loc>
     <lastmod>2019-07-15T12:49:52+08:00</lastmod>
     <xhtml:link
@@ -109,36 +149,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://usetania.org/subscribe/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://usetania.org/blog/important-skills-to-be-a-successful-farmer/</loc>
-    <lastmod>2019-06-05T22:05:06+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="el"
-                href="https://usetania.org/el/blog/important-skills-to-be-a-successful-farmer/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://usetania.org/blog/important-skills-to-be-a-successful-farmer/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://usetania.org/blog/what-makes-a-succesful-farmer/</loc>
-    <lastmod>2019-06-01T17:43:59+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="el"
-                href="https://usetania.org/el/blog/what-makes-a-succesful-farmer/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://usetania.org/blog/what-makes-a-succesful-farmer/"
                 />
   </url>
   
@@ -215,6 +225,11 @@
                 hreflang="en"
                 href="https://usetania.org/shop/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://usetania.org/categories/smart-farming/</loc>
+    <lastmod>2019-03-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -559,25 +574,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://usetania.org/blog/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://usetania.org/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="el"
-                href="https://usetania.org/el/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://usetania.org/id/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://usetania.org/categories/"
                 />
   </url>
   

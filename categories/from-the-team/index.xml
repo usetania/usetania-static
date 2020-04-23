@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>From The Team on Tania ・ Open Source Farm Management Sofware</title>
+    <link>https://usetania.org/categories/from-the-team/</link>
+    <description>Recent content in From The Team on Tania ・ Open Source Farm Management Sofware</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 15 Jul 2019 12:49:52 +0800</lastBuildDate>
+    
+	<atom:link href="https://usetania.org/categories/from-the-team/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The New Direction of Tania Project: What We&#39;re Going to Develop on Tania</title>
+      <link>https://usetania.org/blog/the-new-direction-of-tania-project/</link>
+      <pubDate>Mon, 15 Jul 2019 12:49:52 +0800</pubDate>
+      
+      <guid>https://usetania.org/blog/the-new-direction-of-tania-project/</guid>
+      <description>Photo by Elaine Casap on Unsplash.
+In the last few weeks, there&amp;rsquo;s a discussion between initiators of this project about the direction of Tania. We all agree that Tania should be more involving the community in the agriculture ecosystem around the world to promote precision agriculture practice. Because we believe precision agriculture can make farming more sustainable ecologically and economically. The world is too big for us to do it alone.</description>
+    </item>
+    
+    <item>
+      <title>The Journey Begins</title>
+      <link>https://usetania.org/blog/the-journey-begins/</link>
+      <pubDate>Sat, 03 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://usetania.org/blog/the-journey-begins/</guid>
+      <description> Agriculture is our wisest pursuit, because it will in the end contribute most to real wealth, good morals, and happiness.
+— Thomas Jefferson
+ </description>
+    </item>
+    
+  </channel>
+</rss>

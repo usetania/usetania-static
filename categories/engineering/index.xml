@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Engineering on Tania ・ Open Source Farm Management Sofware</title>
+    <link>https://usetania.org/categories/engineering/</link>
+    <description>Recent content in Engineering on Tania ・ Open Source Farm Management Sofware</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 17 Oct 2019 12:38:51 +0800</lastBuildDate>
+    
+	<atom:link href="https://usetania.org/categories/engineering/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What We Got Right When We Built Tania</title>
+      <link>https://usetania.org/blog/what-we-got-right-tania-arch/</link>
+      <pubDate>Thu, 17 Oct 2019 12:38:51 +0800</pubDate>
+      
+      <guid>https://usetania.org/blog/what-we-got-right-tania-arch/</guid>
+      <description>Hi, my name is Didiet, one of the co-founders of Tanibox. Two years ago in 2017, Asep, my co-founder told me that he wanted to rewrite the software that he has been built to better architecture. He felt that the three-tier architecture built on top of PHP and Symfony is not flexible enough to meet our business need. We rewrote Tania with embracing uncertainty in mind and I think there are things we got right when building Tania.</description>
+    </item>
+    
+    <item>
+      <title>Intro to Tania Backend Architecture</title>
+      <link>https://usetania.org/blog/intro-to-tania-backend-architecture/</link>
+      <pubDate>Sat, 24 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://usetania.org/blog/intro-to-tania-backend-architecture/</guid>
+      <description>The overall architecture of Tania is built so it doesn’t rely on particular storage, protocol, or serialization format. Because it needs to be deployed to a different environment like Raspberry Pi, NAS QNAP, or the cloud like AWS. We name the Tania architecture as Modular Monolith as each domain share nothing.
+Read more</description>
+    </item>
+    
+  </channel>
+</rss>

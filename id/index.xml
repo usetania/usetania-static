@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tania | Sistem Manajemen Kebun Dengan Sumber Terbuka</title>
+    <title>Tania ・ Sistem Manajemen Pertanian Bersumber Terbuka</title>
     <link>https://usetania.org/id/</link>
-    <description>Recent content on Tania | Sistem Manajemen Kebun Dengan Sumber Terbuka</description>
+    <description>Recent content on Tania ・ Sistem Manajemen Pertanian Bersumber Terbuka</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Tue, 05 Mar 2019 12:16:55 +0800</lastBuildDate>
@@ -83,7 +83,7 @@ Selanjutnya, Anda akan menentukan sumber air pada kebun Anda. Anda dapat pilih T
       <pubDate>Mon, 04 Feb 2019 19:47:55 +0800</pubDate>
       
       <guid>https://usetania.org/id/docs/getting-help/</guid>
-      <description>Ajukan Isu Sila mengajukan laporan kesalahan di Tania&#39;s Github issue trackers. Pastikan untuk mencari terlebih dahulu barangkali laporan tersebut sudah ada.
+      <description>Ajukan Isu Sila mengajukan laporan kesalahan di Tania&amp;rsquo;s Github issue trackers. Pastikan untuk mencari terlebih dahulu barangkali laporan tersebut sudah ada.
 Laporan kesalahan yang bagus adalah laporan yang mudah dimengerti tentang apa yang coba Anda lakukan dan apa yang salah.
 Permintaan Fitur Untuk permintaan fitur, sila ajukan dan diskusikan di grup Telegram Tania.</description>
     </item>

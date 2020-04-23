@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Event on Tania ・ Open Source Farm Management Sofware</title>
+    <link>https://usetania.org/categories/event/</link>
+    <description>Recent content in Event on Tania ・ Open Source Farm Management Sofware</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 02 Oct 2019 12:38:51 +0800</lastBuildDate>
+    
+	<atom:link href="https://usetania.org/categories/event/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hacktoberfest With Tania</title>
+      <link>https://usetania.org/blog/tania-hacktoberfest/</link>
+      <pubDate>Wed, 02 Oct 2019 12:38:51 +0800</pubDate>
+      
+      <guid>https://usetania.org/blog/tania-hacktoberfest/</guid>
+      <description>Hacktoberfest is the month-long festival of supporting and contributing to open source by Digital Ocean and DEV. It&amp;rsquo;s open to everyone, and all skill levels are encouraged to participate. You can win a free t-shirt. It&amp;rsquo;s limited to the first 50,000 participants. To participate in this event, all you have to do is making four pull-requests between 1 October 2019 to 31 October 2019.
+You can contribute to Tania open-source project by submitting pull-request to our repository.</description>
+    </item>
+    
+  </channel>
+</rss>

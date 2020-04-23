@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en-gb"><meta charset="utf-8">
-<title>Tania | Open Source Farm Management Sofware</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tania ・ Open Source Farm Management Sofware</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />    
 
 
 <meta name="description"
-	content="What we got right when building Tania Hi, my name is Didiet, one of the co-founders of Tanibox. Two years ago in 2017, Asep, my co-founder told me that he wanted to rewrite the software that he has been built to better architecture. He felt that the three-tier architecture built on top of PHP and Symfony is not flexible enough to meet our business need. We rewrote Tania with embracing uncertainty in mind and I think there are things we got right when building Tania.">
+	content="Hi, my name is Didiet, one of the co-founders of Tanibox. Two years ago in 2017, Asep, my co-founder told me that he wanted to rewrite the software that he has been built to better architecture. He felt that the three-tier architecture built on top of PHP and Symfony is not flexible enough to meet our business need. We rewrote Tania with embracing uncertainty in mind and I think there are things we got right when building Tania.">
 
 
 <meta property="og:title" content="What We Got Right When We Built Tania" />
 <meta property="og:description"
-	content="What we got right when building Tania Hi, my name is Didiet, one of the co-founders of Tanibox. Two years ago in 2017, Asep, my co-founder told me that he wanted to rewrite the software that he has been built to better architecture. He felt that the three-tier architecture built on top of PHP and Symfony is not flexible enough to meet our business need. We rewrote Tania with embracing uncertainty in mind and I think there are things we got right when building Tania." />
+	content="Hi, my name is Didiet, one of the co-founders of Tanibox. Two years ago in 2017, Asep, my co-founder told me that he wanted to rewrite the software that he has been built to better architecture. He felt that the three-tier architecture built on top of PHP and Symfony is not flexible enough to meet our business need. We rewrote Tania with embracing uncertainty in mind and I think there are things we got right when building Tania." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://usetania.org/blog/what-we-got-right-tania-arch/" />
 <meta property="og:image"
@@ -23,20 +24,19 @@
 
 <meta name="twitter:title" content="What We Got Right When We Built Tania" />
 <meta name="twitter:description"
-	content="What we got right when building Tania Hi, my name is Didiet, one of the co-founders of Tanibox. Two years ago in 2017, Asep, my co-founder told me that he wanted to rewrite the software that he has been built to better architecture. He felt that the three-tier architecture built on top of PHP and Symfony is not flexible enough to meet our business need. We rewrote Tania with embracing uncertainty in mind and I think there are things we got right when building Tania." />
+	content="Hi, my name is Didiet, one of the co-founders of Tanibox. Two years ago in 2017, Asep, my co-founder told me that he wanted to rewrite the software that he has been built to better architecture. He felt that the three-tier architecture built on top of PHP and Symfony is not flexible enough to meet our business need. We rewrote Tania with embracing uncertainty in mind and I think there are things we got right when building Tania." />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:image"
 	content="https://usetania.org/img/Tania_Icon200.png" />
 
 
-<link href="/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="/css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
-<link href="/css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/plugins.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link href="/css/theme.css" rel="stylesheet" type="text/css" media="all" />
 <link href="/css/custom.css" rel="stylesheet" type="text/css" media="all" />
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
 	integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
+<link rel="shortcut icon" type="image/png" href="/img/favicon.png" />
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,700,800" rel="stylesheet">
 
 
@@ -65,114 +65,131 @@
 <noscript><img height="1" width="1" style="display:none"
 		src="https://www.facebook.com/tr?id=250881212460717&ev=PageView&noscript=1" /></noscript>
 
-
-
-<body class="scroll-assist"><div class="nav-container">
-	<a id="top"></a>
-	<nav class="bg-dark">
-		<div class="nav-bar">
-			<div class="module left">
-				<a href="/">
-					<img class="logo logo-light" alt="Tanibox" src="/images/logo-light.svg" />
-					<img class="logo logo-dark" alt="Tanibox" src="/images/logo-dark.svg" />
-				</a>
-			</div>
-			<div class="module widget-handle mobile-toggle right visible-sm visible-xs">
-				<i class="fas fa-ellipsis-v"></i>
-			</div>
-			<div class="module-group right">
-				<div class="module left">
-					<ul class="menu">
-						
-						
-						<li>
-							<a href="https://usetania.org/about/">About</a>
-						</li>
-						
-						<li>
-							<a href="https://usetania.org/docs/">Docs</a>
-						</li>
-						
-						<li>
-							<a href="https://usetania.org/roadmap/">Roadmap</a>
-						</li>
-						
-						<li>
-							<a href="https://usetania.org/blog/">Blog</a>
-						</li>
-						
-						<li>
-							<a href="https://usetania.org/shop/">Shop</a>
-						</li>
-						
-						<li>
-							<a href="https://usetania.org/contact/">Contact Us</a>
-						</li>
-						
-					</ul>
-				</div>
-				<div class="module widget-handle language left">
-					<ul class="menu">
-						<li class="has-dropdown">
-							<a href="#"><i class="far fa-flag"></i></a>
-							<ul>
-								<li>
-									<a href="https://usetania.org/en">English</a>
-								</li>
-								<li>
-									<a href="https://usetania.org/id">Bahasa Indonesia</a>
-								</li>
-								<li>
-									<a href="https://usetania.org/el">Ελληνικα</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</nav>
-</div>
-<div class="main-container">
-<section class="post pb64">
-    <div class="container-fluid">
-        <div class="row text-center text-center-xs">
-            <div class="col-xs-12 col-md-10 col-md-offset-1">
-                <div class="pb48 pt48"><a href="/blog"><i class="fas fa-arrow-left"></i> Back to Blog</a></div>
-                <div class="post-title">
-                    <div>
-                        <h2 class="inline-block">What We Got Right When We Built Tania</h2>
-                    </div>
-                    <ul class="post-meta">
-                        <li>
-                            <i class="fas fa-user"></i>
-                            <span>Didiet Noor</span>
-                        </li>
-                        <li>
-                            <i class="fas fa-calendar"></i>
-                            <span>17 October 2019</span>
-                        </li>
-                    </ul>     
-                </div>
-                <div class="pt40 pb40">
-                    <img src="/img/tania-fe.jpg" title="" alt="">
+<body>
+    
+    <div class="body-inner">
+<header id="header" data-transparent="true" data-fullwidth="true" class="light submenu-light">
+    <div class="header-inner">
+        <div class="container">
+            <div id="logo">
+                <a href="/">
+                    <span class="logo-default"><img src="/img/logo/Tania_long-light.svg"></span>
+                    <span class="logo-dark"><img src="/img/logo/Tania_long-dark.svg"></span>
+                </a>
+            </div>
+            <div id="search"><a id="btn-search-close" class="btn-search-close" aria-label="Close search form"><i class="icon-x"></i></a>
+                <form class="search-form" action="search-results-page.html" method="get">
+                    <input class="form-control" name="q" type="text" placeholder="Type & Search..." />
+                    <span class="text-muted">Start typing & press "Enter" or "ESC" to close</span>
+                </form>
+            </div>
+            <div class="header-extras">
+                <ul>
+                    <li class="d-none d-sm-block"><a href="https://github.com/Tanibox/tania-core" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li class="d-none d-sm-block"><a href="https://twitter.com/UseTania" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    <li class="d-none d-sm-block"><a href="https://t.me/usetania" target="_blank"><i class="fab fa-telegram"></i></a></li>
+                    <li>
+                        <div class="p-dropdown">
+                            <a href="#"><i class="far fa-flag"></i></a>
+                            <ul class="p-dropdown-content">
+                                <li><a href="https://usetania.org/id">🇮🇩 Bahasa Indonesia</a></li>
+                                <li><a href="https://usetania.org/en">🇬🇧 English</a></li>
+                                <li><a href="https://usetania.org/el">🇬🇷 Ελληνικα</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div id="mainMenu-trigger">
+                <a class="lines-button x"><span class="lines"></span></a>
+            </div>
+            <div id="mainMenu" class="menu-left">
+                <div class="container">
+                    <nav>
+                        <ul>
+                        	
+							
+                            <li><a href="https://usetania.org/docs/">Documentation</a></li>
+                            
+                            <li><a href="https://usetania.org/roadmap/">Roadmap</a></li>
+                            
+                            <li><a href="https://usetania.org/blog/">Blog</a></li>
+                            
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </div>
-        <div class="row post-snippet">
-            <div class="col-sm-12 col-md-8 col-md-offset-2">
-                <div class="mb64">
-                    <nav id="TableOfContents">
+    </div>
+</header>
+
+
+
+<section id="page-title" class="background-white p-b-60" data-animate="fadeIn" data-animate-delay="200">
+    <div class="container">
+        <div class="breadcrumb">
+            <ul>
+                <li><a href="/blog">Blog</a></li>
+                
+                <li class="active">
+                    
+                    
+                    
+                    <a href="https://usetania.org/categories/engineering/">Engineering</a>
+                    
+                </li>
+                
+            </ul>
+        </div>
+        <div class="page-title">
+            <h1>What We Got Right When We Built Tania</h1>
+        </div>
+        <div class="post-meta text-center">
+            <span class="post-meta-date"><i class="far fa-calendar"></i>17 October 2019</span>
+            <span class="post-meta-author"><i class="far fa-user"></i>Didiet Noor</span>
+        </div>
+    </div>
+</section>
+
+
+
+<section id="page-content">
+    
+    <div class="container-wide d-none d-lg-block">
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 p-b-40" data-animate="fadeIn" data-animate-delay="400">
+                <div data-bg-image="/img/tania-fe.jpg" style="height: 800px;" title="" alt=""></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-wide d-lg-none">
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 p-b-40" data-animate="fadeIn" data-animate-delay="400">
+                <div data-bg-image="/img/tania-fe.jpg" style="height: 240px;" title="" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        
+        <div id="blog" class="single-post">
+            <div class="post-item">
+                <div class="post-item-wrap">
+                    <div class="post-item-description">
+                        <nav id="TableOfContents">
   <ul>
-    <li><a href="#applying-domain-driven-design">Applying Domain-Driven Design</a></li>
-    <li><a href="#implementing-onionhexagonal-architecture">Implementing Onion/Hexagonal Architecture</a></li>
-    <li><a href="#using-go-as-our-development-language">Using Go as our development language.</a></li>
-    <li><a href="#conclusion">Conclusion</a></li>
+    <li>
+      <ul>
+        <li><a href="#applying-domain-driven-design">Applying Domain-Driven Design</a></li>
+        <li><a href="#implementing-onionhexagonal-architecture">Implementing Onion/Hexagonal Architecture</a></li>
+        <li><a href="#using-go-as-our-development-language">Using Go as our development language.</a></li>
+        <li><a href="#conclusion">Conclusion</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
-                    <br>
-                    <h1 id="what-we-got-right-when-building-tania">What we got right when building Tania</h1>
-<p>Hi, my name is Didiet, one of the co-founders of Tanibox. Two years ago in 2017, Asep, my co-founder told me that he
+                        <br>
+                        <p>Hi, my name is Didiet, one of the co-founders of Tanibox. Two years ago in 2017, Asep, my co-founder told me that he
 wanted to rewrite the software that he has been built to better architecture. He felt that the three-tier architecture
 built on top of PHP and Symfony is not flexible enough to meet our business need. We rewrote Tania with <strong>embracing
 uncertainty</strong> in mind and I think there are things we got right when building Tania.</p>
@@ -180,7 +197,7 @@ uncertainty</strong> in mind and I think there are things we got right when buil
 <p>This is the most important thing that makes our software can be evolved over time. Implementing Domain Driven
 Design was a blessing for us. When we tried to build Gro, our smart planter, we use <strong>the same exact code</strong> as the
 open-source one, we forked it and implemented <a href="https://aws.amazon.com/cognito/">Amazon Cognito</a> as our authentication
-backend. The change is not major and it didn't touch any code other than the code involved in authenticating and
+backend. The change is not major and it didn&rsquo;t touch any code other than the code involved in authenticating and
 authorising.</p>
 <p>Domain-Driven Design also enables the developers to <strong>talk directly to the product manager</strong> to verify three the most
 important things: <strong>Behaviours, Rules, and Edge Cases</strong> and write tests based on that without thinking about how we
@@ -193,7 +210,7 @@ able to be scaled to <em>micro-services</em> when we ready to scale.</p>
 owner and engineers. We defined vocabularies for each domain and we use the <strong>exact</strong> wording for communication as well
 as in the code itself.</p>
 <p>In the code, we implement the entities as <strong>rich entities</strong> with behaviours in POGO (Plain Old Go Object).</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#66d9ef">type</span> <span style="color:#a6e22e">Farm</span> <span style="color:#66d9ef">struct</span> {
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-go" data-lang="go"><span style="color:#66d9ef">type</span> <span style="color:#a6e22e">Farm</span> <span style="color:#66d9ef">struct</span> {
 	<span style="color:#a6e22e">UID</span>         <span style="color:#a6e22e">uuid</span>.<span style="color:#a6e22e">UUID</span> 
 	<span style="color:#a6e22e">Name</span>        <span style="color:#66d9ef">string</span> 
 	<span style="color:#a6e22e">Latitude</span>    <span style="color:#66d9ef">string</span> 
@@ -204,11 +221,11 @@ as in the code itself.</p>
 	<span style="color:#a6e22e">IsActive</span>    <span style="color:#66d9ef">bool</span>      
 	<span style="color:#a6e22e">CreatedDate</span> <span style="color:#a6e22e">time</span>.<span style="color:#a6e22e">Time</span> 
 }
-</code></pre></div><p>The structure describes the properties of the farm. It's not an ORM, just a plain object. We also define methods in the
+</code></pre></div><p>The structure describes the properties of the farm. It&rsquo;s not an ORM, just a plain object. We also define methods in the
 object to reflect its behaviours. We ban the use of <strong>Update</strong> in the method name because it has many semantic meanings
-in which it's not easy to be communicated. So we use verbs such as <code>change</code>, <code>increase</code>, <code>decrease</code> in the model to be
+in which it&rsquo;s not easy to be communicated. So we use verbs such as <code>change</code>, <code>increase</code>, <code>decrease</code> in the model to be
 able to communicate <strong>what the entity does</strong> more accurately. For example:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#66d9ef">func</span> (<span style="color:#a6e22e">f</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">Farm</span>) <span style="color:#a6e22e">ChangeName</span>(<span style="color:#a6e22e">name</span> <span style="color:#66d9ef">string</span>) <span style="color:#66d9ef">error</span> {
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-go" data-lang="go"><span style="color:#66d9ef">func</span> (<span style="color:#a6e22e">f</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">Farm</span>) <span style="color:#a6e22e">ChangeName</span>(<span style="color:#a6e22e">name</span> <span style="color:#66d9ef">string</span>) <span style="color:#66d9ef">error</span> {
 	<span style="color:#a6e22e">err</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">validateFarmName</span>(<span style="color:#a6e22e">name</span>)
 	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">err</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
 		<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">err</span>
@@ -217,10 +234,10 @@ able to communicate <strong>what the entity does</strong> more accurately. For e
 	<span style="color:#a6e22e">f</span>.<span style="color:#a6e22e">Name</span> = <span style="color:#a6e22e">name</span>
 	<span style="color:#75715e">//.. redacted
 </span><span style="color:#75715e"></span>}
-</code></pre></div><p>This is an example of the <strong>behaviour</strong>. We name the method as if we're saying &ldquo;please change the farm name&rdquo;. Inside the
-method, there's one validator to validate whether the farm name is correct and return an error when it's not correct.
-Let's see the implementation of the validator.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">validateFarmName</span>(<span style="color:#a6e22e">name</span> <span style="color:#66d9ef">string</span>) <span style="color:#66d9ef">error</span> {
+</code></pre></div><p>This is an example of the <strong>behaviour</strong>. We name the method as if we&rsquo;re saying &ldquo;please change the farm name&rdquo;. Inside the
+method, there&rsquo;s one validator to validate whether the farm name is correct and return an error when it&rsquo;s not correct.
+Let&rsquo;s see the implementation of the validator.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-go" data-lang="go"><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">validateFarmName</span>(<span style="color:#a6e22e">name</span> <span style="color:#66d9ef">string</span>) <span style="color:#66d9ef">error</span> {
 	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">name</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;&#34;</span> {
 		<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">FarmError</span>{<span style="color:#a6e22e">FarmErrorNameEmptyCode</span>}
 	}
@@ -242,10 +259,10 @@ Let's see the implementation of the validator.</p>
 <li>Should only consist of alphanumerics, hyphen and underscore.</li>
 <li>Should be more than 5 characters and less than 100 characters.</li>
 </ul>
-<p>If those rules aren't satisfied, it'll return an error. These errors are <strong>domain error</strong> not HTTP error nor
-infrastructure error. We <strong>don't care</strong> about them when we talk about domain. Let's see how custom errors are
+<p>If those rules aren&rsquo;t satisfied, it&rsquo;ll return an error. These errors are <strong>domain error</strong> not HTTP error nor
+infrastructure error. We <strong>don&rsquo;t care</strong> about them when we talk about domain. Let&rsquo;s see how custom errors are
 implemented.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#75715e">// FarmError is a custom error from Go built-in error
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-go" data-lang="go"><span style="color:#75715e">// FarmError is a custom error from Go built-in error
 </span><span style="color:#75715e"></span><span style="color:#66d9ef">type</span> <span style="color:#a6e22e">FarmError</span> <span style="color:#66d9ef">struct</span> {
 	<span style="color:#a6e22e">Code</span> <span style="color:#66d9ef">int</span>
 }
@@ -313,38 +330,38 @@ invented by <a href="https://en.wikipedia.org/wiki/Alistair_Cockburn">Alistair C
 tested in isolation from its eventual run-time devices and databases.</p>
 </blockquote>
 <p>It turns out that abstracting making everything as interface helps us a lot on evolving the software. This allows us to
-<strong>embrace the uncertainty of technology</strong>. We didn't even decide what database we will use until much-much later. We saw
+<strong>embrace the uncertainty of technology</strong>. We didn&rsquo;t even decide what database we will use until much-much later. We saw
 databases like a <em>real option</em>:</p>
 <blockquote>
 <p>Real Options are options that exist outside of legal frameworks such as tickets, visiting friends, greeting a
 stranger, going overseas, etc.</p>
 </blockquote>
-<p>An option allows us to commit later when we exactly know why. In this case, it's the persistence engine we'd want to use
+<p>An option allows us to commit later when we exactly know why. In this case, it&rsquo;s the persistence engine we&rsquo;d want to use
 to persist the entities.</p>
 <p><img src="/img/hexagonal.jpg" alt="hexagonal" title="Hexagonal Architecture"></p>
 <p>Implementing as interfaces make us easily see and digest the code. We can see <strong>what</strong> a particular persistence engine
 can do such as: <code>FindFarmByID()</code> , <code>SearchFarmByName()</code> and we can <code>Save()</code> a <code>Farm</code> entity to that storage. <strong>How</strong>
-it's done is implementation details. Here's an example of the interface of the queries for <code>Farm</code>:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#66d9ef">type</span> <span style="color:#a6e22e">FarmReadQuery</span> <span style="color:#66d9ef">interface</span> {
+it&rsquo;s done is implementation details. Here&rsquo;s an example of the interface of the queries for <code>Farm</code>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-go" data-lang="go"><span style="color:#66d9ef">type</span> <span style="color:#a6e22e">FarmReadQuery</span> <span style="color:#66d9ef">interface</span> {
 	<span style="color:#a6e22e">FindByID</span>(<span style="color:#a6e22e">farmUID</span> <span style="color:#a6e22e">uuid</span>.<span style="color:#a6e22e">UUID</span>) <span style="color:#f92672">&lt;-</span><span style="color:#66d9ef">chan</span> <span style="color:#a6e22e">QueryResult</span>
 	<span style="color:#a6e22e">FindAll</span>() <span style="color:#f92672">&lt;-</span><span style="color:#66d9ef">chan</span> <span style="color:#a6e22e">QueryResult</span>
 }
 </code></pre></div><p>This says that the persistence engine can be queried and will return a channel with the result inside.</p>
-<p>At first, we just implement simple storage based on Golang's in-memory map. Yes, no fancy database at all. Later on,
-we're able to persist our entities on Sqlite and MySQL. This makes our implementation is compatible with <a href="https://aws.amazon.com/rds/aurora/">Amazon
+<p>At first, we just implement simple storage based on Golang&rsquo;s in-memory map. Yes, no fancy database at all. Later on,
+we&rsquo;re able to persist our entities on Sqlite and MySQL. This makes our implementation is compatible with <a href="https://aws.amazon.com/rds/aurora/">Amazon
 Aurora</a> which is used in Gro backend.</p>
 <p>We also implement an in-memory simple event bus to be able to send messages from one domain to another. As domains are
 implemented totally separated to each other we need an event bus in which each domain can publish and subscribe. The
 interface is pretty simple.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#66d9ef">type</span> <span style="color:#a6e22e">TaniaEventBus</span> <span style="color:#66d9ef">interface</span> {
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:2;-o-tab-size:2;tab-size:2"><code class="language-go" data-lang="go"><span style="color:#66d9ef">type</span> <span style="color:#a6e22e">TaniaEventBus</span> <span style="color:#66d9ef">interface</span> {
 	<span style="color:#a6e22e">Publish</span>(<span style="color:#a6e22e">eventName</span> <span style="color:#66d9ef">string</span>, <span style="color:#a6e22e">event</span> <span style="color:#66d9ef">interface</span>{})
 	<span style="color:#a6e22e">Subscribe</span>(<span style="color:#a6e22e">eventName</span> <span style="color:#66d9ef">string</span>, <span style="color:#a6e22e">handlerFunc</span> <span style="color:#66d9ef">interface</span>{})
 }
 </code></pre></div><p>This interface can be implemented to &ldquo;real&rdquo; message broker like Kafka, NATS, or even <a href="aws.amazon.com/sqs">Amazon SQS</a>
 when we decide to make microservices from Tania. At the moment we only use a simple, in-memory event bus like
 <a href="https://github.com/asaskevich/EventBus">here</a>.</p>
-<p>We still haven't committed yet on what kind of message broker we'll be using because <strong>the option of choosing message
-broke hasn't expired yet</strong> as we're still in &lsquo;modular monolith&rsquo; phase.</p>
+<p>We still haven&rsquo;t committed yet on what kind of message broker we&rsquo;ll be using because <strong>the option of choosing message
+broke hasn&rsquo;t expired yet</strong> as we&rsquo;re still in &lsquo;modular monolith&rsquo; phase.</p>
 <h2 id="using-go-as-our-development-language">Using Go as our development language.</h2>
 <p>Go was chosen because we want the <strong>easy deployment</strong> of our software. Go produce <strong>single binary</strong> that can be run on
 Windows, macOS, and Linux. With the help of <a href="https://www.musl-libc.org/">musl</a> we can produce a <em>static binary</em> that is
@@ -352,33 +369,29 @@ self-contained in Linux.</p>
 <p><img src="/img/golang.png" alt="Golang" title="Go Programming Language"></p>
 <p>The choice of Golang makes Tania becomes virtually scalable to any machines that run ARM or Intel chips. Tania can run
 on Raspberry Pi to managed container engine like <a href="https://aws.amazon.com/fargate/">Amazon Fargate</a>. Moreover, the
-frontend can be deployed as a website on <a href="https://aws.amazon.com/s3/">Amazon S3</a> because it's just static Javascript
+frontend can be deployed as a website on <a href="https://aws.amazon.com/s3/">Amazon S3</a> because it&rsquo;s just static Javascript
 files.</p>
 <h2 id="conclusion">Conclusion</h2>
 <p>Tania was built with &lsquo;embracing uncertainty&rsquo; at heart. This allows us to be flexible and implement our software not only
 extendable and scalable but also malleable.</p>
 <p>The fact that Tania can be deployed on a small ARM machine to managed container engine shows that Tania is extendable
-and scalable. Implementing Gro backend from Tania backend shows its malleability. Because it's deployed as <strong>modular
+and scalable. Implementing Gro backend from Tania backend shows its malleability. Because it&rsquo;s deployed as <strong>modular
 monolith</strong>, it can be transformed to <strong>micro services</strong> with little effort as every domain is clearly defined.</p>
 
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12 col-md-8 col-md-offset-2">
-                <p class="mt32 text-center">
-                    <i>Tania is an open source farm management software project hosted on <a href="https://github.com/tanibox/tania-core">GitHub</a>. You can support this project by</i>
-                </p>
-                <p class="text-center">
-                    <a href="https://opencollective.com/tania#section-contribute" target="_blank">
-                        <img src="https://opencollective.com/tania/contribute/button@2x.png?color=blue" width=300 />
-                    </a>
-                </p>
-            </div>
-        </div>
-        <div class="row post-snippet">
-            <div class="col-sm-12 col-md-8 col-md-offset-2">
-                <div id="disqus_thread"></div>
+                    </div>
+                    <hr>
+                    <div class="p-t-20">
+                        <p class="text-center">
+                            <em>Tania is an open source farm management software project hosted on <a href="https://github.com/tanibox/tania-core">GitHub</a>. You can support this project via our Open Collective.</em>
+                        </p>
+                        <p class="text-center">
+                            <a href="https://opencollective.com/tania#section-contribute" target="_blank">
+                                <img src="https://opencollective.com/tania/contribute/button@2x.png?color=blue" width=300 />
+                            </a>
+                        </p>
+                    </div>
+                    <div>
+                        <div id="disqus_thread"></div>
 <script type="text/javascript">
 
 (function() {
@@ -396,58 +409,67 @@ monolith</strong>, it can be transformed to <strong>micro services</strong> with
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="https://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</section>
+</section> 
 
-        </div><footer class="footer">
-    <div class="container-fluid">
-        <div class="row text-center-xs">
-            <div class="col-md-8 col-xs-12 text-center-xs">
-                <p>Designed &amp; built with all the &hearts; of food &amp; agriculture by 
-                    <a href="https://tanibox.com/" target="_blank">Tanibox</a>. 
-                    Maintained by the 
-                    <a href="https://github.com/orgs/Tanibox/people" target="_blank">core team</a> <br/>with the help of our 
-                    <a href="https://github.com/Tanibox/tania-core/graphs/contributors" target="_blank">contributors</a>. 
-                    Current version 1.7.0. Code licensed 
-                    <a href="https://github.com/Tanibox/tania-core/blob/master/LICENSE" target="_blank">Apache 2.0</a>.
-                </p>
+
+        
+<footer id="footer">
+    <div class="footer-content">
+        <div class="container-wide">
+            <div class="row">
+                <div class="col-12">
+                    <ul class="list-inline">
+                        
+                        
+                        <li><a href="https://github.com/Tanibox/tania-core">Github</a></li>
+                        
+                        <li><a href="https://usetania.org/about/">About</a></li>
+                        
+                        <li><a href="https://usetania.org/contact">Contact Us</a></li>
+                        
+                    </ul>
+                </div>
             </div>
-            <div class="col-md-4 col-xs-12 text-right text-center-xs mt-xs-24">
-                <ul class="small list-inline social-list">
-                    <li>
-                        <a class="github-button" href="https://github.com/tanibox" data-show-count="true" aria-label="Follow @tanibox on GitHub">Follow @tanibox</a>
-                    </li>
-                    <li>
-                        <a class="github-button" href="https://github.com/tanibox/tania-core" data-icon="octicon-star" data-show-count="true" aria-label="Star tanibox/tania-core on GitHub">Star</a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/UseTania" target="_blank" class="h3">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                    </li>
-                </ul>
+            <div class="row d-flex justify-content-between">
+                <div class="col-12 col-xl-6">
+                    <p>Designed &amp; built with all the &hearts; of food &amp; agriculture by 
+                        <a href="https://tanibox.com/" target="_blank">Tanibox OÜ</a>. 
+                        Maintained by the 
+                        <a href="https://github.com/orgs/Tanibox/people" target="_blank">core team</a>, with the help of our 
+                        <a href="https://github.com/Tanibox/tania-core/graphs/contributors" target="_blank">contributors</a>. 
+                        Current version 1.7.0. Code licensed with 
+                        <a href="https://github.com/Tanibox/tania-core/blob/master/LICENSE" target="_blank">Apache 2.0</a>.
+                    </p>
+                </div>
+                <div class="col-12 col-xl-3 text-lg-right">
+                    <a class="github-button" href="https://github.com/tanibox" data-show-count="true" aria-label="Follow @tanibox on GitHub">Follow @tanibox</a> <a class="github-button" href="https://github.com/tanibox/tania-core" data-icon="octicon-star" data-show-count="true" aria-label="Star tanibox/tania-core on GitHub">Star</a>
+                </div>
             </div>
         </div>
     </div>
 </footer>
-<script src="/js/jquery.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
-<script src="/js/flexslider.min.js"></script>
-<script src="/js/lightbox.min.js"></script>
-<script src="/js/masonry.min.js"></script>
-<script src="/js/smooth-scroll.min.js"></script>
-<script src="/js/scripts.js"></script>
-<script src="/js/events.js"></script>
+</div>
+    
+    
+    <a id="scrollTop"><i class="icon-chevron-up"></i><i class="icon-chevron-up"></i></a>
+    
+    <script src="/js/jquery.js"></script>
+    <script src="/js/plugins.js"></script>
+    
+    <script src="/js/functions.js"></script>
+    <script>
+        window.FontAwesomeConfig = {
+            searchPseudoElements: true
+        }
+    </script>
+    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us20.list-manage.com","uuid":"1f7f29f6d34d3ecb1d87527d0","lid":"969ad93677","uniqueMethods":true}) })</script>
+    
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</body>
 
-<script>
-            window.FontAwesomeConfig = {
-                searchPseudoElements: true
-            }
-        </script>
-        <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us20.list-manage.com","uuid":"1f7f29f6d34d3ecb1d87527d0","lid":"969ad93677","uniqueMethods":true}) })</script>
-        
-        <script async defer src="https://buttons.github.io/buttons.js"></script>
-    </body>
 </html>

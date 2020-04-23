@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Smart Farming on Tania ・ Open Source Farm Management Sofware</title>
+    <link>https://usetania.org/categories/smart-farming/</link>
+    <description>Recent content in Smart Farming on Tania ・ Open Source Farm Management Sofware</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Wed, 06 Mar 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://usetania.org/categories/smart-farming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Smart Farming; Steps to Do and Common Questions Around That</title>
+      <link>https://usetania.org/blog/steps-to-do-smart-farming/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://usetania.org/blog/steps-to-do-smart-farming/</guid>
+      <description>Smart farming is an idea to cultivate crops with a combination of the latest technology and data analysis. The objective of it is to get more yields with few bad impacts on the environment than the conventional farming method.
+How can we start doing smart farming? Is it expensive? These are common questions. We can start small without buying expensive equipment.
+The first step is collecting data. We can start to gather data by using a simple tool like a spreadsheet such as Microsoft Excel or Google Sheets.</description>
+    </item>
+    
+  </channel>
+</rss>
