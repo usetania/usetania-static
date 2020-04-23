@@ -19,9 +19,9 @@ disableLanguages = ["hu"]
     height = 600
   
   [params.logo]
-    url = "img/Tania_Icon200.png"
-    width = 200
-    height = 200
+    url = "img/Tania_Icon.png"
+    width = 500
+    height = 500
 
 [markup]
   [markup.goldmark]
