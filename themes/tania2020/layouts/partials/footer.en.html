@@ -5,9 +5,10 @@
             <div class="row">
                 <div class="col-12">
                     <ul class="list-inline">
-                        <li><a href="https://github.com/Tanibox/tania-core" target="_blank">Github</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        {{ $currentPage := . }}
+                        {{ range .Site.Menus.footer }}
+                        <li><a href="{{ .URL | absLangURL  }}">{{ .Name }}</a></li>
+                        {{ end }}
                     </ul>
                 </div>
             </div>
@@ -23,7 +24,7 @@
                     </p>
                 </div>
                 <div class="col-12 col-xl-3 text-lg-right">
-                    <a class="github-button" href="https://github.com/tanibox" data-show-count="true" aria-label="Follow @tanibox on GitHub">Follow @tanibox</a>
+                    <a class="github-button" href="https://github.com/tanibox" data-show-count="true" aria-label="Follow @tanibox on GitHub">Follow @tanibox</a> <a class="github-button" href="https://github.com/tanibox/tania-core" data-icon="octicon-star" data-show-count="true" aria-label="Star tanibox/tania-core on GitHub">Star</a>
                 </div>
             </div>
         </div>

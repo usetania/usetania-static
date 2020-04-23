@@ -1,64 +1,68 @@
 {{ define "main" }}
-<section class="image-square right mb-xs-0">
-    <div class="col-md-6 image mt80 mt-xs-48 mb-xs-0 p0">
-        <div class="v-align-transform"><img src="/images/taniapeople.svg"></div>
-    </div>
-    <div class="col-md-6 content mt48 mb-xs-0 mt-xs-0">
-        <div class="row mt-xs-0">
-            <div class="col-xs-12 col-md-12 text-center-xs">
-                <div class="mb40 mb-xs-24 mt-xs-0">
-                    <h2 class="hero bolder gilroy">Παρακολουθήστε την <br/> Αγροτική Επιχείρησή σας <br/> από ένα σημείο</h2>
+<section id="page-content" class="site--headline p-b-0">
+    <div class="container-wide">
+        <div class="row d-flex align-items-center justify-content-between">
+            <div class="col-12 col-md-9 col-lg-6 p-t-20 p-b-20">
+                <h1 class="d-lg-none" data-animate="fadeIn" data-animate-delay="300">Παρακολουθήστε την Αγροτική Επιχείρησή σας από ένα σημείο</h1>
+                <h1 class="d-none d-xl-block" data-animate="fadeIn" data-animate-delay="300">Παρακολουθήστε την Αγροτική <br/>Επιχείρησή σας από ένα σημείο</h1>
+                <div>
+                    <p class="lead" data-animate="fadeIn" data-animate-delay="500">Το TANIA είναι ένα ημερολόγιο ανοιχτού κώδικα το οποίο σας βοηθάει <br/>να διαχειριστείτε την αγροτική σας επιχείρηση εύκολα έχοντας <br/>πρόσβαση στις πληροφορίες που χρειάζεστε από οπουδήποτε.</p>
+                    <div class="p-t-30 p-b-10">
+                        <a href="#" class="btn btn-lg btn-outline" data-animate="fadeIn" data-animate-delay="700"><i class="fab fa-windows pr-2"></i><i class="fab fa-linux"></i> μεταφορτώστε την έκδοση της κοινότητας (X64)</a>
+                    </div>
+                    <small class="text-grey" data-animate="fadeIn" data-animate-delay="900">Τρέχουσα έκδοση 1.7.0. Άδεια κώδικα <a href="https://github.com/Tanibox/tania-core/blob/master/LICENSE" target="_blank" class="color-grey">Apache 2.0</a></small>
+                    <div class="p-t-20" data-animate="fadeIn" data-animate-delay="1200">
+                        <p>Για να δημιουργήσετε το Tania απευθείας από τον κώδικα πηγής, πηγαίνετε στη <a href="https://github.com/tanibox/tania-core" target="_blank">Github</a> σελίδα μας.</p>
+                        <a class="github-button" href="https://github.com/tanibox" data-show-count="true" aria-label="Ακολουθήστε το @tanibox on GitHub">Ακολουθήστε το @tanibox</a> <a class="github-button" href="https://github.com/tanibox/tania-core" data-icon="octicon-star" data-show-count="true" aria-label="Star tanibox/tania-core on GitHub">Star</a>
+                    </div>
                 </div>
-                <p class="mb40 color-dark">
-                    Το TANIA είναι ένα ημερολόγιο ανοιχτού κώδικα το οποίο σας βοηθάει να <br/>διαχειριστείτε την αγροτική σας επιχείρηση εύκολα έχοντας πρόσβαση στις <br/>πληροφορίες που χρειάζεστε από οπουδήποτε.
-                </p>
-                <div class="mt40">
-                    <a id="download-windows" href="http://eepurl.com/gtyRTT" class="btn btn-lg" target="_blank"><i class="fab fa-windows"></i><i class="fab fa-linux"></i> μεταφορτώστε την έκδοση της κοινότητας (x64)</a>
-                </div>
-                <div>Για να δημιουργήσετε το Tania απευθείας από τον κώδικα πηγής, πηγαίνετε στη GitHub σελίδα μας.</div>
-                <p>
-                    <!-- Place this tag where you want the button to render. -->
-                    <a class="github-button" href="https://github.com/tanibox" data-show-count="true" aria-label="Follow @tanibox on GitHub">Ακολουθήστε το @tanibox</a>
-                    <!-- Place this tag where you want the button to render. -->
-                    <a class="github-button" href="https://github.com/tanibox/tania-core" data-icon="octicon-star" data-show-count="true" aria-label="Star tanibox/tania-core on GitHub">Star</a>
-                </p>
-                <p class="color-grey">Τρέχουσα έκδοση 1.7.0. Άδεια κώδικα <a href="https://github.com/Tanibox/tania-core/blob/master/LICENSE" target="_blank" class="color-grey">Apache 2.0</a></p>
+            </div>
+            <div class="col-12 col-lg-6 d-block d-sm-none" data-animate="fadeInRight" data-animate-delay="400">
+                <img src="/img/illustration/taniapeople.svg" class="img-fluid">
+            </div>
+            <div class="col-12 col-lg-6 d-none d-sm-block" data-animate="fadeInRight" data-animate-delay="400">
+                <div class="p-t-100"></div>
+                <img src="/img/illustration/taniapeople.svg" class="img-fluid">
             </div>
         </div>
     </div>
 </section>
 
-<section class="bg-secondary">
-    <div class="container mb40 mt40 mb-xs-0">
-        <div class="row">
-            <div class="col-xs-12 col-md-10 col-md-offset-1 text-center text-center-xs">
-                <h3 class="uppercase">Το Tania καθοδηγειται απο τη συλλογικη κοινοτητα</h3>
-                <p class="mt32">
-                    Το Tania είναι ένα λογισμικό διαχείρισης αγροκτήματος ανοιχτού κώδικα το οποίο φιλοξενείται στο GitHub, και ξεκίνησε απο το <a href="https://tanibox.com" class="color-dark" target="_blank">Tanibox</a> το 2017. Η κοινότητα Tania αποτελείται απο αφοσιωμένους προγραμματιστές, χρήστες, αγρότες, ερευνητές και ειδικούς στη γεωργία οι οποίοι το έκαναν πραγματικότητα. Για να συνεισφέρετε, να μοιραστείτε τη γνώση και τις εμπειρίες, μπορείτε επισης να μας ακολουθήσετε στα:
-                </p>
-                <ul class="list-inline mt32 mt-xs-24">
-                    <li>
-                        <a href="https://github.com/tanibox/tania-core" target="_blank">
-                            <i class="h1 fab fa-github"></i><p>GitHub</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://t.me/usetania" target="_blank">
-                            <i class="h1 fab fa-telegram-plane"></i><p>Telegram</p>
-                        </a>
-                    </li>
-                </ul>
+<section class="background-grey">
+    <div class="container open-collective">
+        <div class="row p-t-40 p-b-40">
+            <div class="col-12">
+                <div class="heading-text heading-gradient">
+                    <h2 class="text-uppercase text-center" data-animate="fadeInUp" data-animate-delay="300">
+                        <span>Το Tania καθοδηγειται απο <br/>τη συλλογικη κοινοτητα</span>
+                    </h2>
+                </div>
+                <div class="text-center" data-animate="fadeInUp" data-animate-delay="600">
+                    <p class="lead">
+                        Το Tania είναι ένα λογισμικό διαχείρισης αγροκτήματος ανοιχτού κώδικα το οποίο φιλοξενείται στο GitHub, και ξεκίνησε απο το <a href="https://tanibox.com" class="color-dark" target="_blank">Tanibox</a> το 2017. Η κοινότητα Tania αποτελείται απο αφοσιωμένους προγραμματιστές, χρήστες, αγρότες, ερευνητές και ειδικούς στη γεωργία οι οποίοι το έκαναν πραγματικότητα. Για να συνεισφέρετε, να μοιραστείτε τη γνώση και τις εμπειρίες, μπορείτε επισης να μας ακολουθήσετε στα:
+                    </p>
+                    <div class="row d-flex justify-content-center p-t-40 p-b-40">
+                        <div class="col-3 col-lg-1">
+                            <div class="social-icons"><a href="https://github.com/tanibox/tania-core" target="_blank"><i class="fab fa-github"></i></a></div>
+                            <p class="p-t-10">Github</p>
+                        </div>
+                        <div class="col-3 col-lg-1">
+                            <div class="social-icons"><a href="https://t.me/usetania" target="_blank"><i class="fab fa-telegram"></i></a></div>
+                            <p class="p-t-10">Telegram</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-xs-12 col-md-10 col-md-offset-1 text-center text-center-xs mt-xs-0">
-                <h4 class="bolder">Συμμετέχοντες</h4>
+        <div class="row d-flex justify-content-center" data-animate="fadeIn" data-animate-delay="900">
+            <div class="col-12 col-lg-10 text-center text-center-xs mt-xs-0">
+                <h4 class="bolder p-b-20">Συμμετέχοντες</h4>
                 <a href="https://github.com/tanibox/tania-core/graphs/contributors" target="_blank">
                     <img src="https://opencollective.com/tania/contributors.svg?width=890&button=false" />
                 </a>
-                <div class="row mt-xs-24">
-                    <div class="col-12 text-center-xs mt-xs-0">
-                        <p class="mt32">
+                <div class="row m-t-60 m-b-40">
+                    <div class="col-12 text-center mt-xs-0">
+                        <p class="p-b-20">
                             Το Tania είναι περήφανα μέλος της οικογένειας <strong>Open Collective</strong>.<br> Μπορείτε να στηρίξετε την ανάπτυξη με το να γίνεται υποστηρικτής ή σπόνσοράς μας.
                         </p>
                         <a href="https://opencollective.com/tania#section-contribute" target="_blank">
@@ -66,7 +70,7 @@
                         </a>
                     </div>
                 </div>
-                <h4 class="bolder mt32">Οικονομικοί Υποστηρικτές</h4>
+                <h4 class="bolder p-b-20">Οικονομικοί Υποστηρικτές</h4>
                 <script src="https://opencollective.com/tania/banner.js"></script>
             </div>
         </div>
@@ -74,47 +78,45 @@
 </section>
 
 <section>
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-md-10 col-md-offset-1 text-center text-center-xs">
-                <div class=""><img src="/images/Mission.svg"></div>
+    <div class="container" data-animate="fadeIn" data-animate-delay="100">
+        <div class="row d-flex justify-content-center p-t-40 p-b-40">
+            <div class="col-12 col-md-10 col-xl-8">
+                <div class=""><img src="/img/Mission-EN.svg" class="img-fluid"></div>
             </div>
         </div>
     </div>
-    <div class="container mt80 mb48 mt-xs-48 mb-xs-24">
-        <div class="row mb-xs-24 text-center text-center-xs mb48">
-            <h3>Γιατί το Tania είναι καλό για Προγραμματιστές και Αγρότες;</h3>
-        </div>
-        <div class="row mb-xs-24">
-            <div class="col-xs-12 col-sm-4 col-md-4">
+    <div class="container tania--feature m-t-80">
+        <h3 class="text-center" data-animate="fadeIn" data-animate-delay="100">Γιατί το Tania είναι καλό για Προγραμματιστές και Αγρότες;</h3>
+        <div class="row text-center p-t-40">
+            <div class="col-xs-12 col-sm-4 col-md-4" data-animate="fadeInUp" data-animate-delay="300">
                 <div class="feature feature-1">
                     <div class="text-center color-blue">
-                        <div class="icon-feature"><img src="/images/icon-iot.svg"></div>
-                        <h4 class="mt24 uppercase">κατασκευασμενο για iot</h4>
+                        <div class="p-40"><img src="/img/icon/iot.svg" class="img-fluid"></div>
+                        <h4 class="text-uppercase text-theme">κατασκευασμενο για iot</h4>
                     </div>
-                    <p>
-                	Σκέφτεστε να συνδέσετε αισθητήτες κλίματος και ελεγκτές άρδευσης τους οποίους να μπορείτε να διαχειρίζεστε απομακρυσμένα όταν βρίσκεστε μακριά; Σας έχουμε καλυμένους. Το Tania δημιουργήθηκε για ανθρώπους ενθουσιαμένους με το IoT όπως εσείς!
+                    <p class="p-20">
+                        Σκέφτεστε να συνδέσετε αισθητήτες κλίματος και ελεγκτές άρδευσης τους οποίους να μπορείτε να διαχειρίζεστε απομακρυσμένα όταν βρίσκεστε μακριά; Σας έχουμε καλυμένους. Το Tania δημιουργήθηκε για ανθρώπους ενθουσιαμένους με το IoT όπως εσείς! 
                     </p>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-4 col-md-4">
+            <div class="col-xs-12 col-sm-4 col-md-4" data-animate="fadeInUp" data-animate-delay="500">
                 <div class="feature feature-1">
                     <div class="text-center color-secondary">
-                        <div class="icon-feature"><img src="/images/icon-plugin.svg"></div>
-                        <h4 class="mt24 uppercase">επεκτασιμο</h4>
+                        <div class="p-40"><img src="/img/icon/plugin.svg" class="img-fluid"></div>
+                        <h4 class="text-uppercase text-theme">επεκτασιμο</h4>
                     </div>
-                    <p>
-                        Επεκτάσιμα δομοστοιχεία για να βοηθήσουν το δικό σας σύστημα Tania να ικανοποιήσει τις ανάγκες σας. Μπορείτε να δημιουργήσετε τις δικές σας τυποποιημένες διαδικασίες λειτουργίας που ταιριάζουν στη δική σας αγροτική επιχείρηση.
+                    <p class="p-20">
+                        Επεκτάσιμα δομοστοιχεία για να βοηθήσουν το δικό σας σύστημα Tania να ικανοποιήσει τις ανάγκες σας. Μπορείτε να δημιουργήσετε τις δικές σας τυποποιημένες διαδικασίες λειτουργίας που ταιριάζουν στη δική σας αγροτική επιχείρηση. 
                     </p>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-4 col-md-4">
+            <div class="col-xs-12 col-sm-4 col-md-4" data-animate="fadeInUp" data-animate-delay="700">
                 <div class="feature feature-1">
                     <div class="text-center color-green">
-                        <div class="icon-feature"><img src="/images/icon-github.svg"></div>
-                        <h4 class="mt24 uppercase">ανοιχτος κωδικας</h4>
+                        <div class="p-40"><img src="/img/icon/github.svg" class="img-fluid"></div>
+                        <h4 class="text-uppercase text-theme">ανοιχτος κωδικας</h4>
                     </div>
-                    <p>
+                    <p class="p-20">
                         Το Tania θα είναι πάντα δωρεάν και ανοιχτού κώδικα για να σας παρέχει την ελευθερία να διαχειριστείτε το αγρόκτημά σας όπως εσείς επιθυμείτε. Είναι διαθέσιμο στο <a href="https://github.com/Tanibox/tania-core">GitHub</a>.
                     </p>
                 </div>
@@ -123,18 +125,49 @@
     </div>
 </section>
 
-<section class="bg-secondary">
-    <div class="container mt48 mb48">
-        <div class="row mb-xs-24 text-center text-center-xs">
-            <div class="col-md-12">
-                <h4>Πιστεύουμε στον εκδημοκρατισμό της γεωργίας ακριβείας και υποστηρίζουμε το #GlobalGoals</h4>
-                <div class="col-md-6 col-md-offset-3 mt24">
-                    <a href="https://www.un.org/sustainabledevelopment/" target="_blank"><img src="/images/un-sdg.png"></a>
+<section>
+    <div class="container p-b-60">
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 col-lg-10 text-center">
+                <h4 data-animate="fadeIn" data-animate-delay="100">Πιστεύουμε στον εκδημοκρατισμό της γεωργίας ακριβείας <br/>και υποστηρίζουμε το #GlobalGoals</h4>
+                <div class="p-t-40" data-animate="fadeIn" data-animate-delay="300">
+                    <a href="https://www.un.org/sustainabledevelopment/" target="_blank">
+                        <img src="/img/un-sdg.png" class="img-fluid" style="max-height: 120px;">
+                    </a>
                 </div>
             </div>
         </div>
-        <div class="row text-center text-center-xs fade-on-hover mt80">
-            <a href="/about" class="thin">Μάθετε περισσότερα σχετικά με αυτό <i class="fas fa-arrow-right"></i></a>
+        <div class="row m-t-80">
+            <div class="col-4 col-lg-2">
+                <div class="p-b-30" data-animate="fadeInUp" data-animate-delay="100">
+                    <img src="/img/sdg-2.png" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-4 col-lg-2">
+                <div class="p-b-30" data-animate="fadeInUp" data-animate-delay="300">
+                    <img src="/img/sdg-8.png" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-4 col-lg-2">
+                <div class="p-b-30" data-animate="fadeInUp" data-animate-delay="500">
+                    <img src="/img/sdg-9.png" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-4 col-lg-2">
+                <div class="p-b-30" data-animate="fadeInUp" data-animate-delay="700">
+                    <img src="/img/sdg-11.png" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-4 col-lg-2">
+                <div class="p-b-30" data-animate="fadeInUp" data-animate-delay="900">
+                    <img src="/img/sdg-12.png" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-4 col-lg-2">
+                <div class="p-b-30" data-animate="fadeInUp" data-animate-delay="1200">
+                    <img src="/img/sdg-13.png" class="img-fluid">
+                </div>
+            </div>
         </div>
     </div>
 </section>

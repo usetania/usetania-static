@@ -289,9 +289,9 @@ code {
   padding: 22px 0;
   line-height: 28px;
 }
-@media (min-width: 768px) {
-	.single-post .post-item .post-item-description > h1,
-	.single-post .post-item .post-item-description > h1 > a {
+@media screen and (min-width: 768px) {
+	.single-post .post-item .post-item-description h1,
+	.single-post .post-item .post-item-description h1 > a {
 	  font-size: 3rem;
 	  font-weight: 700;
 	  letter-spacing: 0;
@@ -300,8 +300,8 @@ code {
 	  margin-top: .5rem;
 	  color: #2E2E35;
 	}
-	.single-post .post-item .post-item-description > h2,
-	.single-post .post-item .post-item-description > h2 > a {
+	.single-post .post-item .post-item-description h2,
+	.single-post .post-item .post-item-description h2 > a {
 	  font-size: 2.25rem;
 	  font-weight: 600;
 	  letter-spacing: -.5px;
@@ -311,8 +311,8 @@ code {
 	  margin-top: .5rem;
 	  color: #2E2E35;
 	}
-	.single-post .post-item .post-item-description > h3,
-	.single-post .post-item .post-item-description > h3 > a {
+	.single-post .post-item .post-item-description h3,
+	.single-post .post-item .post-item-description h3 > a {
 	  font-size: 1.75rem;
 	  font-weight: 600;
 	  letter-spacing: -.5px;
@@ -324,8 +324,8 @@ code {
 	}
 }
 @media (max-width: 767px) {
-	.single-post .post-item .post-item-description > h1,
-	.single-post .post-item .post-item-description > h1 > a {
+	.single-post .post-item .post-item-description h1,
+	.single-post .post-item .post-item-description h1 a {
 	  font-size: 2rem;
 	  font-weight: 700;
 	  letter-spacing: 0;
@@ -334,8 +334,8 @@ code {
 	  margin-top: .5rem;
 	  color: #2E2E35;
 	}
-	.single-post .post-item .post-item-description > h2,
-	.single-post .post-item .post-item-description > h2 > a {
+	.single-post .post-item .post-item-description h2,
+	.single-post .post-item .post-item-description h2 a {
 	  font-size: 1.75rem;
 	  font-weight: 600;
 	  letter-spacing: -.5px;
@@ -345,8 +345,8 @@ code {
 	  margin-top: .5rem;
 	  color: #2E2E35;
 	}
-	.single-post .post-item .post-item-description > h3,
-	.single-post .post-item .post-item-description > h3 > a {
+	.single-post .post-item .post-item-description h3,
+	.single-post .post-item .post-item-description h3 a {
 	  font-size: 1.5rem;
 	  font-weight: 600;
 	  letter-spacing: -.5px;
