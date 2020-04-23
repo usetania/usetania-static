@@ -242,7 +242,7 @@ disableLanguages = ["hu"]
       weight = 10
 
   [languages.el]
-    title = "Tania | Λογισμικό Ανοιχτου Κώδικα Διαχείρισης Aγροκτήματος"
+    title = "Tania ・ Λογισμικό Ανοιχτου Κώδικα Διαχείρισης Aγροκτήματος"
     languageName = "Greek"
     weight = 4
 
@@ -259,6 +259,21 @@ disableLanguages = ["hu"]
     [[languages.el.menu.main]]
       name = "Blog"
       url = "blog/"
+      weight = 30
+
+    [[languages.el.menu.footer]]
+      name = "Github"
+      url = "https://github.com/Tanibox/tania-core"
+      weight = 10
+
+    [[languages.el.menu.footer]]
+      name = "Σχετικα"
+      url = "about/"
+      weight = 20
+
+    [[languages.el.menu.footer]]
+      name = "Επικοινωνια"
+      url = "contact/"
       weight = 30
     
     [[languages.el.menu.gettingstarted]]
