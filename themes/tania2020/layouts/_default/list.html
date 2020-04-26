@@ -18,7 +18,9 @@
             <div class="post-item border mb-lg-5">
                 <div class="post-item-wrap">
                     <div class="post-image">
-                        <a href="{{.Permalink}}"><img alt="" src="{{ .Params.featuredimg }}"></a>
+                        <a href="{{.Permalink}}">
+                            <div data-bg-image="{{ .Params.featuredimg }}" style="height: 15rem;" title="{{ .Params.imgtitle }}" alt="{{ .Params.imgalt }}"></div>
+                        </a>
                         {{ $taxo := "categories" }}
                         <span class="post-meta-category">
                             {{ range .Param $taxo }}
@@ -49,7 +51,7 @@
             <div class="post-item border">
                 <div class="post-item-wrap">
                     <div class="post-image">
-                        <a href="{{.Permalink}}"><img alt="" src="{{ .Params.featuredimg }}"></a>
+                        <div data-bg-image="{{ .Params.featuredimg }}" style="height: 15rem;" title="{{ .Params.imgtitle }}" alt="{{ .Params.imgalt }}"></div>
                         {{ $taxo := "categories" }}
                         <span class="post-meta-category">
                             {{ range .Param $taxo }}

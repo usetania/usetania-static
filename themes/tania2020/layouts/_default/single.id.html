@@ -1,0 +1,87 @@
+{{ define "main" }}
+<!-- Page title -->
+<section id="page-title" class="background-white p-b-60" data-animate="fadeIn" data-animate-delay="200">
+    <div class="container">
+        <div class="breadcrumb">
+            <ul>
+                <li><a href="/blog">Blog</a></li>
+                {{ $taxo := "categories" }}
+                <li class="active">
+                    {{ range .Param $taxo }}
+                    {{ $name := . }}
+                    {{ with $.Site.GetPage (printf "/%s/%s" $taxo ($name | urlize)) }}
+                    <a href="{{ .Permalink }}">{{ $name }}</a>
+                    {{ end }}
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+        <div class="page-title">
+            <h1>{{ .Title }}</h1>
+        </div>
+        <div class="post-meta text-center">
+            <span class="post-meta-date"><i class="far fa-calendar"></i>{{ .Date.Format "2 January 2006" }}</span>
+            <span class="post-meta-author"><i class="far fa-user"></i>{{ .Params.author }}</span>
+        </div>
+    </div>
+</section>
+<!-- end: Page title -->
+
+<!-- Content -->
+<section id="page-content">
+    <!-- On Wide Screen -->
+    <div class="container-wide d-none d-lg-block">
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 p-b-40" data-animate="fadeIn" data-animate-delay="400">
+                <div data-bg-image="{{ .Params.featuredimg }}" style="height: 800px;" title="{{ .Params.imgtitle }}" alt="{{ .Params.imgalt }}"></div>
+            </div>
+        </div>
+    </div>
+    <!-- On Small Screen -->
+    <div class="container-wide d-lg-none">
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 p-b-40" data-animate="fadeIn" data-animate-delay="400">
+                <div data-bg-image="{{ .Params.featuredimg }}" style="height: 240px;" title="{{ .Params.imgtitle }}" alt="{{ .Params.imgalt }}"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- Blog -->
+        <div id="blog" class="single-post">
+            <div class="post-item">
+                <div class="post-item-wrap">
+                    <div class="post-item-description">
+                        <div class="accordion p-b-40">
+                            <div class="ac-item ac-active">
+                                <h3 class="ac-title">Daftar Isi</h3>
+                                <div class="ac-content">
+                                    {{ .TableOfContents }}
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        {{ .Content }}
+                    </div>
+                    <hr>
+                    <div class="p-t-20">
+                        <p class="text-center">
+                            <em>Tania adalah jurnal pertanian bersumber terbuka yang di-<em>host</em> di <a href="https://github.com/tanibox/tania-core">GitHub</a>. Kamu dapat turut mendukung pengembangan Tania secara transparan melalui Open Collective.</em>
+                        </p>
+                        <div class="row d-flex justify-content-center p-t-20">
+                            <div class="col-12 col-md-6 col-lg-4">
+                                <a href="https://opencollective.com/tania#section-contribute" target="_blank">
+                                    <img src="https://opencollective.com/tania/contribute/button@2x.png?color=white" width=300 />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="m-t-60">
+                        {{ partial "disqus.html" . }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> 
+<!-- end: Content -->
+{{ end }}
