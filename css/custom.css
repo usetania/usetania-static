@@ -505,6 +505,7 @@ code {
 	letter-spacing: .2px;
 	line-height: 1.5rem;
 	margin-bottom: 1rem;
+	min-height: 5rem;
 }
 .post-item .post-item-description > h2 > a:hover {
 	color: #202022;
@@ -555,5 +556,14 @@ code {
 #TableOfContents ul > li > ul {
 	padding-left: 1rem;
 	border-left: none
+}
+
+.single-post #TableOfContents ul {
+	border-left: none;
+	margin-left: 0;
+}
+.single-post .post-item .ac-item h3.ac-title {
+	font-size: 1.25rem;
+	color: #502398;
 }
 

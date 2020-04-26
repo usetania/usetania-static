@@ -6,10 +6,19 @@
     <description>Recent content on Tania ・ Sistem Manajemen Pertanian Bersumber Terbuka</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 05 Mar 2019 12:16:55 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2020 11:37:34 +0800</lastBuildDate>
     
 	<atom:link href="https://usetania.org/id/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Judul Tulisan Ini Terdiri Dari Dua Baris; Hanya Untuk Contoh Saja</title>
+      <link>https://usetania.org/id/blog/test/</link>
+      <pubDate>Sun, 26 Apr 2020 11:37:34 +0800</pubDate>
+      
+      <guid>https://usetania.org/id/blog/test/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Pengaturan Awal</title>

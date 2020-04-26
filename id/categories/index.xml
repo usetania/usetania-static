@@ -6,9 +6,19 @@
     <description>Recent content in Categories on Tania ・ Sistem Manajemen Pertanian Bersumber Terbuka</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
+    <lastBuildDate>Sun, 26 Apr 2020 11:37:34 +0800</lastBuildDate>
     
 	<atom:link href="https://usetania.org/id/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Pengembangan</title>
+      <link>https://usetania.org/id/categories/pengembangan/</link>
+      <pubDate>Sun, 26 Apr 2020 11:37:34 +0800</pubDate>
+      
+      <guid>https://usetania.org/id/categories/pengembangan/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
