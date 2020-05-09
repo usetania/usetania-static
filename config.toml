@@ -14,9 +14,9 @@ disableLanguages = ["hu"]
     appid = "2277471495873880"
   
   [params.image]
-    url = "docs/dashboard.PNG"
-    width = 800
-    height = 600
+    url = "img/placeholder.png"
+    width = 1600
+    height = 900
   
   [params.logo]
     url = "img/Tania_Icon.png"
