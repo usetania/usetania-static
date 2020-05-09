@@ -6,10 +6,10 @@ type: "about"
 layout: "about"
 ---
 
-<div class="p-t-40 p-b-40" data-animate="fadeInUp" data-animate-delay="700">
-    <img src="/images/kebuntania.svg" class="img-fluid">
+<div class="p-t-40 p-b-40" data-animate="fadeIn" data-animate-delay="300">
+    <img src="/images/taniasgarden.svg" class="img-fluid">
 </div>
-<div data-animate="fadeIn" data-animate-delay="200">
+<div data-animate="fadeInUp" data-animate-delay="500">
     <p class="">
         We believe that precision agriculture is the future solution of food-producing, since by 2050 more than 60% of the world’s population will live in cities and it will increase the potential of food insecurities. Transforming food systems is an integral part of a sustainable development path for future cities. It also provides a mechanism for improving food security and creating sustainable food patterns. 
     </p>
@@ -31,6 +31,11 @@ layout: "about"
 </div>
 <div class="p-t-40" data-animate="fadeIn" data-animate-delay="900">
     <h2 class="text-center">Our Story</h2>
+    <div class="row d-flex justify-content-center p-t-20 p-b-40">
+        <div class="col-9">
+            <img src="/img/asep-retno.jpg" alt="Asep Bagja & Retno Ika; initiator of Tania Farmer's Journal" class="img-fluid">
+        </div>
+    </div>
     <p class="">
         Tania started in 2016 when we&mdash;<a href="https://retnoika.github.io" target="_blank">Retno Ika</a> and <a href="http://asepbagja.com" target="_blank">Asep Bagja</a>&mdash;were frustrated with existing farm management software on the market. They were either too big, too complicated or too expensive and still doesn’t suit our needs. We need a lean software that is capable to connect to various sensors and actuators installed on our small backyard garden and manage them while we are on-the-go.
     </p>
